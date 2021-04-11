@@ -1,0 +1,77 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.slider {
+  width: 90%;
+  margin: 50px auto;
+}
+
+.uppercaption {
+  color: #000;
+  font-size: 13pt;
+  padding: 8px 20px;
+  width: 100%;
+  position: inherit;
+  text-align: center;
+}
+
+.uppersubtitle {
+  color: #000;
+  font-size: 10pt;
+}
+
+@media screen and (max-width: 960px) {
+
+  .slider {
+    width: 90%;
+    margin: 50px auto;
+  }
+
+  .uppercaption {
+    font-size: 10pt;
+  }
+
+  .uppersubtitle {
+    font-size: 8pt;
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+
+  .uppersubtitle {
+    font-size: 6pt;
+  }
+
+}
+
+.slick-slide {
+  margin: 0px 10px;
+}
+
+.slick-slide img {
+  width: 100%;
+}
+
+.slick-prev:before, .slick-next:before {
+  color: black;
+}
+
+.slick-slide {
+  transition: all ease-in-out .3s;
+  opacity: .2;
+}
+
+.slick-active {
+  opacity: .5;
+}
+
+.slick-current {
+  opacity: 1;
+}
