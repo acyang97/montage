@@ -1,0 +1,396 @@
+.wrapper {
+  padding: 6em 0 4em 0;
+  position: relative;
+}
+
+.wrapper .inner {
+  margin: 0 auto;
+  width: 80em;
+  position: relative;
+  z-index: 99;
+}
+
+.wrapper .form {
+  margin: 0 auto;
+  width: 80em;
+  position: relative;
+  z-index: 99;
+}
+
+.wrapper header {
+  margin-bottom: 4em;
+}
+
+.wrapper h1 {
+  font-family: "Inter", "Crimson Pro", serif;
+}
+
+@media screen and (max-width: 736px) {
+  .wrapper header {
+    margin-bottom: 2em;
+  }
+
+  .wrapper > .form {
+    width: 425px;
+  }
+}
+
+/*Wrapper styles*/
+
+.wrapper.style8 {
+  /* for about section */
+  background-color: #f7f7f7;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  font-family: "Inter", serif;
+  color: #000;
+}
+
+.wrapper.style8 input,
+.wrapper.style8 select,
+.wrapper.style8 textarea {
+  color: #000;
+}
+
+.wrapper.style8 a {
+  color: #4d4d4d;
+}
+
+.wrapper.style8 a:hover {
+  color: #e3d5c6;
+}
+
+.wrapper.style8 strong,
+.wrapper.style8 b {
+  color: #000;
+}
+
+.wrapper.style8 h1 {
+  font-family: "Sorts Mill Goudy", serif;
+  color: #000;
+  font-size: 35pt;
+}
+
+.wrapper.style8 h2,
+.wrapper.style8 h3,
+.wrapper.style8 h4,
+.wrapper.style8 h5,
+.wrapper.style8 h6 {
+  color: #000;
+  font-family: "Crimson Pro", serif;
+  font-size: 17pt;
+  letter-spacing: 1px;
+}
+
+.wrapper.style8 ul.alt li {
+  border-top-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style8 header p {
+  color: #2d2d2d;
+}
+
+.wrapper.style8 p {
+  color: #2d2d2d;
+  font-size: 15pt;
+}
+
+.wrapper.style8 .about-change {
+  display: flex;
+  justify-content: center;
+  letter-spacing: 2px;
+  align-items: center;
+  font-family: "Sorts Mill Goudy", serif;
+  font-size: 20pt;
+  margin: 0 0 0 0;
+}
+
+@media screen and (max-width: 736px) {
+  .wrapper.style8 h1 {
+    font-size: 30pt;
+  }
+
+  .wrapper.style8 h2,
+  .wrapper.style8 h3,
+  .wrapper.style8 h4,
+  .wrapper.style8 h5 {
+    font-size: 12pt;
+  }
+
+  .wrapper.style8 h6,
+  .wrapper.style8 a,
+  .wrapper.style8 p,
+  .wrapper.style8 li,
+  .wrapper.style8 ol {
+    font-size: 10pt;
+  }
+}
+
+.wrapper.style8 blockquote {
+  border-left-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style8 code {
+  background: rgba(255, 255, 255, 0.075);
+  border-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style8 hr {
+  border-bottom-color: rgba(0, 0, 0, 0.25);
+}
+
+.wrapper.style8 .box {
+  border-color: rgba(255, 255, 255, 0.8);
+  background-color: #4d4d4d;
+}
+
+.wrapper.style8 .select-wrapper:before {
+  color: rgba(255, 255, 255, 0.25);
+}
+.wrapper.style8 ::-webkit-input-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style8 :-moz-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style8 ::-moz-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style8 :-ms-input-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style8 .formerize-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style8 table tbody tr {
+  border-color: rgba(0, 0, 0, 0.5);
+}
+
+.wrapper.style8 table tbody tr:nth-child(2n + 1) {
+  background-color: rgba(150, 150, 150, 0.15);
+}
+
+.wrapper.style8 table th {
+  color: #000;
+}
+
+.wrapper.style8 table thead {
+  border-bottom-color: rgba(0, 0, 0, 0.5);
+  font-size: 12pt;
+}
+
+.wrapper.style8 table tfoot {
+  border-top-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style8 table.alt tbody tr td {
+  border-color: rgba(150, 150, 150, 0.5);
+}
+
+.wrapper.style8 .image {
+  padding-left: 3em;
+  padding-right: 3em;
+  box-shadow: 0px 0px 0px 7px rgba(0, 0, 0, 0), 0px 0px 0px 8px rgba(0, 0, 0, 0);
+}
+
+@media screen and (max-width: 736px) {
+  .wrapper.style8 .image {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .wrapper.style8 {
+    background-color: #fff;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
+  }
+}
+
+/* /////////////////////////// */
+.wrapper.ws1 {
+  background-color: #f7f7f7;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  font-family: "Inter", serif;
+  color: #000;
+}
+
+.wrapper.ws1 input,
+.wrapper.ws1 select,
+.wrapper.ws1 textarea {
+  color: #000;
+}
+
+.wrapper.ws1 a {
+  color: #4d4d4d;
+}
+
+.wrapper.ws1 a:hover {
+  color: #e3d5c6;
+}
+
+.wrapper.ws1 strong,
+.wrapper.ws1 b {
+  color: #000;
+}
+
+.wrapper.ws1 h1 {
+  font-family: "Sorts Mill Goudy", serif;
+  color: #000;
+  font-size: 35pt;
+}
+
+.wrapper.ws1 h2,
+.wrapper.ws1 h3,
+.wrapper.ws1 h4,
+.wrapper.ws1 h5,
+.wrapper.ws1 h6 {
+  color: #000;
+  font-family: "Crimson Pro", serif;
+  font-size: 17pt;
+  letter-spacing: 1px;
+}
+
+.wrapper.ws1 ul.alt li {
+  border-top-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.ws1 header p {
+  color: #2d2d2d;
+}
+
+.wrapper.ws1 p {
+  color: #2d2d2d;
+  font-size: 15pt;
+}
+
+.wrapper.ws1 .about-change {
+  display: flex;
+  justify-content: center;
+  letter-spacing: 2px;
+  align-items: center;
+  font-family: "Sorts Mill Goudy", serif;
+  font-size: 20pt;
+  margin: 0 0 0 0;
+}
+
+@media screen and (max-width: 736px) {
+  .wrapper.ws1 h1 {
+    font-size: 30pt;
+  }
+
+  .wrapper.ws1 h2,
+  .wrapper.ws1 h3,
+  .wrapper.ws1 h4,
+  .wrapper.ws1 h5 {
+    font-size: 12pt;
+  }
+
+  .wrapper.ws1 h6,
+  .wrapper.ws1 a,
+  .wrapper.ws1 p,
+  .wrapper.ws1 li,
+  .wrapper.ws1 ol {
+    font-size: 10pt;
+  }
+}
+
+.wrapper.ws1 blockquote {
+  border-left-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.ws1 code {
+  background: rgba(255, 255, 255, 0.075);
+  border-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.ws1 hr {
+  border-bottom-color: rgba(0, 0, 0, 0.25);
+}
+
+.wrapper.ws1 .box {
+  border-color: rgba(255, 255, 255, 0.8);
+  background-color: #4d4d4d;
+}
+
+.wrapper.ws1 .select-wrapper:before {
+  color: rgba(255, 255, 255, 0.25);
+}
+.wrapper.ws1 ::-webkit-input-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.ws1 :-moz-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.ws1 ::-moz-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.ws1 :-ms-input-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.ws1 .formerize-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.ws1 table tbody tr {
+  border-color: rgba(0, 0, 0, 0.5);
+}
+
+.wrapper.ws1 table tbody tr:nth-child(2n + 1) {
+  background-color: rgba(150, 150, 150, 0.15);
+}
+
+.wrapper.ws1 table th {
+  color: #000;
+}
+
+.wrapper.ws1 table thead {
+  border-bottom-color: rgba(0, 0, 0, 0.5);
+  font-size: 12pt;
+}
+
+.wrapper.ws1 table tfoot {
+  border-top-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.ws1 table.alt tbody tr td {
+  border-color: rgba(150, 150, 150, 0.5);
+}
+
+.wrapper.ws1 .image {
+  padding-left: 3em;
+  padding-right: 3em;
+  box-shadow: 0px 0px 0px 7px rgba(0, 0, 0, 0), 0px 0px 0px 8px rgba(0, 0, 0, 0);
+}
+
+@media screen and (max-width: 736px) {
+  .wrapper.ws1 .image {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .wrapper.ws1 {
+    background-color: #fff;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
+  }
+}

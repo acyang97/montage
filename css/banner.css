@@ -1,0 +1,272 @@
+#banner {
+  display: -ms-flexbox;
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  padding: 8em 0 8em 0;
+  -moz-align-items: center;
+  -webkit-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -moz-justify-content: center;
+  -webkit-justify-content: center;
+  -ms-justify-content: center;
+  justify-content: center;
+  background-color: #000;
+  background: url("../photoss/header-photoshopped.jpg");
+
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top: 0;
+  min-height: 100vh;
+  height: 100vh !important;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 480px) {
+  #banner {
+    background: url("../photoss/header-photoshopped.jpg") no-repeat center
+      center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
+  }
+}
+
+#banner h1 {
+  font-family: "Crimson Pro", serif;
+  font-size: 1.5em;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 8px #000;
+  margin-bottom: 0.75em;
+  color: #fff;
+}
+
+#banner p {
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 1.75rem;
+}
+
+@media screen and (max-width: 980px) {
+  #banner {
+    font-size: 0.85em;
+  }
+
+  #banner br {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 736px) {
+  #banner {
+    min-height: 0;
+    padding: 8em 2em 4em 2em;
+  }
+
+  #banner .inner {
+    width: 100%;
+  }
+
+  #banner h1 {
+    margin-bottom: 0.75em;
+    padding-bottom: 0;
+  }
+
+  #banner p {
+    font-size: 1.25em;
+  }
+
+  #banner .button {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #banner p {
+    font-size: 1em;
+  }
+}
+
+body.is-loading #banner .inner {
+  -moz-transform: scale(0.99);
+  -webkit-transform: scale(0.99);
+  -ms-transform: scale(0.99);
+  transform: scale(0.99);
+  opacity: 0;
+}
+
+body.is-loading #banner:before {
+  opacity: 1;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("../photoss/header-photoshopped.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+
+/*banner 2*/
+#landing {
+  display: -ms-flexbox;
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  padding: 8em 0 8em 0;
+  -moz-align-items: center;
+  -webkit-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -moz-justify-content: center;
+  -webkit-justify-content: center;
+  -ms-justify-content: center;
+  justify-content: center;
+  background-color: #000;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("../photos-final/pexels-evgeny-tchebotarev-2187622.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top: 0;
+  min-height: 100vh;
+  height: 100vh !important;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 480px) {
+  #landing {
+    background: url("../photos-final/pexels-evgeny-tchebotarev-2187622.jpg")
+      no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
+  }
+}
+
+#landing h1 {
+  font-family: "Crimson Pro", serif;
+  font-size: 1.5em;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 8px #000;
+  margin-bottom: 0.75em;
+  color: #fff;
+}
+
+#landing p {
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 3rem;
+}
+
+@media screen and (max-width: 980px) {
+  #landing {
+    font-size: 1.5em;
+  }
+
+  #landing br {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 736px) {
+  #landing {
+    min-height: 0;
+    padding: 8em 2em 4em 2em;
+  }
+
+  #landing .inner {
+    width: 100%;
+  }
+
+  #landing h1 {
+    margin-bottom: 0.75em;
+    padding-bottom: 0;
+  }
+
+  #landing p {
+    font-size: 1.25em;
+  }
+
+  #landing .button {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #landing p {
+    font-size: 1.5rem;
+  }
+}
+
+body.is-loading #landing .inner {
+  -moz-transform: scale(0.99);
+  -webkit-transform: scale(0.99);
+  -ms-transform: scale(0.99);
+  transform: scale(0.99);
+  opacity: 0;
+}
+
+body.is-loading #landing:before {
+  opacity: 1;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("../photos-final/matthew-pinder-BGWQea-hEYY-unsplash.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}

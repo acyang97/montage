@@ -1,0 +1,60 @@
+#normal-countdown {
+  text-align: center;
+}
+
+#normal-countdown .time-sec {
+  position: relative;
+  display: inline-block;
+  margin: 12px;
+  height: 100px;
+  width: 100px;
+  border-radius: 100px;
+  background: #fff0e3;
+  color: #333;
+}
+
+#normal-countdown .time-sec .main-time {
+  font-weight: 500;
+  line-height: 70px;
+  font-size: 2.1em;
+  color: #333;
+}
+
+#normal-countdown .time-sec span {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.9em;
+  font-weight: 600;
+}
+
+.coming-soon {
+  font-family: "Sorts Mill Goudy";
+  letter-spacing: 1.7rem;
+  font-size: 30pt;
+  width: auto;
+}
+
+.montage-2021-container {
+  text-align: center;
+  margin-left: 1rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .coming-soon {
+    font-family: "Sorts Mill Goudy";
+    letter-spacing: 0.8rem;
+    font-size: 35pt;
+    width: auto;
+  }
+}
+
+@media only screen and (max-width: 600) {
+  .coming-soon {
+    font-family: "Sorts Mill Goudy";
+    letter-spacing: 0rem;
+    font-size: 30pt;
+    width: auto;
+  }
+}

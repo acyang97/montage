@@ -1,0 +1,197 @@
+.image {
+  border: 0;
+  display: inline-block;
+  position: relative;
+  box-shadow: 0px 0px 0px 7px #fff, 0px 0px 0px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image img {
+  display: block;
+}
+
+.image.left,
+.image.right {
+  max-width: 40%;
+}
+
+.image.left img,
+.image.right img {
+  width: 100%;
+}
+
+.image.left {
+  float: left;
+  margin: 0 1.5em 1em 0;
+  top: 0.25em;
+}
+
+.image.right {
+  float: right;
+  margin: 0 0 1em 1.5em;
+  top: 0.25em;
+}
+
+.image.fit {
+  display: block;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1em;
+}
+
+.image.fit img {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1em;
+}
+
+.image.square {
+  padding-left: 5em;
+  padding-right: 5em;
+}
+
+.image.logo {
+  width: 70%;
+  box-shadow: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image.long {
+  width: 40%;
+  box-shadow: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 736px) {
+  .image.long {
+    width: 100%;
+  }
+
+  .image.logo {
+    width: 100%;
+  }
+}
+
+.image.wide {
+  width: 60%;
+  box-shadow: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 960px) {
+  .image.wide {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 736px) {
+  .image.wide {
+    width: 100%;
+  }
+}
+
+.image.round {
+  border-radius: 100%;
+}
+
+.image.round img {
+  border-radius: 100%;
+}
+
+.image.main {
+  display: block;
+  margin: 0 0 3em 0;
+  width: 100%;
+}
+
+.image.main img {
+  width: 100%;
+}
+
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  /* 16:9 */
+
+  padding-top: 25px;
+  height: 0;
+}
+
+.video-wrapper iframe,
+.video-wrapper object,
+.video-wrapper embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#timeline1 {
+  width: 25%;
+  margin-top: 2%;
+}
+
+#timeline2 {
+  width: 25%;
+  padding-top: 5%;
+}
+
+#prizes {
+  width: 64%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 960px) {
+  #timeline1,
+  #timeline2 {
+    width: 80%;
+  }
+
+  #timeline2 {
+    width: 80%;
+    padding-top: 10%;
+  }
+
+  #prizes {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #timeline1 {
+    width: 25%;
+  }
+
+  #timeline2 {
+    width: 25%;
+    padding-top: 5%;
+  }
+
+  #prizes {
+    width: 100%;
+  }
+}
+
+/* .zoomimage-container {
+  position: relative;
+  width: 200px;
+  height: 1000px; */
+/* } */
+
+.zoomimage {
+  /* padding-top: */
+  padding: 2%;
+  transition: transform 0.2s;
+  width: 100%;
+  height: 100%;
+}
+
+.zoomimage:hover {
+  transform: scale(1.2);
+}

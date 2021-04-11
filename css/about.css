@@ -1,0 +1,112 @@
+/* .about-change {
+  font-family: "Sorts Mill Goudy";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+} */
+
+.about-final-countdown-container {
+  text-align: center;
+  /* margin-bottom: 3rem;
+  margin-left: auto;
+  margin-right: auto; */
+  width: 100%;
+}
+
+/* .final-countdown {
+  text-align: center;
+} */
+
+.final-countdown-mini-container-first {
+  /* margin: 1px; */
+  width: 20%;
+  text-align: center;
+  /* border: 1px solid gray; */
+  display: inline-block;
+}
+
+.final-countdown-mini-container {
+  /* margin: 1px; */
+  width: 20%;
+  text-align: center;
+  /* border: 1px solid gray; */
+  display: inline-block;
+}
+
+.final-countdown-colon {
+  font-size: 45pt;
+}
+
+#final-countdown-days {
+  font-size: 60pt;
+}
+
+#final-countdown-hours {
+  font-size: 60pt;
+}
+
+#final-countdown-minutes {
+  font-size: 60pt;
+}
+
+#final-countdown-seconds {
+  font-size: 60pt;
+}
+
+.final-countdown-mini-container-word-first {
+  /* margin: 1px; */
+  width: 20%;
+  text-align: center;
+  /* padding-right: rem; */
+  /* border: 1px solid gray; */
+  display: inline-block;
+}
+
+.final-countdown-mini-container-word {
+  /* margin: 1px; */
+  width: 20%;
+  text-align: center;
+  /* padding-right: 2rem; */
+
+  /* border: 1px solid gray; */
+  display: inline-block;
+}
+
+@media only screen and (max-width: 600px) {
+  .final-countdown-mini-container-first {
+    /* margin: 1px; */
+    width: 20%;
+    text-align: center;
+    /* border: 1px solid gray; */
+    display: inline-block;
+  }
+
+  .final-countdown-mini-container {
+    /* margin: 1px; */
+    width: 20%;
+    text-align: center;
+    /* border: 1px solid gray; */
+    display: inline-block;
+  }
+
+  .final-countdown-colon {
+    font-size: 35pt;
+  }
+
+  #final-countdown-days {
+    font-size: 35pt;
+  }
+
+  #final-countdown-hours {
+    font-size: 35pt;
+  }
+
+  #final-countdown-minutes {
+    font-size: 35pt;
+  }
+
+  #final-countdown-seconds {
+    font-size: 35pt;
+  }
+}

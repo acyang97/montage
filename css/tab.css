@@ -1,0 +1,37 @@
+ul.tab-list {
+  list-style: none;
+  margin: 0 0 1em 0;
+  padding: 0;
+}
+
+ul.tab-list li a {
+  background: rgba(255, 255, 255, 0.075);
+  border-radius: 4px;
+  color: rgba(255, 255, 255, 0.5) !important;
+  margin-bottom: .5em;
+  padding: .5em 1em;
+  display: inline-block;
+  width: 100%;
+}
+
+ul.tab-list li a.active {
+  background: #aa14cc;
+  color: #fff !important;
+}
+
+ul.tab-list li a:hover {
+  background: #693dcc;
+  color: #fff !important;
+}
+
+.tab {
+  display: none;
+}
+
+.tab.active {
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+}

@@ -1,0 +1,49 @@
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.exhibition-header {
+  padding-bottom: 5rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .exhibition-header {
+    padding-bottom: 3rem;
+  }
+}
+
+@media only screen and (max-width: 600) {
+  .exhibition-header {
+    padding-bottom: 2rem;
+  }
+}
+
+#exhibition {
+  background-image: url("../photos-final/matthew-pinder-BGWQea-hEYY-unsplash.jpg");
+}
+
+.exhibition-box {
+  background-color: rgba(228, 231, 231, 0.418);
+  border-radius: 35px;
+  width: 80%;
+  margin-left: 10%;
+  padding-left: 2rem;
+  padding-right: 2rem;
+
+  /* margin-right: 5%; */
+  box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.1);
+}
+
+.exhibition-box div {
+  padding: 13px;
+}
