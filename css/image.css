@@ -46,21 +46,6 @@
   margin-bottom: 1em;
 }
 
-.image.fit-change {
-  display: block;
-  width: 55%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 1em;
-}
-
-.image.fit-change img {
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 1em;
-}
-
 .image.square {
   padding-left: 5em;
   padding-right: 5em;
@@ -209,4 +194,89 @@
 
 .zoomimage:hover {
   transform: scale(1.2);
+}
+
+.image.fit-for-montage {
+  display: block;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1em;
+}
+
+.image.fit-for-montage img {
+  width: 66%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1em;
+}
+
+.image.fit-for-nusps {
+  display: block;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1em;
+}
+
+.image.fit-for-nusps img {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1em;
+}
+
+.image.fit-change {
+  display: block;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1em;
+}
+
+.image.fit-change img {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1em;
+}
+
+@media only screen and (max-width: 1280px) {
+  .image.fit-change {
+    width: 60%;
+  }
+
+  .image.fit-change img {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  .image.fit-change {
+    width: 75%;
+  }
+
+  .image.fit-change img {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 736px) {
+  .image.fit-change {
+    width: 55%;
+  }
+
+  .image.fit-change img {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .image.fit-change {
+    width: 55%;
+  }
+
+  .image.fit-change img {
+    width: 60%;
+  }
 }

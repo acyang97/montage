@@ -22,8 +22,17 @@
   padding: 1.5em;
 }
 
+.box-about {
+  background-color: #a6adb4;
+  filter: brightness(1.15);
+  border-radius: 50px;
+  width: 100%;
+  box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.1);
+  padding: 1rem 1rem 1rem 1rem;
+}
+
 .box3 {
-  background-color: rgba(227,213,198,0.4);
+  background-color: rgba(227, 213, 198, 0.4);
   color: #2d2d2d;
   border: solid 1px;
   border-color: rgba(0, 0, 0, 0);
@@ -53,15 +62,16 @@
 }
 
 @media screen and (max-width: 736px) {
-
-  .box3, .box4, .box5 {
+  .box3,
+  .box4,
+  .box5 {
     padding: 6%;
   }
-
 }
 
 /* Position the front and back side */
-.box-front, .box-back {
+.box-front,
+.box-back {
   -webkit-backface-visibility: hidden; /* Safari */
   backface-visibility: hidden;
 }
@@ -80,7 +90,6 @@
 }
 
 @media screen and (max-width: 736px) {
-
   .box-front {
     padding: 5% 10%;
   }
@@ -88,14 +97,14 @@
   .box-back {
     padding: 20% 10% 10%;
   }
-
 }
 
 .wsbox {
   background-color: #fff;
 }
 
-.wsboxfront, .wsboxback {
+.wsboxfront,
+.wsboxback {
   transition: 0.5s;
 }
 
@@ -117,17 +126,13 @@
 }
 
 @media screen and (max-width: 960px) {
-
   .wsboxback {
     padding: 140px 40px 100px;
   }
-
 }
 
 @media screen and (max-width: 480px) {
-
   .wsboxback {
     padding: 72px 30px 48px;
   }
-
 }

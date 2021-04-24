@@ -206,7 +206,7 @@ html {
 @media screen and (max-width: 736px) {
   #landing {
     min-height: 0;
-    padding: 8em 2em 4em 2em;
+    /* padding: 8em 2em 4em 2em; */
   }
 
   #landing .inner {

@@ -1,0 +1,15 @@
+@media screen and (max-width: 736px) {
+  .about-nusps-container {
+    padding-bottom: 3rem;
+  }
+}
+
+.about-image-montage {
+  width: 66%;
+  margin: auto;
+}
+
+.about-image-nusps {
+  width: 50%;
+  margin: auto;
+}

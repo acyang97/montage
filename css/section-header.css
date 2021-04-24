@@ -1,5 +1,10 @@
 .section-header__container {
   background-color: #a6adb4;
+  padding-bottom: 3rem;
+}
+
+.section-header__container-top-about {
+  padding-bottom: 0rem;
 }
 
 .section-header__container__competition {
@@ -56,4 +61,8 @@
   .section-header__year {
     font-size: 1rem;
   }
+}
+
+.section-header-about-nusps {
+  background-color: #604242;
 }
