@@ -2025,12 +2025,19 @@
 .wrapper.style9 h2,
 .wrapper.style9 h3,
 .wrapper.style9 h4,
-.wrapper.style9 h5,
-.wrapper.style9 h6 {
+.wrapper.style9 h5 {
   color: #000;
-  font-family: "Inter", "Crimson Pro", serif;
+  font-family: "Sorts Mill Goudy", "Inter", "Crimson Pro", serif;
   font-size: 17pt;
   letter-spacing: 1px;
+}
+
+.wrapper.style9 h6 {
+  color: #f7f7f7;
+  font-family: "Sorts Mill Goudy", "Inter", "Crimson Pro", serif;
+  font-size: 18pt;
+  letter-spacing: 2px;
+  font-weight: normal;
 }
 
 .wrapper.style9 ul.alt li {
@@ -2042,7 +2049,7 @@
 }
 
 .wrapper.style9 p {
-  font-family: "Inter", "Crimson Pro", serif;
+  font-family: "Sorts Mill Goudy", "Inter", "Crimson Pro", serif;
   color: #2d2d2d;
   color: grey;
   font-size: 13pt;
@@ -2145,7 +2152,7 @@
   .wrapper.style9 .image {
     width: 80%;
     margin: auto;
-    padding-bottom: 2rem;
+    padding-bottom: 0rem;
   }
 }
 
