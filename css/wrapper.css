@@ -2450,66 +2450,113 @@
 }
 
 /*WORKSHOP 2 CSS*/
-.wrapper.ws2 {
+
+.wrapper-workshop {
+  padding: 8em 2em 4em 2em;
+  position: relative;
+}
+
+.wrapper-workshop .inner {
+  margin: 0 auto;
+  width: 80em;
+  position: relative;
+  z-index: 99;
+}
+
+.wrapper-workshop .form {
+  margin: 0 auto;
+  width: 80em;
+  position: relative;
+  z-index: 99;
+}
+
+.wrapper-workshop header {
+  margin-bottom: 4em;
+}
+
+.wrapper-workshop h1 {
+  font-family: "Inter", "Crimson Pro", serif;
+}
+
+@media screen and (max-width: 736px) {
+  .wrapper-workshop header {
+    margin-bottom: 2em;
+  }
+
+  .wrapper-workshop > .form {
+    width: 425px;
+  }
+}
+
+.wrapper-workshop.ws2 {
   /* for about section */
   background-color: #f7f7f7;
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
   font-family: "Sorts Mill Goudy", serif;
-  color: #000;
+  color: #4b3f3f;
 }
 
-.wrapper.ws2 input,
-.wrapper.ws2 select,
-.wrapper.ws2 textarea {
-  color: #000;
+.wrapper-workshop.ws2 input,
+.wrapper-workshop.ws2 select,
+.wrapper-workshop.ws2 textarea {
+  color: #4b3f3f;
 }
 
-.wrapper.ws2 a {
-  color: #4d4d4d;
+.wrapper-workshop.ws2 a {
+  color: #4b3f3f;
 }
 
-.wrapper.ws2 a:hover {
+.wrapper-workshop.ws2 a:hover {
   color: #e3d5c6;
 }
 
-.wrapper.ws2 strong,
-.wrapper.ws2 b {
-  color: #000;
+.wrapper-workshop.ws2 strong,
+.wrapper-workshop.ws2 b {
+  color: #4b3f3f;
 }
 
-.wrapper.ws2 h1 {
+.wrapper-workshop.ws2 h1 {
   font-family: "Sorts Mill Goudy", "Inter", serif;
-  color: #000;
-  font-size: 35pt;
+  color: #4b3f3f;
+  font-size: 30pt;
+  letter-spacing: 10px;
 }
 
-.wrapper.ws2 h2,
-.wrapper.ws2 h3,
-.wrapper.ws2 h4,
-.wrapper.ws2 h5,
-.wrapper.ws2 h6 {
-  color: #000;
+.wrapper-workshop.ws2 h2,
+.wrapper-workshop.ws2 h3,
+.wrapper-workshop.ws2 h4,
+.wrapper-workshop.ws2 h5,
+.wrapper-workshop.ws2 h6 {
+  color: #4b3f3f;
   font-family: "Sorts Mill Goudy", "Inter", serif;
   font-size: 17pt;
   letter-spacing: 1px;
 }
 
-.wrapper.ws2 ul.alt li {
+.wrapper-workshop.ws2 h3 {
+  letter-spacing: 7px;
+}
+
+.wrapper-workshop.ws2 h5 {
+  letter-spacing: 7px;
+}
+
+.wrapper-workshop.ws2 ul.alt li {
   border-top-color: rgba(255, 255, 255, 0.25);
 }
 
-.wrapper.ws2 header p {
-  color: #2d2d2d;
+.wrapper-workshop.ws2 header p {
+  color: #4b3f3f;
 }
 
-.wrapper.ws2 p {
-  color: #2d2d2d;
-  font-size: 15pt;
+.wrapper-workshop.ws2 p {
+  color: #4b3f3f;
+  font-size: 11pt;
 }
 
-.wrapper.ws2 .about-change {
+.wrapper-workshop.ws2 .about-change {
   display: flex;
   justify-content: center;
   letter-spacing: 2px;
@@ -2520,127 +2567,132 @@
 }
 
 @media screen and (max-width: 736px) {
-  .wrapper.ws2 h1 {
+  .wrapper-workshop.ws2 h1 {
     font-size: 30pt;
   }
 
-  .wrapper.ws2 h2,
-  .wrapper.ws2 h3,
-  .wrapper.ws2 h4,
-  .wrapper.ws2 h5 {
+  .wrapper-workshop.ws2 h2,
+  .wrapper-workshop.ws2 h3,
+  .wrapper-workshop.ws2 h4,
+  .wrapper-workshop.ws2 h5 {
     font-size: 12pt;
   }
 
-  .wrapper.ws2 h6,
-  .wrapper.ws2 a,
-  .wrapper.ws2 p,
-  .wrapper.ws2 li,
-  .wrapper.ws2 ol {
+  .wrapper-workshop.ws2 h6,
+  .wrapper-workshop.ws2 a,
+  .wrapper-workshop.ws2 p,
+  .wrapper-workshop.ws2 li,
+  .wrapper-workshop.ws2 ol {
     font-size: 10pt;
   }
 }
 
 @media screen and (max-width: 480px) {
-  .wrapper.ws2 h1 {
+  .wrapper-workshop.ws2 h1 {
     font-size: 20pt;
   }
 
-  .wrapper.ws2 h2,
-  .wrapper.ws2 h3,
-  .wrapper.ws2 h4,
-  .wrapper.ws2 h5 {
+  .wrapper-workshop.ws2 h2,
+  .wrapper-workshop.ws2 h3,
+  .wrapper-workshop.ws2 h4,
+  .wrapper-workshop.ws2 h5 {
     font-size: 12pt;
   }
 
-  .wrapper.ws2 h6,
-  .wrapper.ws2 a,
-  .wrapper.ws2 p,
-  .wrapper.ws2 li,
-  .wrapper.ws2 ol {
+  .wrapper-workshop.ws2 h6,
+  .wrapper-workshop.ws2 a,
+  .wrapper-workshop.ws2 p,
+  .wrapper-workshop.ws2 li,
+  .wrapper-workshop.ws2 ol {
     font-size: 10pt;
   }
 }
 
-.wrapper.ws2 blockquote {
+.wrapper-workshop.ws2 blockquote {
   border-left-color: rgba(255, 255, 255, 0.25);
 }
 
-.wrapper.ws2 code {
+.wrapper-workshop.ws2 code {
   background: rgba(255, 255, 255, 0.075);
   border-color: rgba(255, 255, 255, 0.25);
 }
 
-.wrapper.ws2 hr {
-  border-bottom-color: rgba(0, 0, 0, 0.25);
+.wrapper-workshop.ws2 hr {
+  /* border-bottom-color: rgba(0, 0, 0, 0.25); */
+  height: 1px;
+  order: none;
+  color: #4b3f3f;
+  background-color: #4b3f3f;
+  width: 75%;
 }
 
-.wrapper.ws2 .box {
+.wrapper-workshop.ws2 .box {
   border-color: rgba(255, 255, 255, 0.8);
   background-color: #4d4d4d;
 }
 
-.wrapper.ws2 .select-wrapper:before {
+.wrapper-workshop.ws2 .select-wrapper:before {
   color: rgba(255, 255, 255, 0.25);
 }
-.wrapper.ws2 ::-webkit-input-placeholder {
+.wrapper-workshop.ws2 ::-webkit-input-placeholder {
   color: #bfbfbf !important;
 }
 
-.wrapper.ws2 :-moz-placeholder {
+.wrapper-workshop.ws2 :-moz-placeholder {
   color: #bfbfbf !important;
 }
 
-.wrapper.ws2 ::-moz-placeholder {
+.wrapper-workshop.ws2 ::-moz-placeholder {
   color: #bfbfbf !important;
 }
 
-.wrapper.ws2 :-ms-input-placeholder {
+.wrapper-workshop.ws2 :-ms-input-placeholder {
   color: #bfbfbf !important;
 }
 
-.wrapper.ws2 .formerize-placeholder {
+.wrapper-workshop.ws2 .formerize-placeholder {
   color: #bfbfbf !important;
 }
 
-.wrapper.ws2 table tbody tr {
+.wrapper-workshop.ws2 table tbody tr {
   border-color: rgba(0, 0, 0, 0.5);
 }
 
-.wrapper.ws2 table tbody tr:nth-child(2n + 1) {
+.wrapper-workshop.ws2 table tbody tr:nth-child(2n + 1) {
   background-color: rgba(150, 150, 150, 0.15);
 }
 
-.wrapper.ws2 table th {
+.wrapper-workshop.ws2 table th {
   color: #000;
 }
 
-.wrapper.ws2 table thead {
+.wrapper-workshop.ws2 table thead {
   border-bottom-color: rgba(0, 0, 0, 0.5);
   font-size: 12pt;
 }
 
-.wrapper.ws2 table tfoot {
+.wrapper-workshop.ws2 table tfoot {
   border-top-color: rgba(255, 255, 255, 0.25);
 }
 
-.wrapper.ws2 table.alt tbody tr td {
+.wrapper-workshop.ws2 table.alt tbody tr td {
   border-color: rgba(150, 150, 150, 0.5);
 }
 
-.wrapper.ws2 .image {
-  padding-left: 3em;
-  padding-right: 3em;
+.wrapper-workshop.ws2 .image {
+  padding-left: 0em;
+  padding-right: 1.5em;
   box-shadow: 0px 0px 0px 7px rgba(0, 0, 0, 0), 0px 0px 0px 8px rgba(0, 0, 0, 0);
 }
 
 @media screen and (max-width: 736px) {
-  .wrapper.ws2 .image {
+  .wrapper-workshop.ws2 .image {
     padding: 0;
   }
 }
 
 @media screen and (max-width: 480px) {
-  .wrapper.ws2 {
+  .wrapper-workshop.ws2 {
     background-color: #fff;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -2651,7 +2703,7 @@
 }
 
 /*BUTTON FOR WRAPPER STYLE WS1*/
-.wrapper.ws2 .button {
+.wrapper-workshop.ws2 .button {
   font-family: "Inter", "Criomson-Pro", serif;
   color: #343638;
   text-transform: uppercase;
@@ -2674,7 +2726,7 @@
   outline: none;
 }
 
-.wrapper.ws2 .button:hover {
+.wrapper-workshop.ws2 .button:hover {
   /* box-shadow: inset 28rem 0 0 0 #343638; */
   box-shadow: inset 28rem 0 0 0 #eee5e3;
   border: 2px solid #eee5e3;
@@ -2692,7 +2744,7 @@
   /* .wrapper.style5 .image {
     padding: 0;
   } */
-  .wrapper.ws2 .button {
+  .wrapper-workshop.ws2 .button {
     letter-spacing: 10px;
     font-size: 11px;
     -webkit-border-radius: 20px;
@@ -2700,7 +2752,7 @@
     border-radius: 20px;
   }
 
-  .wrapper.ws2 .button:hover {
+  .wrapper-workshop.ws2 .button:hover {
     /* box-shadow: inset 28rem 0 0 0 #343638; */
     box-shadow: inset 20rem 0 0 0 #b4ff81;
     cursor: pointer;
@@ -2708,7 +2760,7 @@
 }
 
 @media screen and (max-width: 480px) {
-  .wrapper.ws2 .button {
+  .wrapper-workshop.ws2 .button {
     letter-spacing: 10px;
     font-size: 11px;
     -webkit-border-radius: 20px;
@@ -2716,7 +2768,7 @@
     border-radius: 20px;
   }
 
-  .wrapper.ws2 .button:hover {
+  .wrapper-workshop.ws2 .button:hover {
     /* box-shadow: inset 28rem 0 0 0 #343638; */
     box-shadow: inset 16rem 0 0 0 #b4ff81;
     cursor: pointer;

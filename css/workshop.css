@@ -169,16 +169,8 @@
 }
 
 .ws2-background {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)),
-    url(../photos-final/ws2/lauryn-works-5.jpg);
-  /* -webkit-background-size: cover;
-  background-size: cover;
-  background-position: fixed;
-  background-repeat: no-repeat; */
-  /* display: flex; */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15));
   position: relative;
-  /* align-items: center; */
-  /* justify-content: center; */
 }
 
 .workshop-details-header {
@@ -334,4 +326,114 @@
 
 .workshop-last-presenter {
   padding-bottom: 3rem;
+}
+
+.workshop-sticky-background {
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  -moz-align-items: center;
+  -webkit-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+
+  -moz-justify-content: center;
+  -webkit-justify-content: center;
+  -ms-justify-content: center;
+  justify-content: center;
+  background-color: #e8e3de;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top: 0;
+  min-height: 100vh;
+  /* height: 100vh !important; */
+  /* position: relative; */
+  /* text-align: center; */
+  overflow: hidden;
+  width: 100%;
+}
+
+/* .workshop-banner-background {
+  background-image: url(../photos-final/ws2/lauryn-works-5.jpg);
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  background-attachment: fixed;
+} */
+
+.workshop-banner-background {
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  -moz-align-items: center;
+  -webkit-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+
+  -moz-justify-content: center;
+  -webkit-justify-content: center;
+  -ms-justify-content: center;
+  justify-content: center;
+  background-color: #000;
+  background: url(../photos-final/hawker-background-1.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top: 0;
+
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  width: 100%;
+}
+
+@media screen and (max-width: 736px) {
+  .workshop-banner-background {
+    display: none;
+  }
+}
+
+/*for the speakers*/
+.workshop-speaker-profile-biggest-container-desktop {
+  padding-top: 1rem;
+}
+
+.workshop-speaker-profile-container-desktop {
+  width: 95%;
+  height: 225px;
+  /* background: aqua; */
+  margin: auto;
+}
+.workshop-speaker-profile-photo-desktop {
+  width: 40%;
+  height: 225px;
+  /* background: red; */
+  float: left;
+}
+
+.workshop-speaker-profile-summary-container-desktop {
+  margin-left: 15%;
+  height: 225px;
+  /* background: white; */
+}
+
+.workshop-speaker-profile-summary-desktop {
+  margin: auto;
+  /* background: aqua; */
+}
+
+@media screen and (min-width: 1080px) {
+  .workshop-banner-background {
+    min-height: 120vh;
+    height: 120vh !important;
+  }
+}
+
+@media screen and (min-width: 1470px) {
+  .workshop-banner-background {
+    min-height: 120vh;
+    height: 120vh !important;
+  }
 }
