@@ -157,9 +157,9 @@
 }
 
 #prizes {
-  width: 64%;
+  /* width: 64%;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: auto; */
 }
 
 @media screen and (max-width: 960px) {
@@ -174,7 +174,7 @@
   }
 
   #prizes {
-    width: 90%;
+    /* width: 90%; */
   }
 }
 
@@ -189,7 +189,7 @@
   }
 
   #prizes {
-    width: 100%;
+    /* width: 100%; */
   }
 }
 

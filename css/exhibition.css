@@ -29,7 +29,7 @@
 }
 
 #exhibition {
-  background-image: url("../photos-final/matthew-pinder-BGWQea-hEYY-unsplash.jpg");
+  background-color: #a6adb4;
 }
 
 .exhibition-box {
@@ -46,4 +46,8 @@
 
 .exhibition-box div {
   padding: 13px;
+}
+
+.exhibition-section-header {
+  padding-bottom: 5rem;
 }
