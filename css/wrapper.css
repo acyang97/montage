@@ -1314,6 +1314,11 @@
   letter-spacing: 1px;
 }
 
+.wrapper.style5 h3 {
+  letter-spacing: 4px;
+  margin: 0 0 0 0;
+}
+
 .wrapper.style5 ul.alt li {
   border-top-color: rgba(255, 255, 255, 0.25);
 }
@@ -1325,7 +1330,8 @@
 .wrapper.style5 p {
   font-family: "Sorts Mill Goudy", "Inter", serif;
   color: #2d2d2d;
-  font-size: 13pt;
+  font-size: 11pt;
+  margin: 0 0 5px 0;
 }
 
 @media screen and (max-width: 736px) {
@@ -1351,6 +1357,7 @@
 
 .wrapper.style5 hr {
   border-bottom-color: rgba(0, 0, 0, 0.25);
+  margin: 16px 0 16px 0;
 }
 
 /* .wrapper.style5 .box {
@@ -1419,11 +1426,11 @@
   /* box-shadow: 1px 1px 1px 1px #eee2dc; */
   /* -webkit-box-shadow: 1px 1px 1px 1px #eee2dc; */
   /* background: linear-gradient(90deg, grey, rgba(150, 150, 150, 0.5)); */
-  background: #eee2dc;
+  background: #e8e3de;
   text-decoration: none;
   font-weight: 500;
   display: inline-block;
-  border: 2px solid #eee2dc;
+  border: 2px solid #343638;
   /* box-shadow: inset 0 0 0 0 #eee2dc; */
   transition: ease-out 0.3s;
   outline: none;

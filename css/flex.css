@@ -73,7 +73,7 @@
   width: 66%;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 736px) {
   .flex.flex-3 .col {
     width: 100%;
     margin-bottom: 0em;
@@ -160,7 +160,7 @@
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 736px) {
   .flex.flex-2 .col,
   .flex.flex-3 .col,
   .flex.flex-4 .col {
