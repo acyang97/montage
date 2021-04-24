@@ -6,12 +6,36 @@
   font-size: 30px;
 } */
 
+.countdown-box {
+  /* font-family: "Sorts Mill Goudy", sans-serif; */
+  background-color: #e8e3de;
+  border-radius: 50px;
+  width: 100%;
+  /* margin-right: 5%; */
+  box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.1);
+}
+
+.countdown-header {
+  font-family: "Sorts Mill Goudy", sans-serif;
+  padding-top: 1rem;
+}
+
+.countdown-header-words {
+  font-size: 20pt;
+}
+
 .about-final-countdown-container {
   text-align: center;
   /* margin-bottom: 3rem;
   margin-left: auto;
   margin-right: auto; */
   width: 100%;
+}
+
+.about-final-countdown-container-bottom {
+  text-align: center;
+  width: 100%;
+  padding-bottom: 1rem;
 }
 
 /* .final-countdown {

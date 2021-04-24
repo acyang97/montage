@@ -1,12 +1,12 @@
 .section-header__container {
-  background-color: #f7f7f7;
+  background-color: #a6adb4;
 }
 
 .section-header__container__competition {
 }
 
 .section-header {
-  background-color: #604242;
+  background-color: #4b3f3f;
   border-radius: 40px;
   border: none;
   color: white;
@@ -20,7 +20,7 @@
 }
 
 .section-header-competition {
-  background-color: #604242;
+  background-color: #4b3f3f;
   border-radius: 40px;
   border: none;
   color: white;

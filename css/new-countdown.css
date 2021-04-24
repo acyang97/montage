@@ -43,7 +43,6 @@
 
 @media only screen and (max-width: 900px) {
   .coming-soon {
-    font-family: "Sorts Mill Goudy";
     letter-spacing: 0.8rem;
     font-size: 35pt;
     width: auto;
@@ -52,7 +51,6 @@
 
 @media only screen and (max-width: 600) {
   .coming-soon {
-    font-family: "Sorts Mill Goudy";
     letter-spacing: 0rem;
     font-size: 30pt;
     width: auto;

@@ -1799,7 +1799,7 @@
 
 .wrapper.style8 {
   /* for about section */
-  background-color: #f7f7f7;
+  background-color: #a6adb4;
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -1843,6 +1843,11 @@
   letter-spacing: 1px;
 }
 
+.wrapper.style8 h5 {
+  font-size: 17pt;
+  letter-spacing: 5px;
+}
+
 .wrapper.style8 ul.alt li {
   border-top-color: rgba(255, 255, 255, 0.25);
 }
@@ -1873,9 +1878,13 @@
 
   .wrapper.style8 h2,
   .wrapper.style8 h3,
-  .wrapper.style8 h4,
+  .wrapper.style8 h4 {
+    font-size: 12pt;
+  }
+
   .wrapper.style8 h5 {
     font-size: 12pt;
+    letter-spacing: 3px;
   }
 
   .wrapper.style8 h6,
@@ -1967,13 +1976,17 @@
 
 @media screen and (max-width: 480px) {
   .wrapper.style8 {
-    background-color: #fff;
+    background-color: #a6adb4;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     -ms-background-size: cover;
     background-size: cover;
   }
+}
+
+.wrapper.style8.inner.flex.col.countdown-box.countdown-header p {
+  font-size: 30pt;
 }
 
 .wrapper.style9 {
