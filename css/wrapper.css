@@ -1267,7 +1267,7 @@
 
 .wrapper.style5 {
   /* for about and beinspired sections */
-  background-color: #fff;
+  background-color: #343638;
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -1315,7 +1315,8 @@
 }
 
 .wrapper.style5 h3 {
-  letter-spacing: 4px;
+  font-size: 20pt;
+  letter-spacing: 7px;
   margin: 0 0 0 0;
 }
 
@@ -1330,7 +1331,7 @@
 .wrapper.style5 p {
   font-family: "Sorts Mill Goudy", "Inter", serif;
   color: #2d2d2d;
-  font-size: 11pt;
+  font-size: 12pt;
   margin: 0 0 5px 0;
 }
 
@@ -1806,11 +1807,11 @@
 
 .wrapper.style8 {
   /* for about section */
-  background-color: #a6adb4;
+  background-color: #343638;
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
-  font-family: "Inter", serif;
+  font-family: "Sorts Mill Goudy", "Inter", serif;
   color: #000;
 }
 
@@ -1821,11 +1822,11 @@
 }
 
 .wrapper.style8 a {
-  color: #4d4d4d;
+  color: #e8e3de;
 }
 
 .wrapper.style8 a:hover {
-  color: #e3d5c6;
+  color: #e8e3de;
 }
 
 .wrapper.style8 strong,
@@ -1865,7 +1866,7 @@
 
 .wrapper.style8 p {
   color: #2d2d2d;
-  font-size: 15pt;
+  font-size: 17pt;
 }
 
 .wrapper.style8 .about-change {
@@ -1983,7 +1984,7 @@
 
 @media screen and (max-width: 480px) {
   .wrapper.style8 {
-    background-color: #a6adb4;
+    background-color: #343638;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -2989,4 +2990,358 @@
   padding-left: 3em;
   padding-right: 3em;
   box-shadow: 0px 0px 0px 7px rgba(0, 0, 0, 0), 0px 0px 0px 8px rgba(0, 0, 0, 0);
+}
+
+/*wrapper style for faq, rnr and tnc*/
+.wrapper.style-frt {
+  /* for tnc and faq */
+  background-color: #d8d8d8;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  color: #4b3f3f;
+}
+
+.wrapper.style-frt input,
+.wrapper.style-frt select,
+.wrapper.style-frt textarea {
+  color: #4b3f3f;
+}
+
+.wrapper.style-frt a {
+  color: #4d4d4d;
+}
+
+.wrapper.style-frt a:hover {
+  color: #e3d5c6;
+}
+
+.wrapper.style-frt strong,
+.wrapper.style-frt b {
+  color: #4b3f3f;
+}
+
+.wrapper.style-frt h1 {
+  font-family: "Sorts Mill Goudy", "Inter", "Crimson Pro", serif;
+  color: #4b3f3f;
+  font-size: 25pt;
+  letter-spacing: 7px;
+}
+
+.wrapper.style-frt h2,
+.wrapper.style-frt h3,
+.wrapper.style-frt h4,
+.wrapper.style-frt h5 {
+  color: #4b3f3f;
+  font-family: "Sorts Mill Goudy", "Inter", "Crimson Pro", serif;
+  font-size: 17pt;
+}
+
+.wrapper.style-frt h3 {
+  letter-spacing: 5px;
+}
+
+.wrapper.style-frt h6 {
+  font-weight: normal;
+  font-size: 12pt;
+  font-family: "Sorts Mill Goudy", "Inter", "Montserrat", sans-serif;
+}
+
+.wrapper.style-frt header p {
+  color: #4b3f3f;
+}
+
+.wrapper.style-frt p {
+  font-size: 12pt;
+}
+
+.wrapper.style-frt p,
+.wrapper.style-frt ul,
+.wrapper.style-frt ol {
+  margin-bottom: 0px;
+}
+
+.wrapper.style-frt ol {
+  counter-reset: item;
+}
+
+.wrapper.style-frt li {
+  padding-left: 0.5em;
+  font-size: 12pt;
+  text-align: justify;
+}
+
+.wrapper.style-frt ol > li {
+  display: block;
+  position: relative;
+}
+
+.wrapper.style-frt ol > li:before {
+  content: counters(item, ".") ".";
+  counter-increment: item;
+  position: absolute;
+  margin-right: 100%;
+  right: 6px;
+}
+
+.wrapper.style-frt ul.inner {
+  list-style-type: circle;
+}
+
+.wrapper.style-frt br {
+  content: "";
+  display: block;
+  margin: 12px 0;
+}
+
+@media screen and (max-width: 736px) {
+  .wrapper.style-frt h1 {
+    font-size: 24pt;
+  }
+
+  .wrapper.style-frt h2,
+  .wrapper.style-frt h3,
+  .wrapper.style-frt h4,
+  .wrapper.style-frt h5 {
+    font-size: 12pt;
+  }
+
+  .wrapper.style-frt h6 {
+    font-size: 10pt;
+  }
+
+  .wrapper.style-frt p,
+  .wrapper.style-frt li {
+    font-size: 8pt;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+.wrapper.style-frt blockquote {
+  border-left-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style-frt code {
+  background: rgba(255, 255, 255, 0.075);
+  border-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style-frt hr {
+  border-bottom-color: rgba(0, 0, 0, 0.25);
+}
+
+.wrapper.style-frt .box {
+  border-radius: 30px;
+  padding: 5em;
+  border-color: rgba(255, 255, 255, 0.8);
+  background-color: #fafafa;
+}
+
+.wrapper.style-frt input[type="submit"],
+.wrapper.style-frt input[type="reset"],
+.wrapper.style-frt input[type="button"],
+.wrapper.style-frt button,
+.wrapper.style-frt .button {
+  background-color: #e3d5c6;
+  color: #2d2d2d !important;
+}
+
+.wrapper.style-frt input[type="submit"]:hover,
+.wrapper.style-frt input[type="reset"]:hover,
+.wrapper.style-frt input[type="button"]:hover,
+.wrapper.style-frt button:hover,
+.wrapper.style-frt .button:hover {
+  background-color: #2d2d2d;
+  color: #e3d5c6 !important;
+}
+
+.wrapper.style-frt input[type="submit"].alt,
+.wrapper.style-frt input[type="reset"].alt,
+.wrapper.style-frt input[type="button"].alt,
+.wrapper.style-frt button.alt,
+.wrapper.style-frt .button.alt {
+  background-color: transparent;
+  box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.25);
+  color: #000 !important;
+}
+
+.wrapper.style-frt input[type="submit"].alt:hover,
+.wrapper.style-frt input[type="reset"].alt:hover,
+.wrapper.style-frt input[type="button"].alt:hover,
+.wrapper.style-frt button.alt:hover,
+.wrapper.style-frt .button.alt:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.wrapper.style-frt input[type="submit"].alt:active,
+.wrapper.style-frt input[type="reset"].alt:active,
+.wrapper.style-frt input[type="button"].alt:active,
+.wrapper.style-frt button.alt:active,
+.wrapper.style-frt .button.alt:active {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.wrapper.style-frt input[type="submit"].alt.icon:before,
+.wrapper.style-frt input[type="reset"].alt.icon:before,
+.wrapper.style-frt input[type="button"].alt.icon:before,
+.wrapper.style-frt button.alt.icon:before,
+.wrapper.style-frt .button.alt.icon:before {
+  color: #000;
+}
+
+.wrapper.style-frt input[type="submit"].special,
+.wrapper.style-frt input[type="reset"].special,
+.wrapper.style-frt input[type="button"].special,
+.wrapper.style-frt button.special,
+.wrapper.style-frt .button.special {
+  background-color: black;
+  color: #fff !important;
+}
+
+.wrapper.style-frt input[type="submit"].special:hover,
+.wrapper.style-frt input[type="reset"].special:hover,
+.wrapper.style-frt input[type="button"].special:hover,
+.wrapper.style-frt button.special:hover,
+.wrapper.style-frt .button.special:hover {
+  background-color: yellow;
+}
+
+.wrapper.style-frt input[type="submit"].special:active,
+.wrapper.style-frt input[type="reset"].special:active,
+.wrapper.style-frt input[type="button"].special:active,
+.wrapper.style-frt button.special:active,
+.wrapper.style-frt .button.special:active {
+  background-color: black;
+}
+
+.wrapper.style-frt label {
+  color: #fff;
+}
+
+.wrapper.style-frt input[type="text"],
+.wrapper.style-frt input[type="password"],
+.wrapper.style-frt input[type="email"],
+.wrapper.style-frt select,
+.wrapper.style-frt textarea {
+  background: rgba(0, 0, 0, 0.03);
+  border-color: rgba(0, 0, 0, 0.25);
+}
+
+.wrapper.style-frt input[type="text"]:focus,
+.wrapper.style-frt input[type="password"]:focus,
+.wrapper.style-frt input[type="email"]:focus,
+.wrapper.style-frt select:focus,
+.wrapper.style-frt textarea:focus {
+  border-color: #000;
+  box-shadow: 0 0 0 1px #000;
+}
+
+.wrapper.style-frt .select-wrapper:before {
+  color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style-frt input[type="checkbox"] + label,
+.wrapper.style-frt input[type="radio"] + label {
+  color: #000;
+}
+
+.wrapper.style-frt input[type="checkbox"] + label:before,
+.wrapper.style-frt input[type="radio"] + label:before {
+  background: rgba(255, 255, 255, 0.075);
+  border-color: rgba(0, 0, 0, 0.25);
+}
+
+.wrapper.style-frt input[type="checkbox"]:checked + label:before,
+.wrapper.style-frt input[type="radio"]:checked + label:before {
+  background-color: #000;
+  border-color: #000;
+  color: #fff;
+}
+
+.wrapper.style-frt input[type="checkbox"]:focus + label:before,
+.wrapper.style-frt input[type="radio"]:focus + label:before {
+  border-color: #000;
+  box-shadow: 0 0 0 1px #fafafa;
+}
+
+.wrapper.style-frt ::-webkit-input-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style-frt :-moz-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style-frt ::-moz-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style-frt :-ms-input-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style-frt .formerize-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style-frt table tbody tr {
+  border-color: rgba(0, 0, 0, 0.5);
+}
+
+.wrapper.style-frt table tbody tr:nth-child(2n + 1) {
+  background-color: rgba(150, 150, 150, 0.15);
+}
+
+.wrapper.style-frt table th {
+  color: #000;
+}
+
+.wrapper.style-frt table thead {
+  border-bottom-color: rgba(0, 0, 0, 0.5);
+  font-size: 12pt;
+}
+
+.wrapper.style-frt table tfoot {
+  border-top-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style-frt table.alt tbody tr td {
+  border-color: rgba(150, 150, 150, 0.5);
+}
+
+.wrapper.style-frt .image {
+  padding-left: 3em;
+  padding-right: 3em;
+  box-shadow: 0px 0px 0px 7px rgba(0, 0, 0, 0), 0px 0px 0px 8px rgba(0, 0, 0, 0);
+}
+
+@media screen and (max-width: 1280px) {
+  .wrapper > .inner {
+    width: 60em;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .wrapper > .inner {
+    width: 90%;
+  }
+
+  .wrapper.style-frt .box {
+    padding: 2em;
+  }
+}
+
+@media screen and (max-width: 736px) {
+  .wrapper {
+    padding: 3em 0 1em 0;
+  }
+
+  .wrapper.style-frt .image {
+    padding: 0;
+  }
+
+  .wrapper.style-frt .box {
+    padding: 0;
+  }
 }
