@@ -280,3 +280,60 @@
     width: 60%;
   }
 }
+
+@media screen and (max-width: 480px) {
+  .image.fit-workshop {
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+
+  .image.fit-workshop img {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+    margin-top: 1em;
+  }
+}
+
+@media screen and (max-width: 736px) and (min-width: 480px) {
+  .image.fit-workshop {
+    display: block;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+
+  .image.fit-workshop img {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+    margin-top: 1em;
+  }
+}
+
+@media screen and (min-width: 736px) {
+  .image.fit-workshop {
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+
+  .image.fit-workshop img {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+    margin-top: 1em;
+  }
+}

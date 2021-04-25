@@ -321,7 +321,7 @@
 
 .workshop-works-header {
   padding-left: 2rem;
-  padding-right: 2rem;
+  padding-right: 3rem;
 }
 
 .workshop-last-presenter {
@@ -389,8 +389,14 @@
   width: 100%;
 }
 
+@media screen and (min-width: 736px) {
+  .workshop-display-mobile {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 736px) {
-  .workshop-banner-background {
+  .workshop-display-dekstop {
     display: none;
   }
 }
@@ -424,16 +430,144 @@
   /* background: aqua; */
 }
 
-@media screen and (min-width: 1080px) {
+/* @media screen and (min-width: 736px) {
   .workshop-banner-background {
-    min-height: 120vh;
-    height: 120vh !important;
+    min-height: 230vh;
+    height: 230vh !important;
+  }
+
+  .workshop-speaker-profile-summary-desktop {
+    padding-top: 2rem;
+  }
+} */
+
+/* @media screen and (min-width: 1080px) {
+  .workshop-banner-background {
+    min-height: 130vh;
+    height: 130vh !important;
+  }
+
+  .workshop-speaker-profile-summary-desktop {
+    padding-top: 2rem;
+  }
+} */
+
+.workshop-banner-background {
+  min-height: 140vh;
+  height: 140vh !important;
+}
+
+.workshop-speaker-profile-summary-desktop {
+  padding-top: 2.5rem;
+}
+
+@media screen and (min-width: 1280px) {
+  .workshop-banner-background {
+    min-height: 135vh;
+    height: 135vh !important;
+  }
+
+  .workshop-speaker-profile-summary-desktop {
+    padding-top: 2.5rem;
   }
 }
 
 @media screen and (min-width: 1470px) {
   .workshop-banner-background {
-    min-height: 120vh;
-    height: 120vh !important;
+    min-height: 130vh;
+    height: 130vh !important;
+  }
+
+  .workshop-speaker-profile-summary-desktop {
+    padding-top: 3rem;
   }
 }
+
+.workshop-banner-background-nature {
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  -moz-align-items: center;
+  -webkit-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+
+  -moz-justify-content: center;
+  -webkit-justify-content: center;
+  -ms-justify-content: center;
+  justify-content: center;
+  background-color: #000;
+  background: url(../photos-final/nature-background-1.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top: 0;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  width: 100%;
+}
+
+/*for the speakers*/
+.workshop-speaker-profile-biggest-container-desktop-nature {
+  padding-top: 1rem;
+}
+
+.workshop-speaker-profile-container-desktop-nature {
+  width: 95%;
+  height: 300px;
+  /* background: aqua; */
+  margin: auto;
+}
+.workshop-speaker-profile-photo-desktop-nature {
+  width: 40%;
+  height: 300px;
+  /* background: red; */
+  float: left;
+}
+
+.workshop-speaker-profile-summary-container-desktop-nature {
+  margin-left: 15%;
+  height: 300px;
+  /* background: white; */
+}
+
+.workshop-speaker-profile-summary-desktop-nature {
+  margin: auto;
+  /* background: aqua; */
+}
+
+.workshop-banner-background-natrue {
+  min-height: 180vh;
+  height: 180vh !important;
+}
+
+.workshop-speaker-profile-summary-desktop-nature {
+  padding-top: 2.5rem;
+}
+
+.workshop-speaker-profile-summary-desktop-nature-daryl {
+  padding-top: 1rem;
+}
+/* 
+@media screen and (min-width: 1280px) {
+  .workshop-banner-background-natrue {
+    min-height: 160vh;
+    height: 160vh !important;
+  }
+
+  .workshop-speaker-profile-summary-desktop {
+    padding-top: 2.5rem;
+  }
+}
+
+@media screen and (min-width: 1470px) {
+  .workshop-banner-background-natrue {
+    min-height: 150vh;
+    height: 150vh !important;
+  }
+
+  .workshop-speaker-profile-summary-desktop {
+    padding-top: 3rem;
+  }
+} */

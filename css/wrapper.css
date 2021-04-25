@@ -2774,3 +2774,186 @@
     cursor: pointer;
   }
 }
+
+/* FOR MOBILE WORKSHOP*/
+
+.wrapper.style-ws-mobile {
+  /* for competition section */
+  /* background: linear-gradient(145deg, #ffecd9, #f2e1d3); */
+  background-color: #e8e3de;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  color: #4b3f3f;
+}
+
+.wrapper.style-ws-mobile input,
+.wrapper.style-ws-mobile select,
+.wrapper.style-ws-mobile textarea {
+  color: #4b3f3f;
+}
+
+.wrapper.style-ws-mobile a {
+  color: #4b3f3f;
+}
+
+.wrapper.style-ws-mobile a:hover {
+  color: #e3d5c6;
+}
+
+.wrapper.style-ws-mobile strong,
+.wrapper.style-ws-mobile b {
+  color: #4b3f3f;
+}
+
+.wrapper.style-ws-mobile h1 {
+  color: #4b3f3f;
+  font-family: "Sorts Mill Goudy", "Inter", "Crimson Pro", serif;
+  font-size: 17pt;
+  text-align: left;
+  letter-spacing: px;
+}
+
+.wrapper.style-ws-mobile h2,
+.wrapper.style-ws-mobile h3,
+.wrapper.style-ws-mobile h4,
+.wrapper.style-ws-mobile h5 {
+  color: #4b3f3f;
+  font-family: "Sorts Mill Goudy", "Inter", "Crimson Pro", serif;
+  font-size: 17pt;
+  letter-spacing: 1px;
+}
+
+.wrapper.style-ws-mobile h6 {
+  color: #f7f7f7;
+  font-family: "Sorts Mill Goudy", "Inter", "Crimson Pro", serif;
+  font-size: 18pt;
+  letter-spacing: 2px;
+  font-weight: normal;
+}
+
+.wrapper.style-ws-mobile ul.alt li {
+  border-top-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style-ws-mobile header p {
+  color: #4b3f3f;
+}
+
+.wrapper.style-ws-mobile p {
+  font-family: "Sorts Mill Goudy", "Inter", "Crimson Pro", serif;
+  color: #4b3f3f;
+  /* color: grey; */
+  font-size: 13pt;
+  text-align: left;
+}
+
+@media screen and (max-width: 736px) {
+  /* .wrapper.style-ws-mobile h1 {
+    font-size: 30pt;
+  } */
+
+  .wrapper.style-ws-mobile h1 {
+    color: #4b3f3f;
+    font-family: "Sorts Mill Goudy", "Inter", "Crimson Pro", serif;
+    font-size: 21pt;
+    text-align: left;
+    letter-spacing: 3px;
+  }
+
+  .wrapper.style-ws-mobile h2,
+  .wrapper.style-ws-mobile h3,
+  .wrapper.style-ws-mobile h4,
+  .wrapper.style-ws-mobile h5 {
+    text-align: left;
+    font-size: 12pt;
+  }
+
+  .wrapper.style-ws-mobile h3 {
+    letter-spacing: 3px;
+  }
+
+  .wrapper.style-ws-mobile h6,
+  .wrapper.style-ws-mobile a,
+  .wrapper.style-ws-mobile p,
+  .wrapper.style-ws-mobile li,
+  .wrapper.style-ws-mobile ol {
+    font-size: 10pt;
+  }
+}
+
+.wrapper.style-ws-mobile blockquote {
+  border-left-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style-ws-mobile code {
+  background: rgba(255, 255, 255, 0.075);
+  border-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style-ws-mobile hr {
+  height: 1px;
+  order: none;
+  color: #4b3f3f;
+  background-color: #4b3f3f;
+  width: 80%;
+}
+
+.wrapper.style-ws-mobile .box {
+  border-color: rgba(255, 255, 255, 0.8);
+  background-color: #4d4d4d;
+}
+
+.wrapper.style-ws-mobile .select-wrapper:before {
+  color: rgba(255, 255, 255, 0.25);
+}
+.wrapper.style-ws-mobile ::-webkit-input-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style-ws-mobile :-moz-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style-ws-mobile ::-moz-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style-ws-mobile :-ms-input-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style-ws-mobile .formerize-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style-ws-mobile table tbody tr {
+  border-color: rgba(0, 0, 0, 0.5);
+}
+
+.wrapper.style-ws-mobile table tbody tr:nth-child(2n + 1) {
+  background-color: rgba(150, 150, 150, 0.15);
+}
+
+.wrapper.style-ws-mobile table th {
+  color: #4b3f3f;
+}
+
+.wrapper.style-ws-mobile table thead {
+  border-bottom-color: rgba(0, 0, 0, 0.5);
+  font-size: 12pt;
+}
+
+.wrapper.style-ws-mobile table tfoot {
+  border-top-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style-ws-mobile table.alt tbody tr td {
+  border-color: rgba(150, 150, 150, 0.5);
+}
+
+.wrapper.style-ws-mobile .image {
+  padding-left: 3em;
+  padding-right: 3em;
+  box-shadow: 0px 0px 0px 7px rgba(0, 0, 0, 0), 0px 0px 0px 8px rgba(0, 0, 0, 0);
+}
