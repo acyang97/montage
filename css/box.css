@@ -23,8 +23,8 @@
 }
 
 .box-about {
-  background-color: #a6adb4;
-  filter: brightness(1.15);
+  background-color: #343638;
+  filter: brightness(1.8);
   border-radius: 50px;
   width: 100%;
   box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.1);
