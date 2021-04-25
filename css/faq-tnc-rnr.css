@@ -1,0 +1,29 @@
+.faq-header-container {
+  text-align: center;
+  padding-top: 3rem;
+}
+
+.faq-subheader-container {
+  text-align: center;
+  height: 35px;
+  margin: auto;
+  padding-top: 3rem;
+}
+
+.faq-left {
+  width: 50%;
+  height: 35px;
+  text-align: right;
+  float: left;
+  border-right: 2px solid #4b3f3f;
+}
+
+.faq-right {
+  text-align: left;
+  height: 35px;
+  padding-left: 3rem;
+}
+
+.faq-box-competition {
+  padding-top: 5rem;
+}
