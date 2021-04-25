@@ -1,5 +1,5 @@
 .section-header__container {
-  background-color: #a6adb4;
+  background-color: #343638;
   padding-bottom: 3rem;
 }
 
@@ -17,7 +17,7 @@
   color: white;
   display: inline-block;
   font-family: "Sorts Mill Goudy";
-  font-size: 1.5rem;
+  font-size: 17pt;
   letter-spacing: 5px;
   padding: 10px 60px;
   text-align: center;
