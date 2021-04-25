@@ -24,6 +24,20 @@
   text-decoration: none;
 }
 
+.section-header-signup {
+  background-color: #4b3f3f;
+  border-radius: 40px;
+  border: none;
+  color: white;
+  display: inline-block;
+  font-family: "Sorts Mill Goudy";
+  font-size: 1.5rem;
+  letter-spacing: 5px;
+  padding: 10px 60px;
+  text-align: center;
+  text-decoration: none;
+}
+
 .section-header-competition {
   background-color: #4b3f3f;
   border-radius: 40px;

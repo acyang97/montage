@@ -452,16 +452,16 @@
   }
 } */
 
-.workshop-banner-background {
-  min-height: 140vh;
-  height: 140vh !important;
-}
+/* .workshop-banner-background {
+  min-height: 145vh;
+  height: 145vh !important;
+} */
 
 .workshop-speaker-profile-summary-desktop {
   padding-top: 2.5rem;
 }
 
-@media screen and (min-width: 1280px) {
+/* @media screen and (min-width: 736px) {
   .workshop-banner-background {
     min-height: 135vh;
     height: 135vh !important;
@@ -472,7 +472,82 @@
   }
 }
 
-@media screen and (min-width: 1470px) {
+@media screen and (min-width: 980px) {
+  .workshop-banner-background {
+    min-height: 135vh;
+    height: 135vh !important;
+  }
+
+  .workshop-speaker-profile-summary-desktop {
+    padding-top: 2.5rem;
+  }
+} */
+
+/* @media screen and (min-width: 1460px) {
+  .workshop-banner-background {
+    min-height: 125vh;
+    height: 125vh !important;
+  }
+
+  .workshop-speaker-profile-summary-desktop {
+    padding-top: 2.5rem;
+  }
+} */
+
+@media screen and (min-width: 1800px) {
+  .workshop-banner-background {
+    min-height: 135vh;
+    height: 135vh !important;
+  }
+
+  .workshop-speaker-profile-summary-desktop {
+    padding-top: 2.5rem;
+  }
+}
+
+@media screen and (min-width: 1600px) and (max-width: 1800px) {
+  .workshop-banner-background {
+    min-height: 140vh;
+    height: 140vh !important;
+  }
+
+  .workshop-speaker-profile-summary-desktop {
+    padding-top: 2.5rem;
+  }
+}
+
+@media screen and (min-width: 1280px) and(max-width: 1600px) {
+  .workshop-banner-background {
+    min-height: 140vh;
+    height: 140vh !important;
+  }
+
+  .workshop-speaker-profile-summary-desktop {
+    padding-top: 2.5rem;
+  }
+}
+
+@media screen and (min-width: 736px) and(max-width: 1600px) {
+  .workshop-banner-background {
+    min-height: 140vh;
+    height: 140vh !important;
+  }
+
+  .workshop-speaker-profile-summary-desktop {
+    padding-top: 2.5rem;
+  }
+}
+/* 
+.workshop-banner-background {
+  min-height: 140vh;
+  height: 140vh !important;
+} */
+
+.workshop-speaker-profile-summary-desktop {
+  padding-top: 2.5rem;
+}
+
+/* @media screen and (max-width: 1470px) {
   .workshop-banner-background {
     min-height: 130vh;
     height: 130vh !important;
@@ -481,7 +556,7 @@
   .workshop-speaker-profile-summary-desktop {
     padding-top: 3rem;
   }
-}
+} */
 
 .workshop-banner-background-nature {
   -ms-flex-pack: center;
