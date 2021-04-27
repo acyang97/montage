@@ -3025,7 +3025,7 @@
   font-family: "Sorts Mill Goudy", "Inter", "Crimson Pro", serif;
   color: #4b3f3f;
   font-size: 25pt;
-  letter-spacing: 7px;
+  letter-spacing: 10px;
 }
 
 .wrapper.style-frt h2,
@@ -3035,6 +3035,10 @@
   color: #4b3f3f;
   font-family: "Sorts Mill Goudy", "Inter", "Crimson Pro", serif;
   font-size: 17pt;
+}
+
+.wrapper.style-frt h2 {
+  letter-spacing: 8px;
 }
 
 .wrapper.style-frt h3 {
@@ -3096,14 +3100,19 @@
 
 @media screen and (max-width: 736px) {
   .wrapper.style-frt h1 {
-    font-size: 24pt;
+    font-size: 13pt;
+    letter-spacing: 6px;
   }
 
-  .wrapper.style-frt h2,
   .wrapper.style-frt h3,
   .wrapper.style-frt h4,
   .wrapper.style-frt h5 {
     font-size: 12pt;
+  }
+
+  .wrapper.style-frt h2 {
+    font-size: 10pt;
+    letter-spacing: 4px;
   }
 
   .wrapper.style-frt h6 {

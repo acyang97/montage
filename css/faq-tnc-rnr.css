@@ -27,3 +27,16 @@
 .faq-box-competition {
   padding-top: 5rem;
 }
+
+.faq-small-padding {
+  padding-top: 2rem;
+}
+
+.faq-competition-question {
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
+}
+
+.faq-small-padding {
+  padding-bottom: 1rem;
+}
