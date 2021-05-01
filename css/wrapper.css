@@ -1333,6 +1333,7 @@
   color: #2d2d2d;
   font-size: 12pt;
   margin: 0 0 5px 0;
+  letter-spacing: 1px;
 }
 
 @media screen and (max-width: 736px) {
@@ -1866,7 +1867,8 @@
 
 .wrapper.style8 p {
   color: #2d2d2d;
-  font-size: 17pt;
+  font-size: 15pt;
+  letter-spacing: 1px;
 }
 
 .wrapper.style8 .about-change {
@@ -1901,6 +1903,7 @@
   .wrapper.style8 li,
   .wrapper.style8 ol {
     font-size: 10pt;
+    letter-spacing: 2px;
   }
 }
 
