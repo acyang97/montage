@@ -46,14 +46,14 @@ textarea:invalid {
 .select-wrapper:before {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  font-family: 'Crimson Pro', serif;
+  font-family: "Sorts Mill Goudy", "Inter", sans-serif;
   font-style: normal;
   font-weight: normal;
   text-transform: none !important;
 }
 
 .select-wrapper:before {
-  content: '\f078';
+  content: "\f078";
   display: block;
   height: 2.75em;
   line-height: 2.75em;
@@ -120,7 +120,7 @@ input[type="checkbox"] + label:before,
 input[type="radio"] + label:before {
   border-radius: 4px;
   border: solid 1px;
-  content: '';
+  content: "";
   display: inline-block;
   height: 1.65em;
   left: 0;
@@ -133,7 +133,7 @@ input[type="radio"] + label:before {
 
 input[type="checkbox"]:checked + label:before,
 input[type="radio"]:checked + label:before {
-  content: '\f00c';
+  content: "\f00c";
 }
 
 input[type="checkbox"] + label:before {
@@ -145,23 +145,23 @@ input[type="radio"] + label:before {
 }
 
 ::-webkit-input-placeholder {
-  opacity: 1.0;
+  opacity: 1;
 }
 
 :-moz-placeholder {
-  opacity: 1.0;
+  opacity: 1;
 }
 
 ::-moz-placeholder {
-  opacity: 1.0;
+  opacity: 1;
 }
 
 :-ms-input-placeholder {
-  opacity: 1.0;
+  opacity: 1;
 }
 
 .formerize-placeholder {
-  opacity: 1.0;
+  opacity: 1;
 }
 
 label {

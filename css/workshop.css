@@ -134,7 +134,7 @@
 }
 
 .workshop-button-container {
-  font-family: "Sorts Mill Goudy";
+  font-family: "Sorts Mill Goudy", "Inter", sans-serif;
   text-align: center;
 }
 
@@ -216,7 +216,7 @@
 }
 
 .workshop-indi-heading {
-  font-family: "Sorts Mill Goudy";
+  font-family: "Sorts Mill Goudy", "Inter", sans-serif;
   letter-spacing: 1rem;
 }
 

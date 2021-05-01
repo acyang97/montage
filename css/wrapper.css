@@ -22,7 +22,7 @@
 }
 
 .wrapper h1 {
-  font-family: "Inter", "Crimson Pro", serif;
+  font-family: "Sorts Mill Goudy", "Inter", sans-serif;
 }
 
 @media screen and (max-width: 736px) {
@@ -61,7 +61,7 @@
 .wrapper.style1 h5,
 .wrapper.style1 h6 {
   color: #000;
-  font-family: "Inter", "Crimson Pro", serif;
+  font-family: "Sorts Mill Goudy", "Inter", sans-serif;
   font-size: 20pt;
   letter-spacing: 1px;
 }
@@ -302,7 +302,7 @@
 .wrapper.style2 h5,
 .wrapper.style2 h6 {
   color: #000;
-  font-family: "Inter", "Crimson Pro", serif;
+  font-family: "Sorts Mill Goudy", "Inter", sans-serif;
   font-size: 17pt;
   letter-spacing: 1px;
 }
@@ -592,7 +592,7 @@
 }
 
 .wrapper.style3 h1 {
-  font-family: "Inter", "Crimson Pro", serif;
+  font-family: "Sorts Mill Goudy", "Inter", sans-serif;
   color: #000;
 }
 
@@ -601,14 +601,14 @@
 .wrapper.style3 h4,
 .wrapper.style3 h5 {
   color: #000;
-  font-family: "Inter", "Crimson Pro", serif;
+  font-family: "Sorts Mill Goudy", "Inter", sans-serif;
   font-size: 17pt;
 }
 
 .wrapper.style3 h6 {
   font-weight: normal;
   font-size: 12pt;
-  font-family: "Inter", "Montserrat", sans-serif;
+  font-family: "Sorts Mill Goudy", "Inter", sans-serif;
 }
 
 .wrapper.style3 header p {
@@ -944,7 +944,7 @@
 }
 
 .wrapper.style4 h1 {
-  font-family: "Inter", "Crimson Pro", serif;
+  font-family: "Sorts Mill Goudy", "Inter", sans-serif;
   color: #000;
 }
 
@@ -953,14 +953,14 @@
 .wrapper.style4 h4,
 .wrapper.style4 h5 {
   color: #000;
-  font-family: "Inter", "Crimson Pro", serif;
+  font-family: "Sorts Mill Goudy", "Inter", sans-serif;
   font-size: 17pt;
 }
 
 .wrapper.style4 h6 {
   font-weight: normal;
   font-size: 12pt;
-  font-family: "Inter", "Montserrat", sans-serif;
+  font-family: "Sorts Mill Goudy", "Inter", sans-serif;
 }
 
 .wrapper.style4 header p {
@@ -1417,7 +1417,7 @@
 
 /*BUTTON FOR WRAPPER STYLE 5*/
 .wrapper.style5 .button {
-  font-family: "Inter", "Criomson-Pro", serif;
+  font-family: "Sorts Mill Goudy", "Inter", sans-serif;
   color: #343638;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -1517,7 +1517,7 @@
 .wrapper.style6 h5,
 .wrapper.style6 h6 {
   color: #000;
-  font-family: "Crimson Pro", serif;
+  font-family: "Sorts Mill Goudy", "Inter", sans-serif;
   font-size: 17pt;
   letter-spacing: 1px;
 }
@@ -1676,7 +1676,7 @@
 .wrapper.style7 h5,
 .wrapper.style7 h6 {
   color: #000;
-  font-family: "Inter", "Crimson Pro", serif;
+  font-family: "Sorts Mill Goudy", "Inter", sans-serif;
   font-size: 17pt;
   letter-spacing: 1px;
 }
@@ -1836,7 +1836,7 @@
 }
 
 .wrapper.style8 h1 {
-  font-family: "Sorts Mill Goudy", serif;
+  font-family: "Sorts Mill Goudy", "Inter", sans-serif;
   color: #000;
   font-size: 35pt;
 }
@@ -1847,7 +1847,7 @@
 .wrapper.style8 h5,
 .wrapper.style8 h6 {
   color: #000;
-  font-family: "Sorts Mill Goudy", serif;
+  font-family: "Sorts Mill Goudy", "Inter", sans-serif;
   font-size: 17pt;
   letter-spacing: 1px;
 }
@@ -1876,7 +1876,7 @@
   justify-content: center;
   letter-spacing: 2px;
   align-items: center;
-  font-family: "Sorts Mill Goudy", serif;
+  font-family: "Sorts Mill Goudy", "Inter", sans-serif;
   font-size: 20pt;
   margin: 0 0 0 0;
 }
@@ -2003,7 +2003,7 @@
 /*button for style 8*/
 /*BUTTON FOR WRAPPER STYLE 5*/
 .wrapper.style8 .button {
-  font-family: "Inter", "Criomson-Pro", serif;
+  font-family: "Sorts Mill Goudy", "Inter", sans-serif;
   /* color: #e8e3de; */
   color: #000;
   text-transform: uppercase;
@@ -2221,7 +2221,7 @@
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
-  font-family: "Sorts Mill Goudy", serif;
+  font-family: "Sorts Mill Goudy", "Inter", sans-serif;
   color: #000;
 }
 
@@ -2417,7 +2417,7 @@
 
 /*BUTTON FOR WRAPPER STYLE WS1*/
 .wrapper.ws1 .button {
-  font-family: "Inter", "Criomson-Pro", serif;
+  font-family: "Sorts Mill Goudy", "Inter", sans-serif;
   color: #343638;
   text-transform: uppercase;
   letter-spacing: 10px;
@@ -2513,7 +2513,7 @@
 }
 
 .wrapper-workshop h1 {
-  font-family: "Inter", "Crimson Pro", serif;
+  font-family: "Sorts Mill Goudy", "Inter", sans-serif;
 }
 
 @media screen and (max-width: 736px) {
@@ -2532,7 +2532,7 @@
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
-  font-family: "Sorts Mill Goudy", serif;
+  font-family: "Sorts Mill Goudy", "Inter", sans-serif;
   color: #4b3f3f;
 }
 
@@ -2742,7 +2742,7 @@
 
 /*BUTTON FOR WRAPPER STYLE WS1*/
 .wrapper-workshop.ws2 .button {
-  font-family: "Inter", "Criomson-Pro", serif;
+  font-family: "Sorts Mill Goudy", "Inter", sans-serif;
   color: #343638;
   text-transform: uppercase;
   letter-spacing: 10px;
