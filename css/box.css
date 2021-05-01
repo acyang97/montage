@@ -35,6 +35,25 @@
   filter: brightness(0.5);
 }
 
+.box-about-content {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+@media screen and (max-width: 1000px) {
+  .box-about-content {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+@media screen and (max-width: 736px) {
+  .box-about-content {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
 .box3 {
   background-color: rgba(227, 213, 198, 0.4);
   color: #2d2d2d;
