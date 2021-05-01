@@ -63,6 +63,40 @@
 /* @media screen and (max-width: 900px) {
 } */
 
+.section-header-about {
+  background-color: #4b3f3f;
+  border-radius: 40px;
+  border: none;
+  color: white;
+  display: inline-block;
+  font-family: "Sorts Mill Goudy";
+  font-size: 15pt;
+  letter-spacing: 5px;
+  padding: 10px 60px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.section-header-about-nusps {
+  background-color: #604242;
+  font-size: 1.5rem;
+  padding: 10px 60px;
+  text-align: center;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1280px) {
+  .section-header-about-nusps {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .section-header-about-nusps {
+    font-size: 0.8rem;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .section-header {
     border-radius: 40px;
@@ -75,8 +109,4 @@
   .section-header__year {
     font-size: 1rem;
   }
-}
-
-.section-header-about-nusps {
-  background-color: #604242;
 }
