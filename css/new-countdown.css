@@ -1,11 +1,12 @@
 #normal-countdown {
   text-align: center;
+  padding-bottom: 2rem;
 }
 
 #normal-countdown .time-sec {
   position: relative;
   display: inline-block;
-  margin: 12px;
+  margin: 20px;
   height: 100px;
   width: 100px;
   border-radius: 100px;
@@ -41,7 +42,101 @@
   margin-left: 1rem;
 }
 
+@media only screen and (max-width: 736px) {
+  #normal-countdown .time-sec {
+    margin: 14px;
+  }
+
+  .coming-soon {
+    letter-spacing: 0.8rem;
+    font-size: 35pt;
+    width: auto;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  #normal-countdown .time-sec {
+    margin: 12px;
+  }
+
+  .coming-soon {
+    letter-spacing: 0rem;
+    font-size: 30pt;
+    width: auto;
+  }
+}
+/* 
+#normal-countdown {
+  text-align: center;
+}
+
+#normal-countdown .time-sec {
+  position: relative;
+  display: inline-block;
+  margin: 50px;
+  height: 135px;
+  width: 135px; 
+  border-radius: 100px;
+  background: #fff0e3;
+  color: #333;
+}
+
+#normal-countdown .time-sec .main-time {
+  font-weight: 500;
+  line-height: 85px; 
+  font-size: 3em; 
+  color: #333;
+}
+
+#normal-countdown .time-sec span {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 1.2em; 
+  font-weight: 600;
+}
+
+.coming-soon {
+  font-family: "Sorts Mill Goudy";
+  letter-spacing: 1.7rem;
+  font-size: 30pt;
+  width: auto;
+}
+
+.montage-2021-container {
+  text-align: center;
+  margin-left: 1rem;
+}
+
 @media only screen and (max-width: 900px) {
+  #normal-countdown .time-sec {
+    position: relative;
+    display: inline-block;
+    margin: 12px;
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    background: #fff0e3;
+    color: #333;
+  }
+
+  #normal-countdown .time-sec .main-time {
+    font-weight: 500;
+    line-height: 70px;
+    font-size: 2.1em;
+    color: #333;
+  }
+
+  #normal-countdown .time-sec span {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 0.9em;
+    font-weight: 600;
+  }
+
   .coming-soon {
     letter-spacing: 0.8rem;
     font-size: 35pt;
@@ -50,9 +145,36 @@
 }
 
 @media only screen and (max-width: 600) {
+  #normal-countdown .time-sec {
+    position: relative;
+    display: inline-block;
+    margin: 12px;
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    background: #fff0e3;
+    color: #333;
+  }
+
+  #normal-countdown .time-sec .main-time {
+    font-weight: 500;
+    line-height: 70px;
+    font-size: 2.1em;
+    color: #333;
+  }
+
+  #normal-countdown .time-sec span {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 0.9em;
+    font-weight: 600;
+  }
+
   .coming-soon {
     letter-spacing: 0rem;
     font-size: 30pt;
     width: auto;
   }
-}
+} */
