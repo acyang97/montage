@@ -625,6 +625,10 @@
 .workshop-speaker-profile-summary-desktop-nature-daryl {
   padding-top: 1rem;
 }
+
+.workshop-speaker-profile-summary-desktop-storytelling {
+  padding-top: 0rem;
+}
 /* 
 @media screen and (min-width: 1280px) {
   .workshop-banner-background-natrue {
