@@ -17,7 +17,7 @@
   color: white;
   display: inline-block;
   font-family: "Sorts Mill Goudy", "Inter", sans-serif;
-  font-size: 17pt;
+  font-size: 16pt;
   letter-spacing: 5px;
   padding: 10px 60px;
   text-align: center;
@@ -108,5 +108,74 @@
 
   .section-header__year {
     font-size: 1rem;
+  }
+
+  .section-header-brian {
+    font-size: 13pt;
+  }
+}
+
+@media screen and (max-width: 665px) {
+  .section-header-bica {
+    font-size: 13pt;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .section-header-brian,
+  .section-header-lauryn {
+    font-size: 13pt;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .section-header-bica {
+    font-size: 10pt;
+  }
+}
+
+@media screen and (max-width: 441px) {
+  .section-header-bica {
+    font-size: 9pt;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .section-header-lauryn {
+    font-size: 9pt;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .section-header-bica {
+    font-size: 7pt;
+  }
+}
+
+@media screen and (max-width: 378pt) {
+  .section-header-lauryn {
+    font-size: 7pt;
+  }
+}
+
+@media screen and (max-width: 365px) {
+  .section-header-brian {
+    font-size: 7pt;
+  }
+}
+
+@media screen and (max-width: 353px) {
+  .section-header-lauryn,
+  .section-header-bica {
+    font-size: 6pt;
+  }
+}
+
+@media screen and (max-width: 338px) {
+  .section-header-lauryn {
+    font-size: 6pt;
+  }
+  .section-header-bica {
+    font-size: 5pt;
   }
 }
