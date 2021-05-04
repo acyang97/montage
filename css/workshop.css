@@ -601,20 +601,22 @@
 
 .workshop-speaker-profile-container-desktop-nature {
   width: 95%;
-  height: 300px;
+  /* height: 300px; */
+  height: 330px;
   /* background: aqua; */
   margin: auto;
 }
+
 .workshop-speaker-profile-photo-desktop-nature {
   width: 40%;
-  height: 300px;
+  height: 330px;
   /* background: red; */
   float: left;
 }
 
 .workshop-speaker-profile-summary-container-desktop-nature {
   margin-left: 15%;
-  height: 300px;
+  height: 330px;
   /* background: white; */
 }
 
@@ -629,6 +631,40 @@
 }
 
 .workshop-speaker-profile-summary-desktop-nature {
+  padding-top: 2.5rem;
+}
+
+/*storytelling*/
+.workshop-speaker-profile-biggest-container-desktop-story {
+  padding-top: 1rem;
+}
+
+.workshop-speaker-profile-container-desktop-story {
+  width: 95%;
+  height: 380px;
+  /* background: aqua; */
+  margin: auto;
+}
+
+.workshop-speaker-profile-photo-desktop-story {
+  width: 40%;
+  height: 380px;
+  /* background: red; */
+  float: left;
+}
+
+.workshop-speaker-profile-summary-container-desktop-story {
+  margin-left: 15%;
+  height: 380px;
+  /* background: white; */
+}
+
+.workshop-speaker-profile-summary-desktop-story {
+  margin: auto;
+  /* background: aqua; */
+}
+
+.workshop-speaker-profile-summary-desktop-story {
   padding-top: 2.5rem;
 }
 

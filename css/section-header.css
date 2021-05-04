@@ -17,8 +17,8 @@
   color: white;
   display: inline-block;
   font-family: "Sorts Mill Goudy", "Inter", sans-serif;
-  font-size: 16pt;
-  letter-spacing: 5px;
+  font-size: 13pt;
+  letter-spacing: 13px;
   padding: 10px 60px;
   text-align: center;
   text-decoration: none;
@@ -57,7 +57,7 @@
 }
 
 .section-header__year {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
 }
 
 /* @media screen and (max-width: 900px) {

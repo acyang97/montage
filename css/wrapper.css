@@ -521,11 +521,11 @@
   box-shadow: 0px 0px 0px 7px rgba(0, 0, 0, 0), 0px 0px 0px 8px rgba(0, 0, 0, 0);
 }
 
-@media screen and (max-width: 1280px) {
+/* @media screen and (max-width: 1280px) {
   .wrapper > .inner {
     width: 60em;
   }
-}
+} */
 
 @media screen and (max-width: 980px) {
   .wrapper > .inner {
@@ -1316,8 +1316,9 @@
 
 .wrapper.style5 h3 {
   font-size: 20pt;
-  letter-spacing: 7px;
+  letter-spacing: 11px;
   margin: 0 0 0 0;
+  font-weight: 100;
 }
 
 .wrapper.style5 ul.alt li {
@@ -1333,7 +1334,7 @@
   color: #2d2d2d;
   font-size: 12pt;
   margin: 0 0 5px 0;
-  letter-spacing: 1px;
+  letter-spacing: 3px;
 }
 
 @media screen and (max-width: 736px) {
@@ -1874,8 +1875,8 @@
 }
 
 .wrapper.style8 h5 {
-  font-size: 17pt;
-  letter-spacing: 5px;
+  font-size: 14pt;
+  letter-spacing: 10px;
 }
 
 .wrapper.style8 ul.alt li {
@@ -1888,8 +1889,8 @@
 
 .wrapper.style8 p {
   color: #2d2d2d;
-  font-size: 15pt;
-  letter-spacing: 1px;
+  font-size: 14pt;
+  letter-spacing: 1.5px;
 }
 
 .wrapper.style8 .about-change {
@@ -2106,7 +2107,7 @@
 
 .wrapper.style9 h6 {
   color: #f7f7f7;
-  font-family: "Sorts Mill Goudy", "Inter", "Crimson Pro", serif;
+  font-family: "Inter", "Sorts Mill Goudy", "Crimson Pro", serif;
   font-size: 18pt;
   letter-spacing: 2px;
   font-weight: normal;
@@ -2586,8 +2587,9 @@
 .wrapper-workshop.ws2 h1 {
   font-family: "Sorts Mill Goudy", "Inter", serif;
   color: #4b3f3f;
-  font-size: 30pt;
-  letter-spacing: 10px;
+  font-weight: 100;
+  font-size: 34pt;
+  letter-spacing: 15px;
 }
 
 .wrapper-workshop.ws2 h2,
@@ -2599,6 +2601,7 @@
   font-family: "Sorts Mill Goudy", "Inter", serif;
   font-size: 17pt;
   letter-spacing: 1px;
+  font-weight: 100;
 }
 
 .wrapper-workshop.ws2 h3 {
@@ -2607,6 +2610,7 @@
 
 .wrapper-workshop.ws2 h5 {
   letter-spacing: 7px;
+  font-weight: 100;
 }
 
 .wrapper-workshop.ws2 ul.alt li {
@@ -2619,7 +2623,9 @@
 
 .wrapper-workshop.ws2 p {
   color: #4b3f3f;
-  font-size: 11pt;
+  font-size: 9pt;
+  font-family: "Inter", "Sorts Mill Goudy", serif;
+  letter-spacing: 2px;
 }
 
 .wrapper-workshop.ws2 .about-change {
@@ -2630,6 +2636,12 @@
   font-family: "Sorts Mill Goudy", "Inter", serif;
   font-size: 20pt;
   margin: 0 0 0 0;
+}
+
+@media screen and (max-width: 840px) {
+  .wrapper-workshop.ws2 p {
+    font-size: 9pt;
+  }
 }
 
 @media screen and (max-width: 736px) {
@@ -2748,6 +2760,7 @@
 .wrapper-workshop.ws2 .image {
   padding-left: 0em;
   padding-right: 1.5em;
+  padding-top: 1rem;
   box-shadow: 0px 0px 0px 7px rgba(0, 0, 0, 0), 0px 0px 0px 8px rgba(0, 0, 0, 0);
 }
 
@@ -2776,7 +2789,7 @@
   letter-spacing: 6px;
   font-size: 14px;
   -webkit-border-radius: 20px;
-  width: 31rem;
+  width: 25rem;
   border-radius: 40px;
   /* box-shadow: 1px 1px 1px 1px #eee2dc; */
   /* -webkit-box-shadow: 1px 1px 1px 1px #eee2dc; */
@@ -2786,7 +2799,7 @@
   text-decoration: none;
   font-weight: 500;
   display: inline-block;
-  border: 2px solid #4b3f3f;
+  border: 0.1px solid #4b3f3f;
   /* box-shadow: inset 0 0 0 0 #f8a293; */
   transition: ease-out 0.5s;
   -webkit-transition: ease-out 0.5s;
@@ -2820,14 +2833,14 @@
     letter-spacing: 10px;
     font-size: 11px;
     -webkit-border-radius: 20px;
-    width: 30rem;
+    width: 25rem;
     border-radius: 20px;
   }
 
   .wrapper-workshop.ws2 .button:hover {
     /* box-shadow: inset 28rem 0 0 0 #343638; */
-    box-shadow: inset 20rem 0 0 0 #b4ff81;
-    cursor: pointer;
+    /* box-shadow: inset 20rem 0 0 0 #b4ff81; */
+    /* cursor: pointer; */
   }
 }
 
@@ -2842,8 +2855,8 @@
 
   .wrapper-workshop.ws2 .button:hover {
     /* box-shadow: inset 28rem 0 0 0 #343638; */
-    box-shadow: inset 16rem 0 0 0 #b4ff81;
-    cursor: pointer;
+    /* box-shadow: inset 16rem 0 0 0 #b4ff81;
+    cursor: pointer; */
   }
 }
 
@@ -2930,7 +2943,8 @@
     font-family: "Sorts Mill Goudy", "Inter", "Crimson Pro", serif;
     font-size: 21pt;
     text-align: left;
-    letter-spacing: 3px;
+    letter-spacing: 7px;
+    font-weight: 100;
   }
 
   .wrapper.style-ws-mobile h2,
@@ -2939,6 +2953,7 @@
   .wrapper.style-ws-mobile h5 {
     text-align: left;
     font-size: 12pt;
+    font-weight: 100;
   }
 
   .wrapper.style-ws-mobile h3 {
@@ -3048,18 +3063,18 @@
   text-decoration: none;
   font-weight: 500;
   display: inline-block;
-  border: 2px solid #4b3f3f;
+  border: 0.1px solid #4b3f3f;
   /* box-shadow: inset 0 0 0 0 #f8a293; */
   transition: ease-out 0.4s;
   outline: none;
 }
 
 .wrapper.style-ws-mobile .button:hover {
-  box-shadow: inset 28rem 0 0 0 #343638;
-  /* box-shadow: inset 28rem 0 0 0 #4b3f3f; */
   border: 2px solid #eee5e3;
   cursor: pointer;
+  background: #343638;
   color: #eee5e3;
+  box-shadow: #343638;
 }
 
 /* .wrapper.ws1 .image {
@@ -3076,14 +3091,14 @@
     letter-spacing: 5px;
     font-size: 11px;
     -webkit-border-radius: 20px;
-    width: 30rem;
+    width: 20rem;
     border-radius: 20px;
   }
 
   .wrapper.style-ws-mobile .button:hover {
     /* box-shadow: inset 28rem 0 0 0 #343638; */
-    box-shadow: inset 20rem 0 0 0 #b4ff81;
-    cursor: pointer;
+    /* box-shadow: inset 20rem 0 0 0 #b4ff81; */
+    /* cursor: pointer; */
   }
 }
 
@@ -3098,8 +3113,8 @@
 
   .wrapper.style-ws-mobile.button:hover {
     /* box-shadow: inset 28rem 0 0 0 #343638; */
-    box-shadow: inset 16rem 0 0 0 #b4ff81;
-    cursor: pointer;
+    /* box-shadow: inset 16rem 0 0 0 #b4ff81; */
+    /* cursor: pointer; */
   }
 }
 
@@ -3137,6 +3152,7 @@
   color: #4b3f3f;
   font-size: 25pt;
   letter-spacing: 10px;
+  font-weight: 200;
 }
 
 .wrapper.style-frt h2,
@@ -3146,10 +3162,12 @@
   color: #4b3f3f;
   font-family: "Sorts Mill Goudy", "Inter", "Crimson Pro", serif;
   font-size: 17pt;
+  font-weight: 100;
 }
 
 .wrapper.style-frt h2 {
   letter-spacing: 8px;
+  font-weight: 100;
 }
 
 .wrapper.style-frt h3 {
@@ -3438,7 +3456,7 @@
 
 @media screen and (max-width: 1280px) {
   .wrapper > .inner {
-    width: 60em;
+    width: 68em;
   }
 }
 
