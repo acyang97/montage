@@ -3560,15 +3560,15 @@
 
 .wrapper.style-about h6 {
   font-size: 13pt;
-  letter-spacing: 10px;
-  font-weight: 100;
+  letter-spacing: 7px;
+  font-weight: 200;
 }
 
-.wrapper.style-about a {
+/* .wrapper.style-about a {
   font-size: 14pt;
   letter-spacing: 10px;
   font-weight: 100;
-}
+} */
 
 .wrapper.style-about ul.alt li {
   border-top-color: rgba(255, 255, 255, 0.25);
@@ -4012,7 +4012,7 @@
 
 @media screen and (max-width: 480px) {
   .wrapper.style-x {
-    background-color: #343638;
+    /* background-color: #343638; */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
