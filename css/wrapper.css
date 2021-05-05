@@ -1267,7 +1267,7 @@
 
 .wrapper.style5 {
   /* for about and beinspired sections */
-  background-color: #343638;
+  background-color: #ffffff;
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -1364,10 +1364,14 @@
   }
 
   .wrapper.style5 h2,
-  .wrapper.style5 h3,
   .wrapper.style5 h4,
   .wrapper.style5 h5 {
     font-size: 12pt;
+  }
+
+  .wrapper.style5 h3 {
+    font-size: 9pt;
+    letter-spacing: 8px;
   }
 
   .wrapper.style5 h6,
@@ -3482,4 +3486,574 @@
   .wrapper.style-frt .box {
     padding: 0;
   }
+}
+
+/*Wrapper styles*/
+
+.wrapper.style-about {
+  /* for about section */
+  /* background-color: #343638; */
+  background-image: url("../photos-final/background/edited-1544884-upside\ down.png");
+  /* background-attachment: fixed; */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  background-size: cover;
+  font-family: "Sorts Mill Goudy", "Inter", serif;
+  color: #000;
+}
+
+.wrapper.style-about input,
+.wrapper.style-about select,
+.wrapper.style-about textarea {
+  color: #000;
+}
+
+.wrapper.style-about a {
+  color: #e8e3de;
+}
+
+.wrapper.style-about a:hover {
+  color: #e8e3de;
+}
+
+.wrapper.style-about strong,
+.wrapper.style-about b {
+  color: #000;
+}
+
+.wrapper.style-about h1 {
+  font-family: "Sorts Mill Goudy", "Inter", sans-serif;
+  color: #000;
+  font-size: 35pt;
+}
+
+.wrapper.style-about h2,
+.wrapper.style-about h4,
+.wrapper.style-about h5 {
+  color: #000;
+  font-family: "Sorts Mill Goudy", "Inter", sans-serif;
+  font-size: 17pt;
+  letter-spacing: 1px;
+}
+
+.wrapper.style-about h3 {
+  font-size: 20pt;
+  letter-spacing: 11px;
+  margin: 0 0 0 0;
+  font-weight: 100;
+}
+
+.wrapper.style-about h6 {
+  color: #000;
+  font-family: "Inter", "Sorts Mill Goudy", sans-serif;
+  font-size: 20pt;
+  letter-spacing: 1px;
+}
+
+.wrapper.style-about h5 {
+  font-size: 14pt;
+  letter-spacing: 10px;
+}
+
+.wrapper.style-about h6 {
+  font-size: 13pt;
+  letter-spacing: 10px;
+  font-weight: 100;
+}
+
+.wrapper.style-about a {
+  font-size: 14pt;
+  letter-spacing: 10px;
+  font-weight: 100;
+}
+
+.wrapper.style-about ul.alt li {
+  border-top-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style-about header p {
+  color: #2d2d2d;
+}
+
+.wrapper.style-about p {
+  color: #2d2d2d;
+  font-size: 14pt;
+  letter-spacing: 1.5px;
+}
+
+.wrapper.style-about .about-change {
+  display: flex;
+  justify-content: center;
+  letter-spacing: 2px;
+  align-items: center;
+  font-family: "Sorts Mill Goudy", "Inter", sans-serif;
+  font-size: 20pt;
+  margin: 0 0 0 0;
+}
+
+@media screen and (max-width: 736px) {
+  .wrapper.style-about h1 {
+    font-size: 30pt;
+  }
+
+  .wrapper.style-about h2,
+  .wrapper.style-about h3,
+  .wrapper.style-about h4 {
+    font-size: 12pt;
+  }
+
+  .wrapper.style-about h5 {
+    font-size: 12pt;
+    letter-spacing: 3px;
+  }
+
+  .wrapper.style-about h6,
+  .wrapper.style-about a,
+  .wrapper.style-about p,
+  .wrapper.style-about li,
+  .wrapper.style-about ol {
+    font-size: 9pt;
+    letter-spacing: 2px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .wrapper.style-about p {
+    font-size: 8pt;
+    letter-spacing: 2px;
+  }
+
+  .wrapper.style-about h3 {
+    font-size: 9pt;
+    letter-spacing: 8px;
+  }
+}
+
+.wrapper.style-about blockquote {
+  border-left-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style-about code {
+  background: rgba(255, 255, 255, 0.075);
+  border-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style-about hr {
+  border-bottom-color: rgba(0, 0, 0, 0.25);
+}
+
+.wrapper.style-about .box {
+  border-color: rgba(255, 255, 255, 0.8);
+  background-color: #4d4d4d;
+}
+
+.wrapper.style-about .select-wrapper:before {
+  color: rgba(255, 255, 255, 0.25);
+}
+.wrapper.style-about ::-webkit-input-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style-about :-moz-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style-about ::-moz-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style-about :-ms-input-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style-about .formerize-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style-about table tbody tr {
+  border-color: rgba(0, 0, 0, 0.5);
+}
+
+.wrapper.style-about table tbody tr:nth-child(2n + 1) {
+  background-color: rgba(150, 150, 150, 0.15);
+}
+
+.wrapper.style-about table th {
+  color: #000;
+}
+
+.wrapper.style-about table thead {
+  border-bottom-color: rgba(0, 0, 0, 0.5);
+  font-size: 12pt;
+}
+
+.wrapper.style-about table tfoot {
+  border-top-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style-about table.alt tbody tr td {
+  border-color: rgba(150, 150, 150, 0.5);
+}
+
+.wrapper.style-about .image {
+  padding-left: 3em;
+  padding-right: 3em;
+  box-shadow: 0px 0px 0px 7px rgba(0, 0, 0, 0), 0px 0px 0px 8px rgba(0, 0, 0, 0);
+}
+
+@media screen and (max-width: 736px) {
+  .wrapper.style-about .image {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .wrapper.style-about {
+    background-color: #343638;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
+  }
+}
+
+.wrapper.style-about.inner.flex.col.countdown-box.countdown-header p {
+  font-size: 30pt;
+}
+
+/*button for style 8*/
+/*BUTTON FOR WRAPPER STYLE 5*/
+.wrapper.style-about .button {
+  font-family: "Sorts Mill Goudy", "Inter", sans-serif;
+  /* color: #e8e3de; */
+  color: #343638;
+  text-transform: uppercase;
+  height: 3rem;
+  letter-spacing: 4px;
+  font-size: 11pt;
+  -webkit-border-radius: 20px;
+  width: 18rem;
+  border-radius: 50px;
+  /* box-shadow: 1px 1px 1px 1px #eee2dc; */
+  /* -webkit-box-shadow: 1px 1px 1px 1px #eee2dc; */
+  /* background: linear-gradient(90deg, grey, rgba(150, 150, 150, 0.5)); */
+  background: #e8e3de;
+  text-decoration: none;
+  font-weight: 500;
+  display: inline-block;
+  border: 1px solid #343638;
+  /* box-shadow: inset 0 0 0 0 black; */
+  transition: ease-out 0.3s;
+  outline: none;
+  padding-top: 0.2rem;
+}
+
+.wrapper.style-about .button:hover {
+  box-shadow: inset 300px 0 0 0 #343638;
+  cursor: pointer;
+  color: #e8e3de;
+}
+
+/*BUTTON FOR WRAPPER STYLE 5*/
+/* .wrapper.style5 .button {
+  font-family: "Sorts Mill Goudy", "Inter", sans-serif;
+  color: #343638;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 15px;
+  -webkit-border-radius: 20px;
+  width: 18rem;
+  border-radius: 20px;
+  background: #e8e3de;
+  text-decoration: none;
+  font-weight: 500;
+  display: inline-block;
+  border: 2px solid #343638;
+  transition: ease-out 0.3s;
+  outline: none;
+}
+
+.wrapper.style5 .button:hover {
+  box-shadow: inset 300px 0 0 0 #343638;
+  cursor: pointer;
+  color: #eee2dc;
+} */
+
+.wrapper.style-about .image {
+  /* padding-left: 3em;
+  padding-right: 3em; */
+  box-shadow: 0px 0px 0px 7px rgba(0, 0, 0, 0), 0px 0px 0px 8px rgba(0, 0, 0, 0);
+}
+
+@media screen and (max-width: 736px) {
+  .wrapper.style-about .image {
+    padding: 0;
+  }
+
+  .wrapper.style-about .button {
+    text-align: center;
+    letter-spacing: 1.5px;
+    /* font-size: 12px; */
+    width: 12rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .wrapper.style-about {
+    background-color: #fff;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
+  }
+
+  .wrapper.style-about .button {
+    height: 2rem;
+    font-size: 7pt;
+  }
+}
+
+/* from timeline onwards*/
+
+.wrapper.style-x {
+  /* for about section */
+  background-image: url("../photos-final/background/edited-1544884.png");
+  /* background-attachment: fixed; */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  background-size: cover;
+  font-family: "Sorts Mill Goudy", "Inter", serif;
+  color: #000;
+}
+
+.wrapper.style-x input,
+.wrapper.style-x select,
+.wrapper.style-x textarea {
+  color: #000;
+}
+
+.wrapper.style-x a {
+  color: #e8e3de;
+}
+
+.wrapper.style-x a:hover {
+  color: #e8e3de;
+}
+
+.wrapper.style-x strong,
+.wrapper.style-x b {
+  color: #000;
+}
+
+.wrapper.style-x h1 {
+  font-family: "Sorts Mill Goudy", "Inter", sans-serif;
+  color: #000;
+  font-size: 35pt;
+}
+
+.wrapper.style-x h2,
+.wrapper.style-x h3,
+.wrapper.style-x h4,
+.wrapper.style-x h5,
+.wrapper.style-x h6 {
+  color: #000;
+  font-family: "Sorts Mill Goudy", "Inter", sans-serif;
+  font-size: 17pt;
+  letter-spacing: 1px;
+}
+
+.wrapper.style-x h5 {
+  font-size: 14pt;
+  letter-spacing: 10px;
+}
+
+.wrapper.style-x ul.alt li {
+  border-top-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.stylstyle-xe8 header p {
+  color: #2d2d2d;
+}
+
+.wrapper.style-x p {
+  color: #2d2d2d;
+  font-size: 14pt;
+  letter-spacing: 1.5px;
+}
+
+.wrapper.style-x .about-change {
+  display: flex;
+  justify-content: center;
+  letter-spacing: 2px;
+  align-items: center;
+  font-family: "Sorts Mill Goudy", "Inter", sans-serif;
+  font-size: 20pt;
+  margin: 0 0 0 0;
+}
+
+@media screen and (max-width: 736px) {
+  .wrapper.style-x h1 {
+    font-size: 30pt;
+  }
+
+  .wrapper.style-x h2,
+  .wrapper.style-x h3,
+  .wrapper.style-x h4 {
+    font-size: 12pt;
+  }
+
+  .wrapper.style-x h5 {
+    font-size: 12pt;
+    letter-spacing: 3px;
+  }
+
+  .wrapper.style-x h6,
+  .wrapper.style-x a,
+  .wrapper.style-x p,
+  .wrapper.style-x li,
+  .wrapper.style-x ol {
+    font-size: 10pt;
+    letter-spacing: 2px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .wrapper.style-x p {
+    font-size: 8pt;
+    letter-spacing: 2px;
+  }
+}
+
+.wrapper.style-x blockquote {
+  border-left-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style-x code {
+  background: rgba(255, 255, 255, 0.075);
+  border-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style-x hr {
+  border-bottom-color: rgba(0, 0, 0, 0.25);
+}
+
+.wrapper.style-x .box {
+  border-color: rgba(255, 255, 255, 0.8);
+  background-color: #4d4d4d;
+}
+
+.wrapper.style-x .select-wrapper:before {
+  color: rgba(255, 255, 255, 0.25);
+}
+.wrapper.style-x ::-webkit-input-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style-x :-moz-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style-x ::-moz-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style-x :-ms-input-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style-x .formerize-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style-x table tbody tr {
+  border-color: rgba(0, 0, 0, 0.5);
+}
+
+.wrapper.style-x table tbody tr:nth-child(2n + 1) {
+  background-color: rgba(150, 150, 150, 0.15);
+}
+
+.wrapper.style-x table th {
+  color: #000;
+}
+
+.wrapper.style-x table thead {
+  border-bottom-color: rgba(0, 0, 0, 0.5);
+  font-size: 12pt;
+}
+
+.wrapper.style-x table tfoot {
+  border-top-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style-x table.alt tbody tr td {
+  border-color: rgba(150, 150, 150, 0.5);
+}
+
+.wrapper.style-x .image {
+  padding-left: 3em;
+  padding-right: 3em;
+  box-shadow: 0px 0px 0px 7px rgba(0, 0, 0, 0), 0px 0px 0px 8px rgba(0, 0, 0, 0);
+}
+
+@media screen and (max-width: 736px) {
+  .wrapper.style-x .image {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .wrapper.style-x {
+    background-color: #343638;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
+  }
+}
+
+.wrapper.style-x.inner.flex.col.countdown-box.countdown-header p {
+  font-size: 30pt;
+}
+
+/*button for style 8*/
+/*BUTTON FOR WRAPPER STYLE 5*/
+.wrapper.style-x .button {
+  font-family: "Sorts Mill Goudy", "Inter", sans-serif;
+  /* color: #e8e3de; */
+  color: #000;
+  text-transform: uppercase;
+  height: 4rem;
+  letter-spacing: 2px;
+  font-size: 15pt;
+  -webkit-border-radius: 20px;
+  width: 18rem;
+  border-radius: 50px;
+  /* box-shadow: 1px 1px 1px 1px #eee2dc; */
+  /* -webkit-box-shadow: 1px 1px 1px 1px #eee2dc; */
+  /* background: linear-gradient(90deg, grey, rgba(150, 150, 150, 0.5)); */
+  background: #e8e3de;
+  text-decoration: none;
+  font-weight: 500;
+  display: inline-block;
+  border: 1px solid #343638;
+  /* box-shadow: inset 0 0 0 0 black; */
+  transition: ease-out 0.3s;
+  outline: none;
+  padding-top: 0.2rem;
+}
+
+.wrapper.style-x .button:hover {
+  box-shadow: inset 300px 0 0 0 #a6adb4;
+  cursor: pointer;
+  color: #e8e3de;
 }
