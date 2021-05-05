@@ -23,17 +23,18 @@
 }
 
 .box-about {
-  background-color: #343638;
-  filter: brightness(2);
+  /* background-color: #343638; */
+  /* filter: brightness(2); */
+  backdrop-filter: blur(20px);
   border-radius: 50px;
   width: 100%;
   box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.1);
   padding: 1rem 1rem 1rem 1rem;
 }
 
-.box-about-unbright {
+/* .box-about-unbright {
   filter: brightness(0.5);
-}
+} */
 
 .box-about-content {
   padding-left: 3rem;
