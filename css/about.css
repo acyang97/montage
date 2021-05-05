@@ -199,7 +199,3 @@
     border-radius: 30px;
   }
 }
-
-.unblur {
-  backdrop-filter: blur(-1000px);
-}
