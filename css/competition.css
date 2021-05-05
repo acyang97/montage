@@ -1,15 +1,19 @@
 #competition {
   /* background-image: url("../photos-final/takahiro-taguchi-ryUr3SC6Lpo-unsplash.jpg");
   background-attachment: fixed; */
-  background: #343638;
+  /* background: #f7efed; */
 }
 
 .competition-main-box {
-  background-color: #343638;
-  filter: brightness(2);
+  /* background-color: #343638; */
+  /* filter: brightness(); */
   border-radius: 50px;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+  /* background-color: inherit; */
+  /* opacity: 30000; */
+  /* opacity: 20px; */
   width: 90%;
-
+  /* backdrop-filter: blur(20px); */
   margin-left: 5%;
   /* margin-right: 5%; */
   box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.1);
