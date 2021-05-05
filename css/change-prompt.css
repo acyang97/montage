@@ -1,0 +1,38 @@
+.change-prompt-wrapper {
+  position: relative;
+  background-color: #1a1716;
+  font-family: "Sorts Mill Goudy", "Inter", sans-serif;
+}
+
+.change-prompt-wrapper p {
+  font-size: 14pt;
+  letter-spacing: 4px;
+  color: white;
+  font-style: italic;
+}
+
+.change-prompt-container {
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
+}
+
+@media screen and (max-width: 980px) {
+  .change-prompt-wrapper p {
+    font-size: 14pt;
+    letter-spacing: 4px;
+  }
+}
+
+@media screen and (max-width: 736px) {
+  .change-prompt-wrapper p {
+    font-size: 9pt;
+    letter-spacing: 4px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .change-prompt-wrapper p {
+    font-size: 7pt;
+    letter-spacing: 1.5px;
+  }
+}
