@@ -222,6 +222,7 @@
   box-shadow: 0 0px 0px rgba(0, 0, 0, 0.2);
   background: transparent;
   backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
 }
 
 .workshop-details-container:before {

@@ -26,6 +26,7 @@
   /* background-color: #343638; */
   /* filter: brightness(2); */
   backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
   border-radius: 50px;
   width: 100%;
   box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.1);

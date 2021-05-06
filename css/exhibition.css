@@ -57,6 +57,7 @@
 
 .exhibition-container {
   backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
   padding-top: 5rem;
   border-radius: 80px;
 }
