@@ -123,3 +123,17 @@
   margin-left: 5rem;
   margin-right: 5rem;
 }
+
+@media screen and (max-width: 736px) {
+  .how-to-participate-container {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .how-to-participate-container {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}
