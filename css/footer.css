@@ -49,7 +49,7 @@ a:hover {
   }
 }
 
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 768px) {
   #footer {
     padding: 3em 1em 1em 1em;
   }

@@ -41,7 +41,7 @@ h1 {
   font-size: 16px;
 }
 
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 768px) {
   #clockdiv div > span {
     width: 60px;
   }

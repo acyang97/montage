@@ -103,7 +103,7 @@
   color: #e3d5c6;
 }
 
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 768px) {
   #menu .close {
     height: 4em;
   }
@@ -118,7 +118,7 @@
   visibility: visible;
 }
 
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 768px) {
   #menu {
     padding: 2em 1em;
   }

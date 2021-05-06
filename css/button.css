@@ -314,7 +314,7 @@ button.special:active,
   }
 }
 
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 768px) {
   #signup,
   #signupbanner,
   #signupws,

@@ -23,7 +23,7 @@
   }
 }
 
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 768px) {
   .change-prompt-wrapper p {
     font-size: 9pt;
     letter-spacing: 4px;

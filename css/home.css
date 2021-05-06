@@ -8,7 +8,7 @@
   }
 }
 
-@media only screen and (max-width: 736px) {
+@media only screen and (max-width: 768px) {
   .home-logo {
     width: 22rem;
   }

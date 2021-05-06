@@ -1,6 +1,6 @@
 .accordion {
   color: #000;
-  background-color: rgba(227,213,198,0.4);
+  background-color: rgba(227, 213, 198, 0.4);
   cursor: pointer;
   width: 100%;
   border: solid 1px;
@@ -46,8 +46,7 @@
   text-align: left !important;
 }
 
-@media screen and (max-width: 736px) {
-
+@media screen and (max-width: 768px) {
   .accordion {
     font-size: 8pt;
   }
@@ -56,5 +55,4 @@
     padding: 8px 32px 0px;
     margin-bottom: 8px;
   }
-
 }

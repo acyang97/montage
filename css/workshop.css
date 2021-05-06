@@ -90,7 +90,19 @@
 }
 
 .workshop-box div {
-  padding: 13px;
+  padding: 10px;
+}
+
+@media screen and (max-width: 900px) {
+  .workshop-box div {
+    padding: 6px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .workshop-box div {
+    padding: 13px;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -148,7 +160,7 @@
   padding-top: 8rem;
 }
 
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 768px) {
   .workshop-button-container {
     text-align: center;
   }
@@ -160,6 +172,12 @@
 
 .section-header-workshop {
   padding-bottom: 3rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .section-header-workshop {
+    padding-bottom: 1rem;
+  }
 }
 
 .workshop-image {
@@ -400,13 +418,13 @@
   width: 100%;
 }
 
-@media screen and (min-width: 736px) {
+@media screen and (min-width: 769px) {
   .workshop-display-mobile {
     display: none;
   }
 }
 
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 768px) {
   .workshop-display-dekstop {
     display: none;
   }
@@ -441,7 +459,7 @@
   /* background: aqua; */
 }
 
-/* @media screen and (min-width: 736px) {
+/* @media screen and (min-width: 768px) {
   .workshop-banner-background {
     min-height: 230vh;
     height: 230vh !important;
@@ -472,7 +490,7 @@
   padding-top: 2.5rem;
 }
 
-/* @media screen and (min-width: 736px) {
+/* @media screen and (min-width: 768px) {
   .workshop-banner-background {
     min-height: 135vh;
     height: 135vh !important;
@@ -538,7 +556,7 @@
   }
 }
 
-@media screen and (min-width: 736px) and(max-width: 1600px) {
+@media screen and (min-width: 768px) and(max-width: 1600px) {
   .workshop-banner-background {
     min-height: 140vh;
     height: 140vh !important;

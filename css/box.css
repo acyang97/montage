@@ -48,7 +48,7 @@
   }
 }
 
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 768px) {
   .box-about-content {
     padding-left: 0.5rem;
     padding-right: 0.5em;
@@ -85,7 +85,7 @@
   padding: 5% 15%;
 }
 
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 768px) {
   .box3,
   .box4,
   .box5 {
@@ -113,7 +113,7 @@
   transform: rotateY(180deg);
 }
 
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 768px) {
   .box-front {
     padding: 5% 10%;
   }

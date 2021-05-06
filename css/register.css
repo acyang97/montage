@@ -4,3 +4,37 @@
   letter-spacing: 7px;
   font-size: 10pt;
 }
+
+.poster {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 3rem;
+}
+
+.poster img {
+  width: 60rem;
+}
+
+@media screen and (max-width: 1280px) {
+  .poster img {
+    width: 50rem;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .poster img {
+    width: 40rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .poster img {
+    width: 30rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .poster img {
+    width: 15rem;
+  }
+}

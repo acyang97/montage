@@ -44,7 +44,7 @@
   padding: 3em;
 }
 
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 768px) {
   .flex.flex-2 .col.col1,
   .flex.flex-2 .col.col2 {
     width: 100%;
@@ -73,7 +73,7 @@
   width: 66%;
 }
 
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 768px) {
   .flex.flex-3 .col {
     width: 100%;
     margin-bottom: 0em;
@@ -212,7 +212,7 @@
 
 /**/
 
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 768px) {
   .flex.flex-4 .col.col1,
   .flex.flex-4 .col.col2 {
     width: 100%;
@@ -263,7 +263,7 @@
   }
 }
 
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 768px) {
   .flex.flex-2 .col,
   .flex.flex-3 .col,
   .flex.flex-3 .col-workshop,
