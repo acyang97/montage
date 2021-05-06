@@ -10,6 +10,13 @@
   z-index: 99;
 }
 
+.wrapper .inner-hawker {
+  margin: 0 auto;
+  width: 90em;
+  position: relative;
+  z-index: 99;
+}
+
 .wrapper .form {
   margin: 0 auto;
   width: 80em;
@@ -529,6 +536,10 @@
 
 @media screen and (max-width: 980px) {
   .wrapper > .inner {
+    width: 90%;
+  }
+
+  .wrapper > .inner-hawker {
     width: 90%;
   }
 }
@@ -1267,7 +1278,7 @@
 
 .wrapper.style5 {
   /* for about and beinspired sections */
-  background-color: #ffffff;
+  background-color: #e8e3de;
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -1491,7 +1502,6 @@
 
 @media screen and (max-width: 480px) {
   .wrapper.style5 {
-    background-color: #fff;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -3502,13 +3512,13 @@
   background-position: center;
   background-size: cover;
   font-family: "Sorts Mill Goudy", "Inter", serif;
-  color: #000;
+  color: #4b3f3f;
 }
 
 .wrapper.style-about input,
 .wrapper.style-about select,
 .wrapper.style-about textarea {
-  color: #000;
+  color: #4b3f3f;
 }
 
 .wrapper.style-about a {
@@ -3521,22 +3531,29 @@
 
 .wrapper.style-about strong,
 .wrapper.style-about b {
-  color: #000;
+  color: #4b3f3f;
 }
 
 .wrapper.style-about h1 {
   font-family: "Sorts Mill Goudy", "Inter", sans-serif;
-  color: #000;
+  color: #4b3f3f;
   font-size: 35pt;
 }
 
 .wrapper.style-about h2,
-.wrapper.style-about h4,
 .wrapper.style-about h5 {
-  color: #000;
+  color: #4b3f3f;
   font-family: "Sorts Mill Goudy", "Inter", sans-serif;
   font-size: 17pt;
   letter-spacing: 1px;
+}
+
+.wrapper.style-about h4 {
+  color: #4b3f3f;
+  font-family: "Inter", "Sorts Mill Goudy", sans-serif;
+  font-size: 20pt;
+  letter-spacing: 5px;
+  font-weight: 200;
 }
 
 .wrapper.style-about h3 {
@@ -3547,7 +3564,7 @@
 }
 
 .wrapper.style-about h6 {
-  color: #000;
+  color: #4b3f3f;
   font-family: "Inter", "Sorts Mill Goudy", sans-serif;
   font-size: 20pt;
   letter-spacing: 1px;
@@ -3559,7 +3576,7 @@
 }
 
 .wrapper.style-about h6 {
-  font-size: 13pt;
+  font-size: 15pt;
   letter-spacing: 7px;
   font-weight: 200;
 }
@@ -3575,13 +3592,14 @@
 }
 
 .wrapper.style-about header p {
-  color: #2d2d2d;
+  color: #4b3f3f;
 }
 
 .wrapper.style-about p {
-  color: #2d2d2d;
+  color: #4b3f3f;
   font-size: 14pt;
   letter-spacing: 1.5px;
+  font-weight: 100;
 }
 
 .wrapper.style-about .about-change {
@@ -3600,9 +3618,13 @@
   }
 
   .wrapper.style-about h2,
-  .wrapper.style-about h3,
-  .wrapper.style-about h4 {
+  .wrapper.style-about h3 {
     font-size: 12pt;
+  }
+
+  .wrapper.style-about h4 {
+    font-size: 13pt;
+    letter-spacing: 3px;
   }
 
   .wrapper.style-about h5 {
@@ -3642,7 +3664,7 @@
 }
 
 .wrapper.style-about hr {
-  border-bottom-color: rgba(0, 0, 0, 0.25);
+  border-bottom-color: #4b3f3f;
 }
 
 .wrapper.style-about .box {
