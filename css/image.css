@@ -213,14 +213,14 @@
 
 .image.fit-for-montage {
   display: block;
-  width: 66%;
+  width: 73%;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 1em;
 }
 
 .image.fit-for-montage img {
-  width: 66%;
+  width: 75%;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 1em;
