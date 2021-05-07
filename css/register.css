@@ -36,5 +36,6 @@
 @media screen and (max-width: 480px) {
   .poster img {
     width: 15rem;
+    height: 100%;
   }
 }
