@@ -2,22 +2,22 @@
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   border-radius: 50px;
-  margin-left: 5rem;
-  margin-right: 5rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
 }
 
 @media screen and (max-width: 1080px) {
   .partners-container {
     border-radius: 30px;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
   }
 }
 
 @media screen and (max-width: 480px) {
   .partners-container {
     border-radius: 20px;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
   }
 }

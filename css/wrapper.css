@@ -3598,7 +3598,7 @@
 }
 
 .wrapper.style-about h6 {
-  font-size: 15pt;
+  font-size: 14pt;
   letter-spacing: 7px;
   font-weight: 200;
 }
@@ -3659,13 +3659,14 @@
   .wrapper.style-about p,
   .wrapper.style-about li,
   .wrapper.style-about ol {
-    font-size: 9pt;
+    font-size: 12pt;
     letter-spacing: 3px;
   }
 }
 
 @media screen and (max-width: 480px) {
-  .wrapper.style-about p {
+  .wrapper.style-about p,
+  .wrapper.style-about a {
     font-size: 8pt;
     letter-spacing: 2px;
   }

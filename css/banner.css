@@ -233,7 +233,8 @@ html {
 
 @media screen and (max-width: 480px) {
   #landing p {
-    font-size: 1.5rem;
+    font-size: 14pt;
+    letter-spacing: 8px;
   }
 }
 

@@ -37,14 +37,28 @@
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 1em;
-  margin-top: 2rem;
+  /* margin-top: 2rem; */
 }
 
 .image.fit img {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 1em;
+  /* margin-bottom: 1em; */
+}
+
+@media screen and (max-width: 768px) and (min-width: 480px) {
+  .image.fit {
+    width: 80%;
+    margin-bottom: 1em;
+    /* margin-top: 2rem; */
+  }
+
+  .image.fit img {
+    width: 80%;
+    margin-right: auto;
+    /* margin-bottom: 1em; */
+  }
 }
 
 .image.square {
@@ -199,7 +213,7 @@
 
 .image.fit-for-montage {
   display: block;
-  width: 100%;
+  width: 66%;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 1em;
@@ -214,7 +228,7 @@
 
 .image.fit-for-nusps {
   display: block;
-  width: 100%;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 1em;
@@ -341,7 +355,7 @@
 
 .image.fit-90 {
   display: block;
-  width: 90%;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 1em;
@@ -349,7 +363,7 @@
 }
 
 .image.fit-90 img {
-  width: 90%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 1em;
@@ -372,7 +386,7 @@
     margin-bottom: 1em;
   }
 }
-
+/* 
 @media screen and (min-width: 768px) {
   .image.fit-90 {
     display: block;
@@ -387,6 +401,61 @@
     width: 95%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 1em;
+  }
+} */
+
+.image.fit-category {
+  display: block;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1em;
+  margin-top: 2rem;
+}
+
+.image.fit-category img {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1em;
+}
+
+@media screen and (max-width: 980px) {
+  .image.fit-category {
+    width: 100%;
+    margin-bottom: 1em;
+    margin-top: 2rem;
+  }
+
+  .image.fit-category img {
+    width: 100%;
+    margin-bottom: 1em;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .image.fit-category {
+    width: 60%;
+    margin-bottom: 1em;
+    margin-top: 2rem;
+  }
+
+  .image.fit-category img {
+    width: 60%;
+    margin-bottom: 1em;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .image.fit-category {
+    width: 100%;
+    margin-bottom: 1em;
+    margin-top: 2rem;
+  }
+
+  .image.fit-category img {
+    width: 100%;
     margin-bottom: 1em;
   }
 }
