@@ -6,6 +6,17 @@
 
 .competition-main-box {
   border-radius: 50px;
+  /* background: #c2b2a3; */
+  background: #e5d9cf;
+  /* background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)); */
+  width: 90%;
+  margin-left: 5%;
+  box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.1);
+  padding-bottom: 2rem;
+}
+
+.prizes-main-box {
+  border-radius: 50px;
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
   width: 90%;
   margin-left: 5%;
