@@ -1,0 +1,150 @@
+#competition {
+  /* background-image: url("../photos-final/takahiro-taguchi-ryUr3SC6Lpo-unsplash.jpg");
+    background-attachment: fixed; */
+  /* background: #f7efed; */
+}
+
+.competition-main-box {
+  border-radius: 50px;
+  /* background: #c2b2a3; */
+  background: #e5d9cf;
+  /* background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)); */
+  width: 90%;
+  margin-left: 5%;
+  box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.1);
+  padding-bottom: 2rem;
+}
+
+.prizes-main-box {
+  border-radius: 50px;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+  width: 90%;
+  margin-left: 5%;
+  box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.1);
+  padding-bottom: 2rem;
+}
+
+.competition-unbright {
+  filter: brightness(0.5);
+}
+
+.competition-header {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.competition-details {
+  padding-top: 3rem;
+  /* position: relative; */
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+}
+
+.prizes-details {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 737px) {
+  .competition-header {
+    padding-top: 3rem;
+  }
+
+  .competition-details {
+    padding-top: 3rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .competition-header {
+    padding-top: 2rem;
+  }
+
+  .competition-details {
+    padding-top: 1rem;
+  }
+}
+
+.competition-box-container {
+  margin: 7.5rem;
+}
+
+.competition-box {
+  position: relative;
+  border-radius: 100px;
+  padding: 1.4rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  color: black;
+
+  margin: auto;
+  width: 90%;
+  /* width: 30rem;
+    height: 30rem; */
+}
+
+.competition-box::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  background-image: url("../photos-final/takahiro-taguchi-ryUr3SC6Lpo-unsplash.jpg");
+  background-attachment: fixed;
+  filter: blur(200px);
+}
+
+.competition-details__text {
+  position: relative;
+  margin: 0 0 20px;
+  padding: 0;
+  font-size: 32px;
+  z-index: 2;
+  color: white;
+}
+
+.competition-image-container {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+
+.competition-image {
+  width: 100%;
+}
+
+/* .competition-image::before {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+  } */
+
+.comp-absolute-container-top {
+}
+
+.how-to-participate-container {
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .how-to-participate-container {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .how-to-participate-container {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}

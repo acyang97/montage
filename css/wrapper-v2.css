@@ -1,0 +1,4110 @@
+.wrapper {
+  padding: 6em 0 4em 0;
+  position: relative;
+}
+
+.wrapper .inner {
+  margin: 0 auto;
+  width: 80em;
+  position: relative;
+  z-index: 99;
+}
+
+.wrapper .inner-hawker {
+  margin: 0 auto;
+  width: 90em;
+  position: relative;
+  z-index: 99;
+}
+
+.wrapper .form {
+  margin: 0 auto;
+  width: 80em;
+  position: relative;
+  z-index: 99;
+}
+
+.wrapper header {
+  margin-bottom: 4em;
+}
+
+.wrapper h1 {
+  font-family: "Sorts Mill Goudy", "Inter", sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper header {
+    margin-bottom: 2em;
+  }
+
+  .wrapper > .form {
+    width: 425px;
+  }
+}
+
+.wrapper.style1 input,
+.wrapper.style1 select,
+.wrapper.style1 textarea {
+  color: #000;
+}
+
+.wrapper.style1 a {
+  color: #000;
+}
+
+.wrapper.style1 a:hover {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.wrapper.style1 strong,
+.wrapper.style1 b {
+  color: #000;
+}
+
+.wrapper.style1 h1,
+.wrapper.style1 h2,
+.wrapper.style1 h3,
+.wrapper.style1 h4,
+.wrapper.style1 h5,
+.wrapper.style1 h6 {
+  color: #000;
+  font-family: "Sorts Mill Goudy", "Inter", sans-serif;
+  font-size: 20pt;
+  letter-spacing: 1px;
+}
+
+.wrapper.style1 blockquote {
+  border-left-color: rgba(0, 0, 0, 0.15);
+}
+
+.wrapper.style1 code {
+  background: rgba(0, 0, 0, 0.075);
+  border-color: rgba(0, 0, 0, 0.15);
+}
+
+.wrapper.style1 hr {
+  border-bottom-color: rgba(0, 0, 0, 0.15);
+}
+
+.wrapper.style1 .box {
+  border-color: rgba(0, 0, 0, 0.15);
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.wrapper.style1 input[type="submit"],
+.wrapper.style1 input[type="reset"],
+.wrapper.style1 input[type="button"],
+.wrapper.style1 button,
+.wrapper.style1 .button {
+  background-color: #000;
+  color: #fff !important;
+}
+
+.wrapper.style1 input[type="submit"]:hover,
+.wrapper.style1 input[type="reset"]:hover,
+.wrapper.style1 input[type="button"]:hover,
+.wrapper.style1 button:hover,
+.wrapper.style1 .button:hover {
+  background-color: #fbb03b;
+}
+
+.wrapper.style1 input[type="submit"]:active,
+.wrapper.style1 input[type="reset"]:active,
+.wrapper.style1 input[type="button"]:active,
+.wrapper.style1 button:active,
+.wrapper.style1 .button:active {
+  background-color: #258cd1;
+}
+
+.wrapper.style1 input[type="submit"].alt,
+.wrapper.style1 input[type="reset"].alt,
+.wrapper.style1 input[type="button"].alt,
+.wrapper.style1 button.alt,
+.wrapper.style1 .button.alt {
+  background-color: transparent;
+  box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.15);
+  color: #000 !important;
+}
+
+.wrapper.style1 input[type="submit"].alt:hover,
+.wrapper.style1 input[type="reset"].alt:hover,
+.wrapper.style1 input[type="button"].alt:hover,
+.wrapper.style1 button.alt:hover,
+.wrapper.style1 .button.alt:hover {
+  background-color: rgba(0, 0, 0, 0.075);
+}
+
+.wrapper.style1 input[type="submit"].alt:active,
+.wrapper.style1 input[type="reset"].alt:active,
+.wrapper.style1 input[type="button"].alt:active,
+.wrapper.style1 button.alt:active,
+.wrapper.style1 .button.alt:active {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.wrapper.style1 input[type="submit"].alt.icon:before,
+.wrapper.style1 input[type="reset"].alt.icon:before,
+.wrapper.style1 input[type="button"].alt.icon:before,
+.wrapper.style1 button.alt.icon:before,
+.wrapper.style1 .button.alt.icon:before {
+  color: #bfbfbf;
+}
+
+.wrapper.style1 input[type="submit"].special,
+.wrapper.style1 input[type="reset"].special,
+.wrapper.style1 input[type="button"].special,
+.wrapper.style1 button.special,
+.wrapper.style1 .button.special {
+  background-color: #000;
+  color: #fafafa !important;
+}
+
+.wrapper.style1 label {
+  color: #000;
+}
+
+.wrapper.style1 input[type="text"],
+.wrapper.style1 input[type="password"],
+.wrapper.style1 input[type="email"],
+.wrapper.style1 select,
+.wrapper.style1 textarea {
+  background: rgba(0, 0, 0, 0.075);
+  border-color: rgba(0, 0, 0, 0.15);
+}
+
+.wrapper.style1 input[type="text"]:focus,
+.wrapper.style1 input[type="password"]:focus,
+.wrapper.style1 input[type="email"]:focus,
+.wrapper.style1 select:focus,
+.wrapper.style1 textarea:focus {
+  border-color: #000;
+  box-shadow: 0 0 0 1px #000;
+}
+
+.wrapper.style1 .select-wrapper:before {
+  color: rgba(0, 0, 0, 0.15);
+}
+
+.wrapper.style1 input[type="checkbox"] + label,
+.wrapper.style1 input[type="radio"] + label {
+  color: #999999;
+}
+
+.wrapper.style1 input[type="checkbox"] + label:before,
+.wrapper.style1 input[type="radio"] + label:before {
+  background: rgba(0, 0, 0, 0.075);
+  border-color: rgba(0, 0, 0, 0.15);
+}
+
+.wrapper.style1 input[type="checkbox"]:checked + label:before,
+.wrapper.style1 input[type="radio"]:checked + label:before {
+  background-color: #000;
+  border-color: #000;
+  color: #fafafa;
+}
+
+.wrapper.style1 input[type="checkbox"]:focus + label:before,
+.wrapper.style1 input[type="radio"]:focus + label:before {
+  border-color: #000;
+  box-shadow: 0 0 0 1px #000;
+}
+
+.wrapper.style1 ::-webkit-input-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style1 :-moz-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style1 ::-moz-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style1 :-ms-input-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style1 .formerize-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style1 ul.alt li {
+  border-top-color: rgba(0, 0, 0, 0.15);
+}
+
+.wrapper.style1 header p {
+  color: #bfbfbf;
+}
+
+.wrapper.style1 p {
+  font-size: 14pt;
+}
+
+.wrapper.style1 table tbody tr {
+  border-color: rgba(0, 0, 0, 1);
+}
+
+.wrapper.style1 table tbody tr:nth-child(2n + 1) {
+  background-color: rgba(50, 50, 50, 0.075);
+}
+
+.wrapper.style1 table th {
+  color: #000;
+}
+
+.wrapper.style1 table thead {
+  border-bottom-color: rgba(0, 0, 0, 0.15);
+}
+
+.wrapper.style1 table tfoot {
+  border-top-color: rgba(0, 0, 0, 0.15);
+}
+
+.wrapper.style1 table.alt tbody tr td {
+  border-color: rgba(0, 0, 0, 0.15);
+}
+
+.wrapper.style1 .image .square {
+  padding-left: 5em;
+  padding-right: 5em;
+}
+
+.wrapper.style2 {
+  background-color: #fff;
+  /* background: url("../photos/timeline.jpg"); */
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  color: #000;
+}
+
+.wrapper.style2 input,
+.wrapper.style2 select,
+.wrapper.style2 textarea {
+  color: #000;
+}
+
+.wrapper.style2 a {
+  color: #4d4d4d;
+}
+
+.wrapper.style2 a:hover {
+  color: #e3d5c6;
+}
+
+.wrapper.style2 strong,
+.wrapper.style2 b {
+  color: #000;
+}
+
+.wrapper.style2 h1 {
+  color: #000;
+  font-size: 23pt;
+}
+
+.wrapper.style2 h2,
+.wrapper.style2 h3,
+.wrapper.style2 h4,
+.wrapper.style2 h5,
+.wrapper.style2 h6 {
+  color: #000;
+  font-family: "Sorts Mill Goudy", "Inter", sans-serif;
+  font-size: 17pt;
+  letter-spacing: 1px;
+}
+
+.wrapper.style2 blockquote {
+  border-left-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style2 code {
+  background: rgba(255, 255, 255, 0.075);
+  border-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style2 hr {
+  border-bottom-color: rgba(0, 0, 0, 0.25);
+}
+
+.wrapper.style2 .box {
+  border-color: rgba(255, 255, 255, 0.8);
+  background-color: #fafafa;
+}
+
+.wrapper.style2 input[type="submit"],
+.wrapper.style2 input[type="reset"],
+.wrapper.style2 input[type="button"],
+.wrapper.style2 button,
+.wrapper.style2 .button {
+  background-color: #000;
+  color: #fff !important;
+}
+
+.wrapper.style2 input[type="submit"]:hover,
+.wrapper.style2 input[type="reset"]:hover,
+.wrapper.style2 input[type="button"]:hover,
+.wrapper.style2 button:hover,
+.wrapper.style2 .button:hover {
+  background-color: #fbb03b;
+}
+
+.wrapper.style2 input[type="submit"].alt,
+.wrapper.style2 input[type="reset"].alt,
+.wrapper.style2 input[type="button"].alt,
+.wrapper.style2 button.alt,
+.wrapper.style2 .button.alt {
+  background-color: transparent;
+  box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.25);
+  color: #000 !important;
+}
+
+.wrapper.style2 input[type="submit"].alt:hover,
+.wrapper.style2 input[type="reset"].alt:hover,
+.wrapper.style2 input[type="button"].alt:hover,
+.wrapper.style2 button.alt:hover,
+.wrapper.style2 .button.alt:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.wrapper.style2 input[type="submit"].alt:active,
+.wrapper.style2 input[type="reset"].alt:active,
+.wrapper.style2 input[type="button"].alt:active,
+.wrapper.style2 button.alt:active,
+.wrapper.style2 .button.alt:active {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.wrapper.style2 input[type="submit"].alt.icon:before,
+.wrapper.style2 input[type="reset"].alt.icon:before,
+.wrapper.style2 input[type="button"].alt.icon:before,
+.wrapper.style2 button.alt.icon:before,
+.wrapper.style2 .button.alt.icon:before {
+  color: #000;
+}
+
+.wrapper.style2 input[type="submit"].special,
+.wrapper.style2 input[type="reset"].special,
+.wrapper.style2 input[type="button"].special,
+.wrapper.style2 button.special,
+.wrapper.style2 .button.special {
+  background-color: black;
+  color: #fff !important;
+}
+
+.wrapper.style2 input[type="submit"].special:hover,
+.wrapper.style2 input[type="reset"].special:hover,
+.wrapper.style2 input[type="button"].special:hover,
+.wrapper.style2 button.special:hover,
+.wrapper.style2 .button.special:hover {
+  background-color: #4d4e4f;
+}
+
+.wrapper.style2 input[type="submit"].special:active,
+.wrapper.style2 input[type="reset"].special:active,
+.wrapper.style2 input[type="button"].special:active,
+.wrapper.style2 button.special:active,
+.wrapper.style2 .button.special:active {
+  background-color: black;
+}
+
+.wrapper.style2 label {
+  color: #fff;
+}
+
+.wrapper.style2 input[type="text"],
+.wrapper.style2 input[type="password"],
+.wrapper.style2 input[type="email"],
+.wrapper.style2 select,
+.wrapper.style2 textarea {
+  background: rgba(0, 0, 0, 0.03);
+  border-color: rgba(0, 0, 0, 0.25);
+}
+
+.wrapper.style2 input[type="text"]:focus,
+.wrapper.style2 input[type="password"]:focus,
+.wrapper.style2 input[type="email"]:focus,
+.wrapper.style2 select:focus,
+.wrapper.style2 textarea:focus {
+  border-color: #000;
+  box-shadow: 0 0 0 1px #000;
+}
+
+.wrapper.style2 .select-wrapper:before {
+  color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style2 input[type="checkbox"] + label,
+.wrapper.style2 input[type="radio"] + label {
+  color: #000;
+}
+
+.wrapper.style2 input[type="checkbox"] + label:before,
+.wrapper.style2 input[type="radio"] + label:before {
+  background: rgba(255, 255, 255, 0.075);
+  border-color: rgba(0, 0, 0, 0.25);
+}
+
+.wrapper.style2 input[type="checkbox"]:checked + label:before,
+.wrapper.style2 input[type="radio"]:checked + label:before {
+  background-color: #000;
+  border-color: #000;
+  color: #fff;
+}
+
+.wrapper.style2 input[type="checkbox"]:focus + label:before,
+.wrapper.style2 input[type="radio"]:focus + label:before {
+  border-color: #000;
+  box-shadow: 0 0 0 1px #fafafa;
+}
+
+.wrapper.style2 ::-webkit-input-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style2 :-moz-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style2 ::-moz-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style2 :-ms-input-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style2 .formerize-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style2 ul.alt li {
+  border-top-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style2 header p {
+  color: #000;
+}
+
+.wrapper.style2 p {
+  font-size: 13pt;
+  margin-bottom: 0px;
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper.style2 p {
+    font-size: 10pt;
+  }
+}
+
+.wrapper.style2 table tbody tr {
+  border-color: rgba(0, 0, 0, 0.5);
+}
+
+.wrapper.style2 table tbody tr:nth-child(2n + 1) {
+  background-color: rgba(150, 150, 150, 0.15);
+}
+
+.wrapper.style2 table th {
+  color: #000;
+}
+
+.wrapper.style2 table thead {
+  border-bottom-color: rgba(0, 0, 0, 0.5);
+  font-size: 12pt;
+}
+
+.wrapper.style2 table tfoot {
+  border-top-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style2 table.alt tbody tr td {
+  border-color: rgba(150, 150, 150, 0.5);
+}
+
+.wrapper.style2 .image {
+  padding-left: 3em;
+  padding-right: 3em;
+  box-shadow: 0px 0px 0px 7px rgba(0, 0, 0, 0), 0px 0px 0px 8px rgba(0, 0, 0, 0);
+}
+
+/* @media screen and (max-width: 1280px) {
+    .wrapper > .inner {
+      width: 60em;
+    }
+  } */
+
+@media screen and (max-width: 980px) {
+  .wrapper > .inner {
+    width: 90%;
+  }
+
+  .wrapper > .inner-hawker {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    padding: 3em 0 1em 0;
+  }
+
+  .wrapper.style1 .image {
+    padding: 0;
+  }
+
+  .wrapper.style2 .image {
+    padding: 0;
+  }
+
+  .wrapper.style2 {
+    background-size: absolute;
+    background-repeat: repeat-y;
+  }
+
+  .wrapper.style2 h1 {
+    font-size: 20pt;
+  }
+}
+
+.wrapper.style3 {
+  /* for registration */
+  background-color: #d8d8d8;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  color: #000;
+}
+
+@media screen and (max-width: 480px) {
+  .wrapper.style3 {
+    background: none;
+    background-color: #d8d8d8;
+  }
+}
+
+.wrapper.style3 input,
+.wrapper.style3 select,
+.wrapper.style3 textarea {
+  color: #000;
+}
+
+.wrapper.style3 a {
+  color: #4d4d4d;
+}
+
+.wrapper.style3 a:hover {
+  color: #e3d5c6;
+}
+
+.wrapper.style3 strong,
+.wrapper.style3 b {
+  color: #000;
+}
+
+.wrapper.style3 h1 {
+  font-family: "Sorts Mill Goudy", "Inter", sans-serif;
+  color: #000;
+}
+
+.wrapper.style3 h2,
+.wrapper.style3 h3,
+.wrapper.style3 h4,
+.wrapper.style3 h5 {
+  color: #000;
+  font-family: "Sorts Mill Goudy", "Inter", sans-serif;
+  font-size: 17pt;
+}
+
+.wrapper.style3 h6 {
+  font-weight: normal;
+  font-size: 12pt;
+  font-family: "Sorts Mill Goudy", "Inter", sans-serif;
+}
+
+.wrapper.style3 header p {
+  color: #000;
+}
+
+.wrapper.style3 p {
+  font-size: 12pt;
+}
+
+.wrapper.style3 ul.alt li {
+  border-top-color: rgba(255, 255, 255, 0.25);
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper.style3 h1 {
+    font-size: 24pt;
+  }
+
+  .wrapper.style3 h2,
+  .wrapper.style3 h3,
+  .wrapper.style3 h4,
+  .wrapper.style3 h5 {
+    font-size: 12pt;
+  }
+
+  .wrapper.style3 h6 {
+    font-size: 10pt;
+  }
+
+  .wrapper.style3 p,
+  .wrapper.style3 li,
+  .wrapper.style3 ol {
+    font-size: 10pt;
+    margin-left: -12px;
+    margin-right: -5px;
+  }
+}
+
+.wrapper.style3 blockquote {
+  border-left-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style3 code {
+  background: rgba(255, 255, 255, 0.075);
+  border-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style3 hr {
+  border-bottom-color: rgba(0, 0, 0, 0.25);
+}
+
+.wrapper.style3 .box {
+  padding: 5em;
+  border-color: rgba(255, 255, 255, 0.8);
+  background-color: #fafafa;
+}
+
+.wrapper.style3 input[type="submit"],
+.wrapper.style3 input[type="reset"],
+.wrapper.style3 input[type="button"],
+.wrapper.style3 button,
+.wrapper.style3 .button {
+  background-color: #e3d5c6;
+  color: #4d4d4d !important;
+}
+
+.wrapper.style3 input[type="submit"]:hover,
+.wrapper.style3 input[type="reset"]:hover,
+.wrapper.style3 input[type="button"]:hover,
+.wrapper.style3 button:hover,
+.wrapper.style3 .button:hover {
+  background-color: #4d4d4d;
+  color: #e3d5c6 !important;
+}
+
+.wrapper.style3 input[type="submit"].alt,
+.wrapper.style3 input[type="reset"].alt,
+.wrapper.style3 input[type="button"].alt,
+.wrapper.style3 button.alt,
+.wrapper.style3 .button.alt {
+  background-color: transparent;
+  box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.25);
+  color: #000 !important;
+}
+
+.wrapper.style3 input[type="submit"].alt:hover,
+.wrapper.style3 input[type="reset"].alt:hover,
+.wrapper.style3 input[type="button"].alt:hover,
+.wrapper.style3 button.alt:hover,
+.wrapper.style3 .button.alt:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.wrapper.style3 input[type="submit"].alt:active,
+.wrapper.style3 input[type="reset"].alt:active,
+.wrapper.style3 input[type="button"].alt:active,
+.wrapper.style3 button.alt:active,
+.wrapper.style3 .button.alt:active {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.wrapper.style3 input[type="submit"].alt.icon:before,
+.wrapper.style3 input[type="reset"].alt.icon:before,
+.wrapper.style3 input[type="button"].alt.icon:before,
+.wrapper.style3 button.alt.icon:before,
+.wrapper.style3 .button.alt.icon:before {
+  color: #000;
+}
+
+.wrapper.style3 input[type="submit"].special,
+.wrapper.style3 input[type="reset"].special,
+.wrapper.style3 input[type="button"].special,
+.wrapper.style3 button.special,
+.wrapper.style3 .button.special {
+  background-color: black;
+  color: #fff !important;
+}
+
+.wrapper.style3 input[type="submit"].special:hover,
+.wrapper.style3 input[type="reset"].special:hover,
+.wrapper.style3 input[type="button"].special:hover,
+.wrapper.style3 button.special:hover,
+.wrapper.style3 .button.special:hover {
+  background-color: yellow;
+}
+
+.wrapper.style3 input[type="submit"].special:active,
+.wrapper.style3 input[type="reset"].special:active,
+.wrapper.style3 input[type="button"].special:active,
+.wrapper.style3 button.special:active,
+.wrapper.style3 .button.special:active {
+  background-color: black;
+}
+
+.wrapper.style3 label {
+  color: #fff;
+}
+
+.wrapper.style3 input[type="text"],
+.wrapper.style3 input[type="password"],
+.wrapper.style3 input[type="email"],
+.wrapper.style3 select,
+.wrapper.style3 textarea {
+  background: rgba(0, 0, 0, 0.03);
+  border-color: rgba(0, 0, 0, 0.25);
+  font-size: 12pt;
+}
+
+.wrapper.style3 input[type="text"]:focus,
+.wrapper.style3 input[type="password"]:focus,
+.wrapper.style3 input[type="email"]:focus,
+.wrapper.style3 select:focus,
+.wrapper.style3 textarea:focus {
+  border-color: #000;
+  box-shadow: 0 0 0 1px #000;
+  font-size: 12pt;
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper.style3 input[type="text"],
+  .wrapper.style3 input[type="password"],
+  .wrapper.style3 input[type="email"],
+  .wrapper.style3 select,
+  .wrapper.style3 textarea,
+  .wrapper.style3 input[type="text"]:focus,
+  .wrapper.style3 input[type="password"]:focus,
+  .wrapper.style3 input[type="email"]:focus,
+  .wrapper.style3 select:focus,
+  .wrapper.style3 textarea:focus {
+    font-size: 10pt;
+  }
+}
+
+.wrapper.style3 .select-wrapper:before {
+  color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style3 input[type="checkbox"] + label,
+.wrapper.style3 input[type="radio"] + label {
+  color: #000;
+}
+
+.wrapper.style3 input[type="checkbox"] + label:before,
+.wrapper.style3 input[type="radio"] + label:before {
+  background: rgba(255, 255, 255, 0.075);
+  border-color: rgba(0, 0, 0, 0.25);
+}
+
+.wrapper.style3 input[type="checkbox"]:hover + label:before,
+.wrapper.style3 input[type="radio"]:hover + label:before {
+  background-color: #ddd;
+}
+
+.wrapper.style3 input[type="checkbox"]:checked + label:before,
+.wrapper.style3 input[type="radio"]:checked + label:before {
+  background-color: #000;
+  border-color: #000;
+  color: #fff;
+}
+
+.wrapper.style3 input[type="checkbox"]:focus + label:before,
+.wrapper.style3 input[type="radio"]:focus + label:before {
+  border-color: #000;
+  box-shadow: 0 0 0 1px #fafafa;
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper.style3 input[type="checkbox"] + label:before,
+  .wrapper.style3 input[type="radio"] + label:before,
+  .wrapper.style3 input[type="checkbox"]:hover + label:before,
+  .wrapper.style3 input[type="radio"]:hover + label:before,
+  .wrapper.style3 input[type="checkbox"]:checked + label:before,
+  .wrapper.style3 input[type="radio"]:checked + label:before,
+  .wrapper.style3 input[type="checkbox"]:focus + label:before,
+  .wrapper.style3 input[type="radio"]:focus + label:before {
+    font-size: 12px;
+    width: 20px;
+    height: 20px;
+    top: 5px;
+    left: 5px;
+  }
+}
+
+.wrapper.style3 ::-webkit-input-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style3 :-moz-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style3 ::-moz-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style3 :-ms-input-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style3 .formerize-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style3 table tbody tr {
+  border-color: #000;
+  font-size: 0.9em;
+}
+
+.wrapper.style3 table tbody tr:nth-child(2n + 1) {
+  background-color: #fff;
+}
+
+.wrapper.style3 table th {
+  color: #000;
+}
+
+.wrapper.style3 table thead {
+  border-bottom-color: rgba(0, 0, 0, 0.5);
+  font-size: 12pt;
+}
+
+.wrapper.style3 table tfoot {
+  border-top-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style3 table.alt tbody tr td {
+  border-color: rgba(150, 150, 150, 0.5);
+}
+
+.wrapper.style3 .image {
+  padding-left: 3em;
+  padding-right: 3em;
+  box-shadow: 0px 0px 0px 7px rgba(0, 0, 0, 0), 0px 0px 0px 8px rgba(0, 0, 0, 0);
+}
+
+@media screen and (max-width: 1280px) {
+  .wrapper > .inner {
+    width: 60em;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .wrapper > .inner {
+    width: 90%;
+  }
+
+  .wrapper .box {
+    padding: 2em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    padding: 3em 0 1em 0;
+  }
+
+  .wrapper.style3 .box {
+    padding: 1em;
+  }
+
+  .wrapper.style3 .image {
+    padding: 0;
+  }
+}
+
+.wrapper.style4 {
+  /* for tnc and faq */
+  background-color: #d8d8d8;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  color: #000;
+}
+
+.wrapper.style4 input,
+.wrapper.style4 select,
+.wrapper.style4 textarea {
+  color: #000;
+}
+
+.wrapper.style4 a {
+  color: #4d4d4d;
+}
+
+.wrapper.style4 a:hover {
+  color: #e3d5c6;
+}
+
+.wrapper.style4 strong,
+.wrapper.style4 b {
+  color: #000;
+}
+
+.wrapper.style4 h1 {
+  font-family: "Sorts Mill Goudy", "Inter", sans-serif;
+  color: #000;
+}
+
+.wrapper.style4 h2,
+.wrapper.style4 h3,
+.wrapper.style4 h4,
+.wrapper.style4 h5 {
+  color: #000;
+  font-family: "Sorts Mill Goudy", "Inter", sans-serif;
+  font-size: 17pt;
+}
+
+.wrapper.style4 h6 {
+  font-weight: normal;
+  font-size: 12pt;
+  font-family: "Sorts Mill Goudy", "Inter", sans-serif;
+}
+
+.wrapper.style4 header p {
+  color: #000;
+}
+
+.wrapper.style4 p {
+  font-size: 12pt;
+}
+
+.wrapper.style4 p,
+.wrapper.style4 ul,
+.wrapper.style4 ol {
+  margin-bottom: 0px;
+}
+
+.wrapper.style4 ol {
+  counter-reset: item;
+}
+
+.wrapper.style4 li {
+  padding-left: 0.5em;
+  font-size: 12pt;
+  text-align: justify;
+}
+
+.wrapper.style4 ol > li {
+  display: block;
+  position: relative;
+}
+
+.wrapper.style4 ol > li:before {
+  content: counters(item, ".") ".";
+  counter-increment: item;
+  position: absolute;
+  margin-right: 100%;
+  right: 6px;
+}
+
+.wrapper.style4 ul.inner {
+  list-style-type: circle;
+}
+
+.wrapper.style4 br {
+  content: "";
+  display: block;
+  margin: 12px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper.style4 h1 {
+    font-size: 24pt;
+  }
+
+  .wrapper.style4 h2,
+  .wrapper.style4 h3,
+  .wrapper.style4 h4,
+  .wrapper.style4 h5 {
+    font-size: 12pt;
+  }
+
+  .wrapper.style4 h6 {
+    font-size: 10pt;
+  }
+
+  .wrapper.style4 p,
+  .wrapper.style4 li {
+    font-size: 8pt;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+.wrapper.style4 blockquote {
+  border-left-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style4 code {
+  background: rgba(255, 255, 255, 0.075);
+  border-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style4 hr {
+  border-bottom-color: rgba(0, 0, 0, 0.25);
+}
+
+.wrapper.style4 .box {
+  padding: 5em;
+  border-color: rgba(255, 255, 255, 0.8);
+  background-color: #fafafa;
+}
+
+.wrapper.style4 input[type="submit"],
+.wrapper.style4 input[type="reset"],
+.wrapper.style4 input[type="button"],
+.wrapper.style4 button,
+.wrapper.style4 .button {
+  background-color: #e3d5c6;
+  color: #2d2d2d !important;
+}
+
+.wrapper.style4 input[type="submit"]:hover,
+.wrapper.style4 input[type="reset"]:hover,
+.wrapper.style4 input[type="button"]:hover,
+.wrapper.style4 button:hover,
+.wrapper.style4 .button:hover {
+  background-color: #2d2d2d;
+  color: #e3d5c6 !important;
+}
+
+.wrapper.style4 input[type="submit"].alt,
+.wrapper.style4 input[type="reset"].alt,
+.wrapper.style4 input[type="button"].alt,
+.wrapper.style4 button.alt,
+.wrapper.style4 .button.alt {
+  background-color: transparent;
+  box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.25);
+  color: #000 !important;
+}
+
+.wrapper.style4 input[type="submit"].alt:hover,
+.wrapper.style4 input[type="reset"].alt:hover,
+.wrapper.style4 input[type="button"].alt:hover,
+.wrapper.style4 button.alt:hover,
+.wrapper.style4 .button.alt:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.wrapper.style4 input[type="submit"].alt:active,
+.wrapper.style4 input[type="reset"].alt:active,
+.wrapper.style4 input[type="button"].alt:active,
+.wrapper.style4 button.alt:active,
+.wrapper.style4 .button.alt:active {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.wrapper.style4 input[type="submit"].alt.icon:before,
+.wrapper.style4 input[type="reset"].alt.icon:before,
+.wrapper.style4 input[type="button"].alt.icon:before,
+.wrapper.style4 button.alt.icon:before,
+.wrapper.style4 .button.alt.icon:before {
+  color: #000;
+}
+
+.wrapper.style4 input[type="submit"].special,
+.wrapper.style4 input[type="reset"].special,
+.wrapper.style4 input[type="button"].special,
+.wrapper.style4 button.special,
+.wrapper.style4 .button.special {
+  background-color: black;
+  color: #fff !important;
+}
+
+.wrapper.style4 input[type="submit"].special:hover,
+.wrapper.style4 input[type="reset"].special:hover,
+.wrapper.style4 input[type="button"].special:hover,
+.wrapper.style4 button.special:hover,
+.wrapper.style4 .button.special:hover {
+  background-color: yellow;
+}
+
+.wrapper.style4 input[type="submit"].special:active,
+.wrapper.style4 input[type="reset"].special:active,
+.wrapper.style4 input[type="button"].special:active,
+.wrapper.style4 button.special:active,
+.wrapper.style4 .button.special:active {
+  background-color: black;
+}
+
+.wrapper.style4 label {
+  color: #fff;
+}
+
+.wrapper.style4 input[type="text"],
+.wrapper.style4 input[type="password"],
+.wrapper.style4 input[type="email"],
+.wrapper.style4 select,
+.wrapper.style4 textarea {
+  background: rgba(0, 0, 0, 0.03);
+  border-color: rgba(0, 0, 0, 0.25);
+}
+
+.wrapper.style4 input[type="text"]:focus,
+.wrapper.style4 input[type="password"]:focus,
+.wrapper.style4 input[type="email"]:focus,
+.wrapper.style4 select:focus,
+.wrapper.style4 textarea:focus {
+  border-color: #000;
+  box-shadow: 0 0 0 1px #000;
+}
+
+.wrapper.style4 .select-wrapper:before {
+  color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style4 input[type="checkbox"] + label,
+.wrapper.style4 input[type="radio"] + label {
+  color: #000;
+}
+
+.wrapper.style4 input[type="checkbox"] + label:before,
+.wrapper.style4 input[type="radio"] + label:before {
+  background: rgba(255, 255, 255, 0.075);
+  border-color: rgba(0, 0, 0, 0.25);
+}
+
+.wrapper.style4 input[type="checkbox"]:checked + label:before,
+.wrapper.style4 input[type="radio"]:checked + label:before {
+  background-color: #000;
+  border-color: #000;
+  color: #fff;
+}
+
+.wrapper.style4 input[type="checkbox"]:focus + label:before,
+.wrapper.style4 input[type="radio"]:focus + label:before {
+  border-color: #000;
+  box-shadow: 0 0 0 1px #fafafa;
+}
+
+.wrapper.style4 ::-webkit-input-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style4 :-moz-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style4 ::-moz-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style4 :-ms-input-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style4 .formerize-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style4 table tbody tr {
+  border-color: rgba(0, 0, 0, 0.5);
+}
+
+.wrapper.style4 table tbody tr:nth-child(2n + 1) {
+  background-color: rgba(150, 150, 150, 0.15);
+}
+
+.wrapper.style4 table th {
+  color: #000;
+}
+
+.wrapper.style4 table thead {
+  border-bottom-color: rgba(0, 0, 0, 0.5);
+  font-size: 12pt;
+}
+
+.wrapper.style4 table tfoot {
+  border-top-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style4 table.alt tbody tr td {
+  border-color: rgba(150, 150, 150, 0.5);
+}
+
+.wrapper.style4 .image {
+  padding-left: 3em;
+  padding-right: 3em;
+  box-shadow: 0px 0px 0px 7px rgba(0, 0, 0, 0), 0px 0px 0px 8px rgba(0, 0, 0, 0);
+}
+
+@media screen and (max-width: 1280px) {
+  .wrapper > .inner {
+    width: 60em;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .wrapper > .inner {
+    width: 90%;
+  }
+
+  .wrapper.style4 .box {
+    padding: 2em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    padding: 3em 0 1em 0;
+  }
+
+  .wrapper.style1 .image {
+    padding: 0;
+  }
+
+  .wrapper.style4 .image {
+    padding: 0;
+  }
+
+  .wrapper.style4 .box {
+    padding: 0;
+  }
+}
+
+.wrapper.style5 {
+  /* for about and beinspired sections */
+  background-color: #e8e3de;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  font-family: "Sorts Mill Goudy", "Inter", serif;
+  color: #000;
+}
+
+/* BUTTTTTONNNNNNNNNNNNNNNNNN*/
+
+.wrapper.style5 input,
+.wrapper.style5 select,
+.wrapper.style5 textarea {
+  color: #000;
+}
+
+.wrapper.style5 a {
+  color: #4d4d4d;
+}
+
+.wrapper.style5 a:hover {
+  color: #e3d5c6;
+}
+
+.wrapper.style5 strong,
+.wrapper.style5 b {
+  color: #000;
+}
+
+.wrapper.style5 h1 {
+  font-family: "Sorts Mill Goudy", "Inter", serif;
+  color: #000;
+  font-size: 23pt;
+}
+
+.wrapper.style5 h2,
+.wrapper.style5 h3,
+.wrapper.style5 h4,
+.wrapper.style5 h5,
+.wrapper.style5 h6 {
+  color: #000;
+  font-family: "Sorts Mill Goudy", "Inter", "Crimson Pro", serif;
+  /* font-family: "Elsie Swash Caps", serif; */
+  font-size: 17pt;
+  letter-spacing: 1px;
+}
+
+.wrapper.style5 h3 {
+  font-size: 20pt;
+  letter-spacing: 11px;
+  margin: 0 0 0 0;
+  font-weight: 100;
+}
+
+.wrapper.style5 ul.alt li {
+  border-top-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style5 header p {
+  color: #2d2d2d;
+}
+
+.wrapper.style5 p {
+  font-family: "Sorts Mill Goudy", "Inter", serif;
+  color: #2d2d2d;
+  font-size: 12pt;
+  margin: 0 0 5px 0;
+  letter-spacing: 3px;
+}
+@media screen and (max-width: 980px) {
+  .wrapper.style5 h1 {
+    font-size: 20pt;
+  }
+
+  .wrapper.style5 h2,
+  .wrapper.style5 h3,
+  .wrapper.style5 h4,
+  .wrapper.style5 h5 {
+    font-size: 10pt;
+    letter-spacing: 5px;
+  }
+
+  .wrapper.style5 h6,
+  .wrapper.style5 a,
+  .wrapper.style5 p,
+  .wrapper.style5 li,
+  .wrapper.style5 ol {
+    font-size: 8pt;
+    letter-spacing: 3px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper.style5 h1 {
+    font-size: 20pt;
+  }
+
+  .wrapper.style5 h2,
+  .wrapper.style5 h3,
+  .wrapper.style5 h4,
+  .wrapper.style5 h5 {
+    font-size: 12pt;
+  }
+
+  .wrapper.style5 h6,
+  .wrapper.style5 a,
+  .wrapper.style5 p,
+  .wrapper.style5 li,
+  .wrapper.style5 ol {
+    font-size: 10pt;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .wrapper.style5 h1 {
+    font-size: 20pt;
+  }
+
+  .wrapper.style5 h2,
+  .wrapper.style5 h4,
+  .wrapper.style5 h5 {
+    font-size: 12pt;
+  }
+
+  .wrapper.style5 h3 {
+    font-size: 9pt;
+    letter-spacing: 8px;
+  }
+
+  .wrapper.style5 h6,
+  .wrapper.style5 a,
+  .wrapper.style5 p,
+  .wrapper.style5 li,
+  .wrapper.style5 ol {
+    font-size: 8pt;
+  }
+}
+
+.wrapper.style5 hr {
+  border-bottom-color: rgba(0, 0, 0, 0.25);
+  margin: 16px 0 16px 0;
+}
+
+/* .wrapper.style5 .box {
+    border-color: rgba(255, 255, 255, 0.8);
+    background-color: #4d4d4d;
+  }
+  
+  .wrapper.style5 .select-wrapper:before {
+    color: rgba(255, 255, 255, 0.25);
+  }
+  .wrapper.style5 ::-webkit-input-placeholder {
+    color: #bfbfbf !important;
+  }
+  
+  .wrapper.style5 :-moz-placeholder {
+    color: #bfbfbf !important;
+  }
+  
+  .wrapper.style5 ::-moz-placeholder {
+    color: #bfbfbf !important;
+  }
+  
+  .wrapper.style5 :-ms-input-placeholder {
+    color: #bfbfbf !important;
+  }
+  
+  .wrapper.style5 .formerize-placeholder {
+    color: #bfbfbf !important;
+  } */
+
+.wrapper.style5 table tbody tr {
+  border-color: rgba(0, 0, 0, 0.5);
+}
+
+.wrapper.style5 table tbody tr:nth-child(2n + 1) {
+  background-color: rgba(150, 150, 150, 0.15);
+}
+
+.wrapper.style5 table th {
+  color: #000;
+}
+
+.wrapper.style5 table thead {
+  border-bottom-color: rgba(0, 0, 0, 0.5);
+  font-size: 12pt;
+}
+
+.wrapper.style5 table tfoot {
+  border-top-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style5 table.alt tbody tr td {
+  border-color: rgba(150, 150, 150, 0.5);
+}
+
+/*BUTTON FOR WRAPPER STYLE 5*/
+.wrapper.style5 .button {
+  font-family: "Sorts Mill Goudy", "Inter", sans-serif;
+  color: #343638;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 15px;
+  -webkit-border-radius: 20px;
+  width: 18rem;
+  border-radius: 20px;
+  /* box-shadow: 1px 1px 1px 1px #eee2dc; */
+  /* -webkit-box-shadow: 1px 1px 1px 1px #eee2dc; */
+  /* background: linear-gradient(90deg, grey, rgba(150, 150, 150, 0.5)); */
+  background: #e8e3de;
+  text-decoration: none;
+  font-weight: 500;
+  display: inline-block;
+  border: 2px solid #343638;
+  /* box-shadow: inset 0 0 0 0 #eee2dc; */
+  transition: ease-out 0.3s;
+  outline: none;
+}
+
+.wrapper.style5 .button:hover {
+  box-shadow: inset 300px 0 0 0 #343638;
+  cursor: pointer;
+  color: #eee2dc;
+}
+
+.wrapper.style5 .image {
+  /* padding-left: 3em;
+    padding-right: 3em; */
+  box-shadow: 0px 0px 0px 7px rgba(0, 0, 0, 0), 0px 0px 0px 8px rgba(0, 0, 0, 0);
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper.style5 .image {
+    padding: 0;
+  }
+
+  .wrapper.style5 .button {
+    text-align: center;
+    letter-spacing: 1.5px;
+    font-size: 12px;
+    width: 10rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .wrapper.style5 {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
+  }
+
+  .wrapper.style5 .button {
+    /* text-align: center;
+      margin: auto; */
+  }
+}
+
+.wrapper.style6 {
+  /* should be for prizes and sponsors */
+  background-color: #fff;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  color: #000;
+}
+
+.wrapper.style6 input,
+.wrapper.style6 select,
+.wrapper.style6 textarea {
+  color: #000;
+}
+
+.wrapper.style6 a {
+  color: #4d4d4d;
+}
+
+.wrapper.style6 a:hover {
+  color: #e3d5c6;
+}
+
+.wrapper.style6 strong,
+.wrapper.style6 b {
+  color: #000;
+}
+.wrapper.style6 h1 {
+  color: #000;
+  font-size: 23pt;
+}
+
+.wrapper.style6 h2,
+.wrapper.style6 h3,
+.wrapper.style6 h4,
+.wrapper.style6 h5,
+.wrapper.style6 h6 {
+  color: #000;
+  font-family: "Sorts Mill Goudy", "Inter", sans-serif;
+  font-size: 17pt;
+  letter-spacing: 1px;
+}
+
+.wrapper.style6 ul.alt li {
+  border-top-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style6 header p {
+  color: #000;
+}
+
+.wrapper.style6 p {
+  font-size: 13pt;
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper.style6 h1 {
+    font-size: 20pt;
+  }
+
+  .wrapper.style6 h2,
+  .wrapper.style6 h3,
+  .wrapper.style6 h4,
+  .wrapper.style6 h5 {
+    font-size: 12pt;
+  }
+
+  .wrapper.style6 h6,
+  .wrapper.style6 a,
+  .wrapper.style6 p,
+  .wrapper.style6 li,
+  .wrapper.style6 ol {
+    font-size: 10pt;
+  }
+}
+
+.wrapper.style6 blockquote {
+  border-left-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style6 code {
+  background: rgba(255, 255, 255, 0.075);
+  border-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style6 hr {
+  border-bottom-color: rgba(0, 0, 0, 0.25);
+}
+
+.wrapper.style6 .box {
+  border-color: rgba(255, 255, 255, 0.8);
+  background-color: #fafafa;
+}
+
+.wrapper.style6 .select-wrapper:before {
+  color: rgba(255, 255, 255, 0.25);
+}
+.wrapper.style6 ::-webkit-input-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style6 :-moz-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style6 ::-moz-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style6 :-ms-input-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style6 .formerize-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style6 table tbody tr {
+  border-color: rgba(0, 0, 0, 0.5);
+}
+
+.wrapper.style6 table tbody tr:nth-child(2n + 1) {
+  background-color: rgba(150, 150, 150, 0.15);
+}
+
+.wrapper.style6 table th {
+  color: #000;
+}
+
+.wrapper.style6 table thead {
+  border-bottom-color: rgba(0, 0, 0, 0.5);
+  font-size: 12pt;
+}
+
+.wrapper.style6 table tfoot {
+  border-top-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style6 table.alt tbody tr td {
+  border-color: rgba(150, 150, 150, 0.5);
+}
+
+.wrapper.style6 .image {
+  padding-left: 3em;
+  padding-right: 3em;
+  box-shadow: 0px 0px 0px 7px rgba(0, 0, 0, 0), 0px 0px 0px 8px rgba(0, 0, 0, 0);
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper.style6 .image {
+    padding: 0;
+  }
+
+  .wrapper.style6 {
+    background-size: absolute;
+    background-repeat: repeat-y;
+  }
+}
+
+.wrapper.style7 {
+  /* for workshops */
+  background-color: rgba(227, 213, 198, 0.4);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  color: #000;
+}
+
+.wrapper.style7 input,
+.wrapper.style7 select,
+.wrapper.style7 textarea {
+  color: #000;
+}
+
+.wrapper.style7 a {
+  color: #4d4d4d;
+}
+
+.wrapper.style7 a:hover {
+  color: #e3d5c6;
+}
+
+.wrapper.style7 strong {
+  color: #000;
+}
+
+.wrapper.style7 h1 {
+  color: #000;
+  font-size: 23pt;
+}
+
+.wrapper.style7 h2,
+.wrapper.style7 h3,
+.wrapper.style7 h4,
+.wrapper.style7 h5,
+.wrapper.style7 h6 {
+  color: #000;
+  font-family: "Sorts Mill Goudy", "Inter", sans-serif;
+  font-size: 17pt;
+  letter-spacing: 1px;
+}
+
+.wrapper.style7 ul.alt li {
+  border-top-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style7 header p {
+  color: #000;
+}
+
+.wrapper.style7 p {
+  font-size: 13pt;
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper.style7 h1 {
+    font-size: 20pt;
+  }
+
+  .wrapper.style7 h2,
+  .wrapper.style7 h3,
+  .wrapper.style7 h4,
+  .wrapper.style7 h5 {
+    font-size: 12pt;
+  }
+
+  .wrapper.style7 h6,
+  .wrapper.style7 a,
+  .wrapper.style7 p,
+  .wrapper.style7 li,
+  .wrapper.style7 ol {
+    font-size: 10pt;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .wrapper.style7 p {
+    font-size: 8pt;
+  }
+}
+.wrapper.style7 blockquote {
+  border-left-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style7 code {
+  background: rgba(255, 255, 255, 0.075);
+  border-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style7 hr {
+  border-bottom-color: rgba(0, 0, 0, 0.25);
+}
+
+.wrapper.style7 .box {
+  border-color: rgba(255, 255, 255, 0.8);
+  background-color: #fafafa;
+}
+
+.wrapper.style7 .select-wrapper:before {
+  color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style7 ::-webkit-input-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style7 :-moz-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style7 ::-moz-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style7 :-ms-input-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style7 .formerize-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style7 table tbody tr {
+  border-color: rgba(0, 0, 0, 0.5);
+}
+
+.wrapper.style7 table tbody tr:nth-child(2n + 1) {
+  background-color: rgba(150, 150, 150, 0.15);
+}
+
+.wrapper.style7 table th {
+  color: #000;
+}
+
+.wrapper.style7 table thead {
+  border-bottom-color: rgba(0, 0, 0, 0.5);
+  font-size: 12pt;
+}
+
+.wrapper.style7 table tfoot {
+  border-top-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style7 table.alt tbody tr td {
+  border-color: rgba(150, 150, 150, 0.5);
+}
+
+.wrapper.style7 .image {
+  padding-left: 3em;
+  padding-right: 3em;
+  box-shadow: 0px 0px 0px 7px rgba(0, 0, 0, 0), 0px 0px 0px 8px rgba(0, 0, 0, 0);
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper.style7 .image {
+    padding: 0;
+  }
+
+  .wrapper.style7 {
+    background-color: rgba(227, 213, 198, 0.4);
+    background-size: absolute;
+    background-repeat: repeat-y;
+  }
+}
+
+/*Wrapper styles*/
+
+.wrapper.style8 {
+  /* for about section */
+  background-color: #343638;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  font-family: "Sorts Mill Goudy", "Inter", serif;
+  color: #000;
+}
+
+.wrapper.style8 input,
+.wrapper.style8 select,
+.wrapper.style8 textarea {
+  color: #000;
+}
+
+.wrapper.style8 a {
+  color: #e8e3de;
+}
+
+.wrapper.style8 a:hover {
+  color: #e8e3de;
+}
+
+.wrapper.style8 strong,
+.wrapper.style8 b {
+  color: #000;
+}
+
+.wrapper.style8 h1 {
+  font-family: "Sorts Mill Goudy", "Inter", sans-serif;
+  color: #000;
+  font-size: 35pt;
+}
+
+.wrapper.style8 h2,
+.wrapper.style8 h3,
+.wrapper.style8 h4,
+.wrapper.style8 h5,
+.wrapper.style8 h6 {
+  color: #000;
+  font-family: "Sorts Mill Goudy", "Inter", sans-serif;
+  font-size: 17pt;
+  letter-spacing: 1px;
+}
+
+.wrapper.style8 h5 {
+  font-size: 14pt;
+  letter-spacing: 10px;
+}
+
+.wrapper.style8 ul.alt li {
+  border-top-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style8 header p {
+  color: #2d2d2d;
+}
+
+.wrapper.style8 p {
+  color: #2d2d2d;
+  font-size: 14pt;
+  letter-spacing: 1.5px;
+}
+
+.wrapper.style8 .about-change {
+  display: flex;
+  justify-content: center;
+  letter-spacing: 2px;
+  align-items: center;
+  font-family: "Sorts Mill Goudy", "Inter", sans-serif;
+  font-size: 20pt;
+  margin: 0 0 0 0;
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper.style8 h1 {
+    font-size: 30pt;
+  }
+
+  .wrapper.style8 h2,
+  .wrapper.style8 h3,
+  .wrapper.style8 h4 {
+    font-size: 12pt;
+  }
+
+  .wrapper.style8 h5 {
+    font-size: 12pt;
+    letter-spacing: 3px;
+  }
+
+  .wrapper.style8 h6,
+  .wrapper.style8 a,
+  .wrapper.style8 p,
+  .wrapper.style8 li,
+  .wrapper.style8 ol {
+    font-size: 10pt;
+    letter-spacing: 2px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .wrapper.style8 p {
+    font-size: 8pt;
+    letter-spacing: 2px;
+  }
+}
+
+.wrapper.style8 blockquote {
+  border-left-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style8 code {
+  background: rgba(255, 255, 255, 0.075);
+  border-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style8 hr {
+  border-bottom-color: rgba(0, 0, 0, 0.25);
+}
+
+.wrapper.style8 .box {
+  border-color: rgba(255, 255, 255, 0.8);
+  background-color: #4d4d4d;
+}
+
+.wrapper.style8 .select-wrapper:before {
+  color: rgba(255, 255, 255, 0.25);
+}
+.wrapper.style8 ::-webkit-input-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style8 :-moz-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style8 ::-moz-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style8 :-ms-input-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style8 .formerize-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style8 table tbody tr {
+  border-color: rgba(0, 0, 0, 0.5);
+}
+
+.wrapper.style8 table tbody tr:nth-child(2n + 1) {
+  background-color: rgba(150, 150, 150, 0.15);
+}
+
+.wrapper.style8 table th {
+  color: #000;
+}
+
+.wrapper.style8 table thead {
+  border-bottom-color: rgba(0, 0, 0, 0.5);
+  font-size: 12pt;
+}
+
+.wrapper.style8 table tfoot {
+  border-top-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style8 table.alt tbody tr td {
+  border-color: rgba(150, 150, 150, 0.5);
+}
+
+.wrapper.style8 .image {
+  padding-left: 3em;
+  padding-right: 3em;
+  box-shadow: 0px 0px 0px 7px rgba(0, 0, 0, 0), 0px 0px 0px 8px rgba(0, 0, 0, 0);
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper.style8 .image {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .wrapper.style8 {
+    background-color: #343638;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
+  }
+}
+
+.wrapper.style8.inner.flex.col.countdown-box.countdown-header p {
+  font-size: 30pt;
+}
+
+/*button for style 8*/
+/*BUTTON FOR WRAPPER STYLE 5*/
+.wrapper.style8 .button {
+  font-family: "Sorts Mill Goudy", "Inter", sans-serif;
+  /* color: #e8e3de; */
+  color: #000;
+  text-transform: uppercase;
+  height: 4rem;
+  letter-spacing: 2px;
+  font-size: 15pt;
+  -webkit-border-radius: 20px;
+  width: 18rem;
+  border-radius: 50px;
+  /* box-shadow: 1px 1px 1px 1px #eee2dc; */
+  /* -webkit-box-shadow: 1px 1px 1px 1px #eee2dc; */
+  /* background: linear-gradient(90deg, grey, rgba(150, 150, 150, 0.5)); */
+  background: #e8e3de;
+  text-decoration: none;
+  font-weight: 500;
+  display: inline-block;
+  border: 1px solid #343638;
+  /* box-shadow: inset 0 0 0 0 black; */
+  transition: ease-out 0.3s;
+  outline: none;
+  padding-top: 0.2rem;
+}
+
+.wrapper.style8 .button:hover {
+  box-shadow: inset 300px 0 0 0 #a6adb4;
+  cursor: pointer;
+  color: #e8e3de;
+}
+
+.wrapper.style9 {
+  /* for competition section */
+  /* background: linear-gradient(145deg, #ffecd9, #f2e1d3); */
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  color: #000;
+}
+
+.wrapper.style9 input,
+.wrapper.style9 select,
+.wrapper.style9 textarea {
+  color: #000;
+}
+
+.wrapper.style9 a {
+  color: #4d4d4d;
+}
+
+.wrapper.style9 a:hover {
+  color: #e3d5c6;
+}
+
+.wrapper.style9 strong,
+.wrapper.style9 b {
+  color: #000;
+}
+
+.wrapper.style9 h1 {
+  color: #000;
+  font-size: 23pt;
+}
+
+.wrapper.style9 h2,
+.wrapper.style9 h3,
+.wrapper.style9 h4,
+.wrapper.style9 h5 {
+  color: #000;
+  font-family: "Sorts Mill Goudy", "Inter", "Crimson Pro", serif;
+  font-size: 17pt;
+  letter-spacing: 1px;
+}
+
+.wrapper.style9 h6 {
+  color: #f7f7f7;
+  font-family: "Inter", "Sorts Mill Goudy", "Crimson Pro", serif;
+  font-size: 18pt;
+  letter-spacing: 2px;
+  font-weight: normal;
+  font-weight: 100;
+}
+
+.wrapper.style9 ul.alt li {
+  border-top-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style9 header p {
+  color: #2d2d2d;
+}
+
+.wrapper.style9 p {
+  font-family: "Sorts Mill Goudy", "Inter", "Crimson Pro", serif;
+  color: #2d2d2d;
+  color: grey;
+  font-size: 13pt;
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper.style9 h1 {
+    font-size: 30pt;
+  }
+
+  .wrapper.style9 h2,
+  .wrapper.style9 h3,
+  .wrapper.style9 h4,
+  .wrapper.style9 h5 {
+    font-size: 12pt;
+  }
+
+  .wrapper.style9 h6,
+  .wrapper.style9 a,
+  .wrapper.style9 p,
+  .wrapper.style9 li,
+  .wrapper.style9 ol {
+    font-size: 10pt;
+  }
+}
+
+.wrapper.style9 blockquote {
+  border-left-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style9 code {
+  background: rgba(255, 255, 255, 0.075);
+  border-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style9 hr {
+  border-bottom-color: rgba(0, 0, 0, 0.25);
+}
+
+.wrapper.style9 .box {
+  border-color: rgba(255, 255, 255, 0.8);
+  background-color: #4d4d4d;
+}
+
+.wrapper.style9 .select-wrapper:before {
+  color: rgba(255, 255, 255, 0.25);
+}
+.wrapper.style9 ::-webkit-input-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style9 :-moz-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style9 ::-moz-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style9 :-ms-input-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style9 .formerize-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style9 table tbody tr {
+  border-color: rgba(0, 0, 0, 0.5);
+}
+
+.wrapper.style9 table tbody tr:nth-child(2n + 1) {
+  background-color: rgba(150, 150, 150, 0.15);
+}
+
+.wrapper.style9 table th {
+  color: #000;
+}
+
+.wrapper.style9 table thead {
+  border-bottom-color: rgba(0, 0, 0, 0.5);
+  font-size: 12pt;
+}
+
+.wrapper.style9 table tfoot {
+  border-top-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style9 table.alt tbody tr td {
+  border-color: rgba(150, 150, 150, 0.5);
+}
+
+.wrapper.style9 .image {
+  padding-left: 3em;
+  padding-right: 3em;
+  box-shadow: 0px 0px 0px 7px rgba(0, 0, 0, 0), 0px 0px 0px 8px rgba(0, 0, 0, 0);
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper.style9 .image {
+    width: 80%;
+    margin: auto;
+    padding-bottom: 0rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .wrapper.style9 {
+    background-color: #fff;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
+  }
+}
+
+/*WS1 CSS*/
+
+/* /////////////////////////// */
+.wrapper.ws1 {
+  /* for about section */
+  background-color: #f7f7f7;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  font-family: "Sorts Mill Goudy", "Inter", sans-serif;
+  color: #000;
+}
+
+.wrapper.ws1 input,
+.wrapper.ws1 select,
+.wrapper.ws1 textarea {
+  color: #000;
+}
+
+.wrapper.ws1 a {
+  color: #4d4d4d;
+}
+
+.wrapper.ws1 a:hover {
+  color: #e3d5c6;
+}
+
+.wrapper.ws1 strong,
+.wrapper.ws1 b {
+  color: #000;
+}
+
+.wrapper.ws1 h1 {
+  font-family: "Sorts Mill Goudy", "Inter", serif;
+  color: #000;
+  font-size: 35pt;
+}
+
+.wrapper.ws1 h2,
+.wrapper.ws1 h3,
+.wrapper.ws1 h4,
+.wrapper.ws1 h5,
+.wrapper.ws1 h6 {
+  color: #000;
+  font-family: "Sorts Mill Goudy", "Inter", serif;
+  font-size: 17pt;
+  letter-spacing: 1px;
+}
+
+.wrapper.ws1 ul.alt li {
+  border-top-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.ws1 header p {
+  color: #2d2d2d;
+}
+
+.wrapper.ws1 p {
+  color: #2d2d2d;
+  font-size: 15pt;
+}
+
+.wrapper.ws1 .about-change {
+  display: flex;
+  justify-content: center;
+  letter-spacing: 2px;
+  align-items: center;
+  font-family: "Sorts Mill Goudy", "Inter", serif;
+  font-size: 20pt;
+  margin: 0 0 0 0;
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper.ws1 h1 {
+    font-size: 30pt;
+  }
+
+  .wrapper.ws1 h2,
+  .wrapper.ws1 h3,
+  .wrapper.ws1 h4,
+  .wrapper.ws1 h5 {
+    font-size: 12pt;
+  }
+
+  .wrapper.ws1 h6,
+  .wrapper.ws1 a,
+  .wrapper.ws1 p,
+  .wrapper.ws1 li,
+  .wrapper.ws1 ol {
+    font-size: 10pt;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .wrapper.ws1 h1 {
+    font-size: 20pt;
+  }
+
+  .wrapper.ws1 h2,
+  .wrapper.ws1 h3,
+  .wrapper.ws1 h4,
+  .wrapper.ws1 h5 {
+    font-size: 12pt;
+  }
+
+  .wrapper.ws1 h6,
+  .wrapper.ws1 a,
+  .wrapper.ws1 p,
+  .wrapper.ws1 li,
+  .wrapper.ws1 ol {
+    font-size: 10pt;
+  }
+}
+
+.wrapper.ws1 blockquote {
+  border-left-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.ws1 code {
+  background: rgba(255, 255, 255, 0.075);
+  border-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.ws1 hr {
+  border-bottom-color: rgba(0, 0, 0, 0.25);
+}
+
+.wrapper.ws1 .box {
+  border-color: rgba(255, 255, 255, 0.8);
+  background-color: #4d4d4d;
+}
+
+.wrapper.ws1 .select-wrapper:before {
+  color: rgba(255, 255, 255, 0.25);
+}
+.wrapper.ws1 ::-webkit-input-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.ws1 :-moz-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.ws1 ::-moz-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.ws1 :-ms-input-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.ws1 .formerize-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.ws1 table tbody tr {
+  border-color: rgba(0, 0, 0, 0.5);
+}
+
+.wrapper.ws1 table tbody tr:nth-child(2n + 1) {
+  background-color: rgba(150, 150, 150, 0.15);
+}
+
+.wrapper.ws1 table th {
+  color: #000;
+}
+
+.wrapper.ws1 table thead {
+  border-bottom-color: rgba(0, 0, 0, 0.5);
+  font-size: 12pt;
+}
+
+.wrapper.ws1 table tfoot {
+  border-top-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.ws1 table.alt tbody tr td {
+  border-color: rgba(150, 150, 150, 0.5);
+}
+
+.wrapper.ws1 .image {
+  padding-left: 3em;
+  padding-right: 3em;
+  box-shadow: 0px 0px 0px 7px rgba(0, 0, 0, 0), 0px 0px 0px 8px rgba(0, 0, 0, 0);
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper.ws1 .image {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .wrapper.ws1 {
+    background-color: #fff;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
+  }
+}
+
+/*BUTTON FOR WRAPPER STYLE WS1*/
+.wrapper.ws1 .button {
+  font-family: "Sorts Mill Goudy", "Inter", sans-serif;
+  color: #343638;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  font-size: 20px;
+  -webkit-border-radius: 20px;
+  width: 25rem;
+  border-radius: 40px;
+  /* box-shadow: 1px 1px 1px 1px #eee2dc; */
+  /* -webkit-box-shadow: 1px 1px 1px 1px #eee2dc; */
+  /* background: linear-gradient(90deg, grey, rgba(150, 150, 150, 0.5)); */
+  /* background: #eee2dc; */
+  background: #e5ffbb;
+  text-decoration: none;
+  font-weight: 500;
+  display: inline-block;
+  border: 2px solid #e5ffbb;
+  /* box-shadow: inset 0 0 0 0 #e5ffbb; */
+  transition: ease-out 0.3s;
+  outline: none;
+}
+
+.wrapper.ws1 .button:hover {
+  /* box-shadow: inset 28rem 0 0 0 #343638; */
+  box-shadow: inset 28rem 0 0 0 #b4ff81;
+  cursor: pointer;
+  color: #000;
+}
+
+/* .wrapper.ws1 .image {
+    padding-left: 3em;
+    padding-right: 3em;
+    box-shadow: 0px 0px 0px 7px rgba(0, 0, 0, 0), 0px 0px 0px 8px rgba(0, 0, 0, 0);
+  } */
+
+@media screen and (max-width: 768px) {
+  /* .wrapper.style5 .image {
+      padding: 0;
+    } */
+  .wrapper.ws1 .button {
+    letter-spacing: 10px;
+    font-size: 11px;
+    -webkit-border-radius: 20px;
+    width: 20rem;
+    border-radius: 20px;
+  }
+
+  .wrapper.ws1 .button:hover {
+    /* box-shadow: inset 28rem 0 0 0 #343638; */
+    box-shadow: inset 20rem 0 0 0 #b4ff81;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .wrapper.ws1 .button {
+    letter-spacing: 10px;
+    font-size: 11px;
+    -webkit-border-radius: 20px;
+    width: 15rem;
+    border-radius: 20px;
+  }
+
+  .wrapper.ws1 .button:hover {
+    /* box-shadow: inset 28rem 0 0 0 #343638; */
+    box-shadow: inset 16rem 0 0 0 #b4ff81;
+    cursor: pointer;
+  }
+}
+
+/*WORKSHOP 2 CSS*/
+
+.wrapper-workshop {
+  padding: 8em 2em 4em 2em;
+  position: relative;
+}
+
+.wrapper-workshop .inner {
+  margin: 0 auto;
+  width: 80em;
+  position: relative;
+  z-index: 99;
+}
+
+.wrapper-workshop .form {
+  margin: 0 auto;
+  width: 80em;
+  position: relative;
+  z-index: 99;
+}
+
+.wrapper-workshop header {
+  margin-bottom: 4em;
+}
+
+.wrapper-workshop h1 {
+  font-family: "Sorts Mill Goudy", "Inter", sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper-workshop header {
+    margin-bottom: 2em;
+  }
+
+  .wrapper-workshop > .form {
+    width: 425px;
+  }
+}
+
+.wrapper-workshop.ws2 {
+  /* for about section */
+  background-color: #f7f7f7;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  font-family: "Sorts Mill Goudy", "Inter", sans-serif;
+  color: #4b3f3f;
+}
+
+.wrapper-workshop.ws2 input,
+.wrapper-workshop.ws2 select,
+.wrapper-workshop.ws2 textarea {
+  color: #4b3f3f;
+}
+
+.wrapper-workshop.ws2 a {
+  color: #4b3f3f;
+}
+
+.wrapper-workshop.ws2 a:hover {
+  color: #e3d5c6;
+}
+
+.wrapper-workshop.ws2 strong,
+.wrapper-workshop.ws2 b {
+  color: #4b3f3f;
+}
+
+.wrapper-workshop.ws2 h1 {
+  font-family: "Sorts Mill Goudy", "Inter", serif;
+  color: #4b3f3f;
+  font-weight: 100;
+  font-size: 34pt;
+  letter-spacing: 15px;
+}
+
+.wrapper-workshop.ws2 h2,
+.wrapper-workshop.ws2 h3,
+.wrapper-workshop.ws2 h4,
+.wrapper-workshop.ws2 h5,
+.wrapper-workshop.ws2 h6 {
+  color: #4b3f3f;
+  font-family: "Sorts Mill Goudy", "Inter", serif;
+  font-size: 17pt;
+  letter-spacing: 1px;
+  font-weight: 100;
+}
+
+.wrapper-workshop.ws2 h3 {
+  letter-spacing: 7px;
+}
+
+.wrapper-workshop.ws2 h5 {
+  letter-spacing: 7px;
+  font-weight: 100;
+}
+
+.wrapper-workshop.ws2 ul.alt li {
+  border-top-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper-workshop.ws2 header p {
+  color: #4b3f3f;
+}
+
+.wrapper-workshop.ws2 p {
+  color: #4b3f3f;
+  font-size: 9pt;
+  font-family: "Inter", "Sorts Mill Goudy", serif;
+  letter-spacing: 2px;
+}
+
+.wrapper-workshop.ws2 .about-change {
+  display: flex;
+  justify-content: center;
+  letter-spacing: 2px;
+  align-items: center;
+  font-family: "Sorts Mill Goudy", "Inter", serif;
+  font-size: 20pt;
+  margin: 0 0 0 0;
+}
+
+@media screen and (max-width: 840px) {
+  .wrapper-workshop.ws2 p {
+    font-size: 9pt;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper-workshop.ws2 h1 {
+    font-size: 30pt;
+  }
+
+  .wrapper-workshop.ws2 h2,
+  .wrapper-workshop.ws2 h3,
+  .wrapper-workshop.ws2 h4,
+  .wrapper-workshop.ws2 h5 {
+    font-size: 12pt;
+  }
+
+  .wrapper-workshop.ws2 h6,
+  .wrapper-workshop.ws2 a,
+  .wrapper-workshop.ws2 p,
+  .wrapper-workshop.ws2 li,
+  .wrapper-workshop.ws2 ol {
+    font-size: 10pt;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .wrapper-workshop.ws2 h1 {
+    font-size: 20pt;
+  }
+
+  .wrapper-workshop.ws2 h2,
+  .wrapper-workshop.ws2 h3,
+  .wrapper-workshop.ws2 h4,
+  .wrapper-workshop.ws2 h5 {
+    font-size: 12pt;
+  }
+
+  .wrapper-workshop.ws2 h6,
+  .wrapper-workshop.ws2 a,
+  .wrapper-workshop.ws2 p,
+  .wrapper-workshop.ws2 li,
+  .wrapper-workshop.ws2 ol {
+    font-size: 10pt;
+  }
+}
+
+.wrapper-workshop.ws2 blockquote {
+  border-left-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper-workshop.ws2 code {
+  background: rgba(255, 255, 255, 0.075);
+  border-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper-workshop.ws2 hr {
+  /* border-bottom-color: rgba(0, 0, 0, 0.25); */
+  height: 1px;
+  order: none;
+  color: #4b3f3f;
+  background-color: #4b3f3f;
+  width: 75%;
+}
+
+.wrapper-workshop.ws2 .box {
+  border-color: rgba(255, 255, 255, 0.8);
+  background-color: #4d4d4d;
+}
+
+.wrapper-workshop.ws2 .select-wrapper:before {
+  color: rgba(255, 255, 255, 0.25);
+}
+.wrapper-workshop.ws2 ::-webkit-input-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper-workshop.ws2 :-moz-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper-workshop.ws2 ::-moz-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper-workshop.ws2 :-ms-input-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper-workshop.ws2 .formerize-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper-workshop.ws2 table tbody tr {
+  border-color: rgba(0, 0, 0, 0.5);
+}
+
+.wrapper-workshop.ws2 table tbody tr:nth-child(2n + 1) {
+  background-color: rgba(150, 150, 150, 0.15);
+}
+
+.wrapper-workshop.ws2 table th {
+  color: #000;
+}
+
+.wrapper-workshop.ws2 table thead {
+  border-bottom-color: rgba(0, 0, 0, 0.5);
+  font-size: 12pt;
+}
+
+.wrapper-workshop.ws2 table tfoot {
+  border-top-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper-workshop.ws2 table.alt tbody tr td {
+  border-color: rgba(150, 150, 150, 0.5);
+}
+
+.wrapper-workshop.ws2 .image {
+  padding-left: 0em;
+  padding-right: 1.5em;
+  padding-top: 1rem;
+  box-shadow: 0px 0px 0px 7px rgba(0, 0, 0, 0), 0px 0px 0px 8px rgba(0, 0, 0, 0);
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper-workshop.ws2 .image {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .wrapper-workshop.ws2 {
+    background-color: #fff;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
+  }
+}
+
+/*BUTTON FOR WRAPPER STYLE WS2*/
+.wrapper-workshop.ws2 .button {
+  font-family: "Sorts Mill Goudy", "Inter", sans-serif;
+  color: #343638;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  font-size: 14px;
+  -webkit-border-radius: 20px;
+  width: 25rem;
+  border-radius: 40px;
+  /* box-shadow: 1px 1px 1px 1px #eee2dc; */
+  /* -webkit-box-shadow: 1px 1px 1px 1px #eee2dc; */
+  /* background: linear-gradient(90deg, grey, rgba(150, 150, 150, 0.5)); */
+  /* background: #eee2dc; */
+  background: #e8e3de;
+  text-decoration: none;
+  font-weight: 500;
+  display: inline-block;
+  border: 0.1px solid #4b3f3f;
+  /* box-shadow: inset 0 0 0 0 #f8a293; */
+  transition: ease-out 0.5s;
+  -webkit-transition: ease-out 0.5s;
+  -moz-transition: ease-out 0.5s;
+  -o-transition: ease-out 0.5s;
+  -ms-transition: ease-out 0.5s;
+  outline: none;
+}
+
+.wrapper-workshop.ws2 .button:hover {
+  /* box-shadow: inset 30rem 0 0 0 #343638; */
+  /* box-shadow: inset 28rem 0 0 0 #4b3f3f; */
+  border: 2px solid #eee5e3;
+  cursor: pointer;
+  background: #343638;
+  color: #eee5e3;
+  box-shadow: #343638;
+}
+
+/* .wrapper.ws1 .image {
+    padding-left: 3em;
+    padding-right: 3em;
+    box-shadow: 0px 0px 0px 7px rgba(0, 0, 0, 0), 0px 0px 0px 8px rgba(0, 0, 0, 0);
+  } */
+
+@media screen and (max-width: 768px) {
+  /* .wrapper.style5 .image {
+      padding: 0;
+    } */
+  .wrapper-workshop.ws2 .button {
+    letter-spacing: 10px;
+    font-size: 11px;
+    -webkit-border-radius: 20px;
+    width: 25rem;
+    border-radius: 20px;
+  }
+
+  .wrapper-workshop.ws2 .button:hover {
+    /* box-shadow: inset 28rem 0 0 0 #343638; */
+    /* box-shadow: inset 20rem 0 0 0 #b4ff81; */
+    /* cursor: pointer; */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .wrapper-workshop.ws2 .button {
+    letter-spacing: 10px;
+    font-size: 11px;
+    -webkit-border-radius: 20px;
+    width: 15rem;
+    border-radius: 20px;
+  }
+
+  .wrapper-workshop.ws2 .button:hover {
+    /* box-shadow: inset 28rem 0 0 0 #343638; */
+    /* box-shadow: inset 16rem 0 0 0 #b4ff81;
+      cursor: pointer; */
+  }
+}
+
+/* FOR MOBILE WORKSHOP*/
+
+.wrapper.style-ws-mobile {
+  /* for competition section */
+  /* background: linear-gradient(145deg, #ffecd9, #f2e1d3); */
+  background-color: #e8e3de;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  color: #4b3f3f;
+}
+
+.wrapper.style-ws-mobile input,
+.wrapper.style-ws-mobile select,
+.wrapper.style-ws-mobile textarea {
+  color: #4b3f3f;
+}
+
+.wrapper.style-ws-mobile a {
+  color: #4b3f3f;
+}
+
+.wrapper.style-ws-mobile a:hover {
+  color: #e3d5c6;
+}
+
+.wrapper.style-ws-mobile strong,
+.wrapper.style-ws-mobile b {
+  color: #4b3f3f;
+}
+
+.wrapper.style-ws-mobile h1 {
+  color: #4b3f3f;
+  font-family: "Sorts Mill Goudy", "Inter", "Crimson Pro", serif;
+  font-size: 17pt;
+  text-align: left;
+  letter-spacing: px;
+}
+
+.wrapper.style-ws-mobile h2,
+.wrapper.style-ws-mobile h3,
+.wrapper.style-ws-mobile h4,
+.wrapper.style-ws-mobile h5 {
+  color: #4b3f3f;
+  font-family: "Sorts Mill Goudy", "Inter", "Crimson Pro", serif;
+  font-size: 17pt;
+  letter-spacing: 1px;
+}
+
+.wrapper.style-ws-mobile h6 {
+  color: #f7f7f7;
+  font-family: "Sorts Mill Goudy", "Inter", "Crimson Pro", serif;
+  font-size: 18pt;
+  letter-spacing: 2px;
+  font-weight: normal;
+}
+
+.wrapper.style-ws-mobile ul.alt li {
+  border-top-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style-ws-mobile header p {
+  color: #4b3f3f;
+}
+
+.wrapper.style-ws-mobile p {
+  font-family: "Sorts Mill Goudy", "Inter", "Crimson Pro", serif;
+  color: #4b3f3f;
+  /* color: grey; */
+  font-size: 13pt;
+  text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+  /* .wrapper.style-ws-mobile h1 {
+      font-size: 30pt;
+    } */
+
+  .wrapper.style-ws-mobile h1 {
+    color: #4b3f3f;
+    font-family: "Sorts Mill Goudy", "Inter", "Crimson Pro", serif;
+    font-size: 21pt;
+    text-align: left;
+    letter-spacing: 7px;
+    font-weight: 100;
+  }
+
+  .wrapper.style-ws-mobile h2,
+  .wrapper.style-ws-mobile h3,
+  .wrapper.style-ws-mobile h4,
+  .wrapper.style-ws-mobile h5 {
+    text-align: left;
+    font-size: 12pt;
+    font-weight: 100;
+  }
+
+  .wrapper.style-ws-mobile h3 {
+    letter-spacing: 3px;
+  }
+
+  .wrapper.style-ws-mobile h6,
+  .wrapper.style-ws-mobile a,
+  .wrapper.style-ws-mobile p,
+  .wrapper.style-ws-mobile li,
+  .wrapper.style-ws-mobile ol {
+    font-size: 10pt;
+  }
+}
+
+.wrapper.style-ws-mobile blockquote {
+  border-left-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style-ws-mobile code {
+  background: rgba(255, 255, 255, 0.075);
+  border-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style-ws-mobile hr {
+  height: 1px;
+  order: none;
+  color: #4b3f3f;
+  background-color: #4b3f3f;
+  width: 80%;
+}
+
+.wrapper.style-ws-mobile .box {
+  border-color: rgba(255, 255, 255, 0.8);
+  background-color: #4d4d4d;
+}
+
+.wrapper.style-ws-mobile .select-wrapper:before {
+  color: rgba(255, 255, 255, 0.25);
+}
+.wrapper.style-ws-mobile ::-webkit-input-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style-ws-mobile :-moz-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style-ws-mobile ::-moz-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style-ws-mobile :-ms-input-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style-ws-mobile .formerize-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style-ws-mobile table tbody tr {
+  border-color: rgba(0, 0, 0, 0.5);
+}
+
+.wrapper.style-ws-mobile table tbody tr:nth-child(2n + 1) {
+  background-color: rgba(150, 150, 150, 0.15);
+}
+
+.wrapper.style-ws-mobile table th {
+  color: #4b3f3f;
+}
+
+.wrapper.style-ws-mobile table thead {
+  border-bottom-color: rgba(0, 0, 0, 0.5);
+  font-size: 12pt;
+}
+
+.wrapper.style-ws-mobile table tfoot {
+  border-top-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style-ws-mobile table.alt tbody tr td {
+  border-color: rgba(150, 150, 150, 0.5);
+}
+
+.wrapper.style-ws-mobile .image {
+  padding-left: 3em;
+  padding-right: 3em;
+  box-shadow: 0px 0px 0px 7px rgba(0, 0, 0, 0), 0px 0px 0px 8px rgba(0, 0, 0, 0);
+}
+
+/*BUTTON FOR WRAPPER STYLE WS2*/
+.wrapper.style-ws-mobile .button {
+  font-family: "Sorts Mill Goudy", "Inter", sans-serif;
+  color: #343638;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  font-size: 18px;
+  -webkit-border-radius: 20px;
+  width: 23rem;
+  border-radius: 40px;
+  /* box-shadow: 1px 1px 1px 1px #eee2dc; */
+  /* -webkit-box-shadow: 1px 1px 1px 1px #eee2dc; */
+  /* background: linear-gradient(90deg, grey, rgba(150, 150, 150, 0.5)); */
+  /* background: #eee2dc; */
+  background: #e8e3de;
+  text-decoration: none;
+  font-weight: 500;
+  display: inline-block;
+  border: 0.1px solid #4b3f3f;
+  /* box-shadow: inset 0 0 0 0 #f8a293; */
+  transition: ease-out 0.4s;
+  outline: none;
+}
+
+.wrapper.style-ws-mobile .button:hover {
+  border: 2px solid #eee5e3;
+  cursor: pointer;
+  background: #343638;
+  color: #eee5e3;
+  box-shadow: #343638;
+}
+
+/* .wrapper.ws1 .image {
+    padding-left: 3em;
+    padding-right: 3em;
+    box-shadow: 0px 0px 0px 7px rgba(0, 0, 0, 0), 0px 0px 0px 8px rgba(0, 0, 0, 0);
+  } */
+
+@media screen and (max-width: 768px) {
+  /* .wrapper.style5 .image {
+      padding: 0;
+    } */
+  .wrapper.style-ws-mobile .button {
+    letter-spacing: 5px;
+    font-size: 11px;
+    -webkit-border-radius: 20px;
+    width: 20rem;
+    border-radius: 20px;
+  }
+
+  .wrapper.style-ws-mobile .button:hover {
+    /* box-shadow: inset 28rem 0 0 0 #343638; */
+    /* box-shadow: inset 20rem 0 0 0 #b4ff81; */
+    /* cursor: pointer; */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .wrapper.style-ws-mobile .button {
+    letter-spacing: 3px;
+    font-size: 9px;
+    -webkit-border-radius: 20px;
+    width: 18rem;
+    border-radius: 20px;
+  }
+
+  .wrapper.style-ws-mobile.button:hover {
+    /* box-shadow: inset 28rem 0 0 0 #343638; */
+    /* box-shadow: inset 16rem 0 0 0 #b4ff81; */
+    /* cursor: pointer; */
+  }
+}
+
+/*wrapper style for faq, rnr and tnc*/
+.wrapper.style-frt {
+  /* for tnc and faq */
+  background-color: #d8d8d8;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  color: #4b3f3f;
+}
+
+.wrapper.style-frt input,
+.wrapper.style-frt select,
+.wrapper.style-frt textarea {
+  color: #4b3f3f;
+}
+
+.wrapper.style-frt a {
+  color: #4d4d4d;
+}
+
+.wrapper.style-frt a:hover {
+  color: #e3d5c6;
+}
+
+.wrapper.style-frt strong,
+.wrapper.style-frt b {
+  color: #4b3f3f;
+}
+
+.wrapper.style-frt h1 {
+  font-family: "Sorts Mill Goudy", "Inter", "Crimson Pro", serif;
+  color: #4b3f3f;
+  font-size: 25pt;
+  letter-spacing: 10px;
+  font-weight: 200;
+}
+
+.wrapper.style-frt h2,
+.wrapper.style-frt h3,
+.wrapper.style-frt h4,
+.wrapper.style-frt h5 {
+  color: #4b3f3f;
+  font-family: "Sorts Mill Goudy", "Inter", "Crimson Pro", serif;
+  font-size: 17pt;
+  font-weight: 100;
+}
+
+.wrapper.style-frt h2 {
+  letter-spacing: 8px;
+  font-weight: 100;
+}
+
+.wrapper.style-frt h3 {
+  letter-spacing: 5px;
+}
+
+.wrapper.style-frt h6 {
+  font-weight: normal;
+  font-size: 12pt;
+  font-family: "Sorts Mill Goudy", "Inter", "Montserrat", sans-serif;
+}
+
+.wrapper.style-frt header p {
+  color: #4b3f3f;
+}
+
+.wrapper.style-frt p {
+  font-size: 12pt;
+}
+
+.wrapper.style-frt p,
+.wrapper.style-frt ul,
+.wrapper.style-frt ol {
+  margin-bottom: 0px;
+}
+
+.wrapper.style-frt ol {
+  counter-reset: item;
+}
+
+.wrapper.style-frt li {
+  padding-left: 0.5em;
+  font-size: 12pt;
+  text-align: justify;
+}
+
+.wrapper.style-frt ol > li {
+  display: block;
+  position: relative;
+}
+
+.wrapper.style-frt ol > li:before {
+  content: counters(item, ".") ".";
+  counter-increment: item;
+  position: absolute;
+  margin-right: 100%;
+  right: 6px;
+}
+
+.wrapper.style-frt ul.inner {
+  list-style-type: circle;
+}
+
+.wrapper.style-frt br {
+  content: "";
+  display: block;
+  margin: 12px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper.style-frt h1 {
+    font-size: 13pt;
+    letter-spacing: 6px;
+  }
+
+  .wrapper.style-frt h3,
+  .wrapper.style-frt h4,
+  .wrapper.style-frt h5 {
+    font-size: 12pt;
+  }
+
+  .wrapper.style-frt h2 {
+    font-size: 10pt;
+    letter-spacing: 4px;
+  }
+
+  .wrapper.style-frt h6 {
+    font-size: 10pt;
+  }
+
+  .wrapper.style-frt p,
+  .wrapper.style-frt li {
+    font-size: 8pt;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+.wrapper.style-frt blockquote {
+  border-left-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style-frt code {
+  background: rgba(255, 255, 255, 0.075);
+  border-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style-frt hr {
+  border-bottom-color: rgba(0, 0, 0, 0.25);
+}
+
+.wrapper.style-frt .box {
+  border-radius: 30px;
+  padding: 5em;
+  border-color: rgba(255, 255, 255, 0.8);
+  background-color: #fafafa;
+}
+
+.wrapper.style-frt input[type="submit"],
+.wrapper.style-frt input[type="reset"],
+.wrapper.style-frt input[type="button"],
+.wrapper.style-frt button,
+.wrapper.style-frt .button {
+  background-color: #e3d5c6;
+  color: #2d2d2d !important;
+}
+
+.wrapper.style-frt input[type="submit"]:hover,
+.wrapper.style-frt input[type="reset"]:hover,
+.wrapper.style-frt input[type="button"]:hover,
+.wrapper.style-frt button:hover,
+.wrapper.style-frt .button:hover {
+  background-color: #2d2d2d;
+  color: #e3d5c6 !important;
+}
+
+.wrapper.style-frt input[type="submit"].alt,
+.wrapper.style-frt input[type="reset"].alt,
+.wrapper.style-frt input[type="button"].alt,
+.wrapper.style-frt button.alt,
+.wrapper.style-frt .button.alt {
+  background-color: transparent;
+  box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.25);
+  color: #000 !important;
+}
+
+.wrapper.style-frt input[type="submit"].alt:hover,
+.wrapper.style-frt input[type="reset"].alt:hover,
+.wrapper.style-frt input[type="button"].alt:hover,
+.wrapper.style-frt button.alt:hover,
+.wrapper.style-frt .button.alt:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.wrapper.style-frt input[type="submit"].alt:active,
+.wrapper.style-frt input[type="reset"].alt:active,
+.wrapper.style-frt input[type="button"].alt:active,
+.wrapper.style-frt button.alt:active,
+.wrapper.style-frt .button.alt:active {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.wrapper.style-frt input[type="submit"].alt.icon:before,
+.wrapper.style-frt input[type="reset"].alt.icon:before,
+.wrapper.style-frt input[type="button"].alt.icon:before,
+.wrapper.style-frt button.alt.icon:before,
+.wrapper.style-frt .button.alt.icon:before {
+  color: #000;
+}
+
+.wrapper.style-frt input[type="submit"].special,
+.wrapper.style-frt input[type="reset"].special,
+.wrapper.style-frt input[type="button"].special,
+.wrapper.style-frt button.special,
+.wrapper.style-frt .button.special {
+  background-color: black;
+  color: #fff !important;
+}
+
+.wrapper.style-frt input[type="submit"].special:hover,
+.wrapper.style-frt input[type="reset"].special:hover,
+.wrapper.style-frt input[type="button"].special:hover,
+.wrapper.style-frt button.special:hover,
+.wrapper.style-frt .button.special:hover {
+  background-color: yellow;
+}
+
+.wrapper.style-frt input[type="submit"].special:active,
+.wrapper.style-frt input[type="reset"].special:active,
+.wrapper.style-frt input[type="button"].special:active,
+.wrapper.style-frt button.special:active,
+.wrapper.style-frt .button.special:active {
+  background-color: black;
+}
+
+.wrapper.style-frt label {
+  color: #fff;
+}
+
+.wrapper.style-frt input[type="text"],
+.wrapper.style-frt input[type="password"],
+.wrapper.style-frt input[type="email"],
+.wrapper.style-frt select,
+.wrapper.style-frt textarea {
+  background: rgba(0, 0, 0, 0.03);
+  border-color: rgba(0, 0, 0, 0.25);
+}
+
+.wrapper.style-frt input[type="text"]:focus,
+.wrapper.style-frt input[type="password"]:focus,
+.wrapper.style-frt input[type="email"]:focus,
+.wrapper.style-frt select:focus,
+.wrapper.style-frt textarea:focus {
+  border-color: #000;
+  box-shadow: 0 0 0 1px #000;
+}
+
+.wrapper.style-frt .select-wrapper:before {
+  color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style-frt input[type="checkbox"] + label,
+.wrapper.style-frt input[type="radio"] + label {
+  color: #000;
+}
+
+.wrapper.style-frt input[type="checkbox"] + label:before,
+.wrapper.style-frt input[type="radio"] + label:before {
+  background: rgba(255, 255, 255, 0.075);
+  border-color: rgba(0, 0, 0, 0.25);
+}
+
+.wrapper.style-frt input[type="checkbox"]:checked + label:before,
+.wrapper.style-frt input[type="radio"]:checked + label:before {
+  background-color: #000;
+  border-color: #000;
+  color: #fff;
+}
+
+.wrapper.style-frt input[type="checkbox"]:focus + label:before,
+.wrapper.style-frt input[type="radio"]:focus + label:before {
+  border-color: #000;
+  box-shadow: 0 0 0 1px #fafafa;
+}
+
+.wrapper.style-frt ::-webkit-input-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style-frt :-moz-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style-frt ::-moz-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style-frt :-ms-input-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style-frt .formerize-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style-frt table tbody tr {
+  border-color: rgba(0, 0, 0, 0.5);
+}
+
+.wrapper.style-frt table tbody tr:nth-child(2n + 1) {
+  background-color: rgba(150, 150, 150, 0.15);
+}
+
+.wrapper.style-frt table th {
+  color: #000;
+}
+
+.wrapper.style-frt table thead {
+  border-bottom-color: rgba(0, 0, 0, 0.5);
+  font-size: 12pt;
+}
+
+.wrapper.style-frt table tfoot {
+  border-top-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style-frt table.alt tbody tr td {
+  border-color: rgba(150, 150, 150, 0.5);
+}
+
+.wrapper.style-frt .image {
+  padding-left: 3em;
+  padding-right: 3em;
+  box-shadow: 0px 0px 0px 7px rgba(0, 0, 0, 0), 0px 0px 0px 8px rgba(0, 0, 0, 0);
+}
+
+@media screen and (max-width: 1280px) {
+  .wrapper > .inner {
+    width: 68em;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .wrapper > .inner {
+    width: 90%;
+  }
+
+  .wrapper.style-frt .box {
+    padding: 2em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    padding: 3em 0 1em 0;
+  }
+
+  .wrapper.style-frt .image {
+    padding: 0;
+  }
+
+  .wrapper.style-frt .box {
+    padding: 0;
+  }
+}
+
+/*Wrapper styles*/
+
+.wrapper.style-about {
+  /* for about section */
+  /* background-color: #343638; */
+  background-image: url("../photos-final/background/edited-1544884-upside\ down.png");
+  /* background-attachment: fixed; */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  background-size: cover;
+  font-family: "Sorts Mill Goudy", "Inter", serif;
+  color: #4b3f3f;
+}
+
+.wrapper.style-about input,
+.wrapper.style-about select,
+.wrapper.style-about textarea {
+  color: #4b3f3f;
+}
+
+.wrapper.style-about a {
+  color: #aeaeae;
+}
+
+.wrapper.style-about a:hover {
+  color: #e8e3de;
+}
+
+.wrapper.style-about strong,
+.wrapper.style-about b {
+  color: #4b3f3f;
+}
+
+.wrapper.style-about h1 {
+  font-family: "Sorts Mill Goudy", "Inter", sans-serif;
+  color: #4b3f3f;
+  font-size: 35pt;
+}
+
+.wrapper.style-about h2,
+.wrapper.style-about h5 {
+  color: #4b3f3f;
+  font-family: "Sorts Mill Goudy", "Inter", sans-serif;
+  font-size: 17pt;
+  letter-spacing: 1px;
+}
+
+.wrapper.style-about h4 {
+  color: #4b3f3f;
+  font-family: "Inter", "Sorts Mill Goudy", sans-serif;
+  font-size: 20pt;
+  letter-spacing: 5px;
+  font-weight: 200;
+}
+
+.wrapper.style-about h3 {
+  font-size: 20pt;
+  letter-spacing: 11px;
+  margin: 0 0 0 0;
+  font-weight: 100;
+}
+
+.wrapper.style-about h6 {
+  color: #4b3f3f;
+  font-family: "Inter", "Sorts Mill Goudy", sans-serif;
+  font-size: 20pt;
+  letter-spacing: 1px;
+}
+
+.wrapper.style-about h5 {
+  font-size: 14pt;
+  letter-spacing: 10px;
+}
+
+.wrapper.style-about h6 {
+  font-size: 14pt;
+  letter-spacing: 7px;
+  font-weight: 200;
+}
+
+/* .wrapper.style-about a {
+    font-size: 14pt;
+    letter-spacing: 10px;
+    font-weight: 100;
+  } */
+
+.wrapper.style-about ul.alt li {
+  border-top-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style-about header p {
+  color: #4b3f3f;
+}
+
+.wrapper.style-about p {
+  color: #4b3f3f;
+  font-size: 14pt;
+  letter-spacing: 1.5px;
+  font-weight: 100;
+}
+
+.wrapper.style-about .about-change {
+  display: flex;
+  justify-content: center;
+  letter-spacing: 2px;
+  align-items: center;
+  font-family: "Sorts Mill Goudy", "Inter", sans-serif;
+  font-size: 20pt;
+  margin: 0 0 0 0;
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper.style-about h1 {
+    font-size: 30pt;
+  }
+
+  .wrapper.style-about h2,
+  .wrapper.style-about h3 {
+    font-size: 12pt;
+  }
+
+  .wrapper.style-about h4 {
+    font-size: 13pt;
+    letter-spacing: 3px;
+  }
+
+  .wrapper.style-about h5 {
+    font-size: 12pt;
+    letter-spacing: 3px;
+  }
+
+  .wrapper.style-about h6,
+  .wrapper.style-about a,
+  .wrapper.style-about p,
+  .wrapper.style-about li,
+  .wrapper.style-about ol {
+    font-size: 12pt;
+    letter-spacing: 3px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .wrapper.style-about p,
+  .wrapper.style-about a {
+    font-size: 8pt;
+    letter-spacing: 2px;
+  }
+
+  .wrapper.style-about h3 {
+    font-size: 9pt;
+    letter-spacing: 8px;
+  }
+
+  .wrapper.style-about h6,
+  .wrapper.style-about li {
+    font-size: 8pt;
+    letter-spacing: 2px;
+  }
+}
+
+.wrapper.style-about blockquote {
+  border-left-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style-about code {
+  background: rgba(255, 255, 255, 0.075);
+  border-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style-about hr {
+  border-bottom-color: #4b3f3f;
+}
+
+.wrapper.style-about .box {
+  border-color: rgba(255, 255, 255, 0.8);
+  background-color: #4d4d4d;
+}
+
+.wrapper.style-about .select-wrapper:before {
+  color: rgba(255, 255, 255, 0.25);
+}
+.wrapper.style-about ::-webkit-input-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style-about :-moz-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style-about ::-moz-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style-about :-ms-input-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style-about .formerize-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style-about table tbody tr {
+  border-color: rgba(0, 0, 0, 0.5);
+}
+
+.wrapper.style-about table tbody tr:nth-child(2n + 1) {
+  background-color: rgba(150, 150, 150, 0.15);
+}
+
+.wrapper.style-about table th {
+  color: #000;
+}
+
+.wrapper.style-about table thead {
+  border-bottom-color: rgba(0, 0, 0, 0.5);
+  font-size: 12pt;
+}
+
+.wrapper.style-about table tfoot {
+  border-top-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style-about table.alt tbody tr td {
+  border-color: rgba(150, 150, 150, 0.5);
+}
+
+.wrapper.style-about .image {
+  padding-left: 3em;
+  padding-right: 3em;
+  box-shadow: 0px 0px 0px 7px rgba(0, 0, 0, 0), 0px 0px 0px 8px rgba(0, 0, 0, 0);
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper.style-about .image {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .wrapper.style-about {
+    background-color: #343638;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
+  }
+}
+
+.wrapper.style-about.inner.flex.col.countdown-box.countdown-header p {
+  font-size: 30pt;
+}
+
+/*button for style 8*/
+/*BUTTON FOR WRAPPER STYLE 5*/
+.wrapper.style-about .button {
+  font-family: "Sorts Mill Goudy", "Inter", sans-serif;
+  /* color: #e8e3de; */
+  color: #343638;
+  text-transform: uppercase;
+  height: 3rem;
+  letter-spacing: 4px;
+  font-size: 11pt;
+  -webkit-border-radius: 20px;
+  width: 18rem;
+  border-radius: 50px;
+  /* box-shadow: 1px 1px 1px 1px #eee2dc; */
+  /* -webkit-box-shadow: 1px 1px 1px 1px #eee2dc; */
+  /* background: linear-gradient(90deg, grey, rgba(150, 150, 150, 0.5)); */
+  background: #e8e3de;
+  text-decoration: none;
+  font-weight: 500;
+  display: inline-block;
+  border: 1px solid #343638;
+  /* box-shadow: inset 0 0 0 0 black; */
+  transition: ease-out 0.3s;
+  outline: none;
+  padding-top: 0.2rem;
+}
+
+.wrapper.style-about .button:hover {
+  box-shadow: inset 300px 0 0 0 #343638;
+  cursor: pointer;
+  color: #e8e3de;
+}
+
+/*BUTTON FOR WRAPPER STYLE 5*/
+/* .wrapper.style5 .button {
+    font-family: "Sorts Mill Goudy", "Inter", sans-serif;
+    color: #343638;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 15px;
+    -webkit-border-radius: 20px;
+    width: 18rem;
+    border-radius: 20px;
+    background: #e8e3de;
+    text-decoration: none;
+    font-weight: 500;
+    display: inline-block;
+    border: 2px solid #343638;
+    transition: ease-out 0.3s;
+    outline: none;
+  }
+  
+  .wrapper.style5 .button:hover {
+    box-shadow: inset 300px 0 0 0 #343638;
+    cursor: pointer;
+    color: #eee2dc;
+  } */
+
+.wrapper.style-about .image {
+  /* padding-left: 3em;
+    padding-right: 3em; */
+  box-shadow: 0px 0px 0px 7px rgba(0, 0, 0, 0), 0px 0px 0px 8px rgba(0, 0, 0, 0);
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper.style-about .image {
+    padding: 0;
+  }
+
+  .wrapper.style-about .button {
+    text-align: center;
+    letter-spacing: 1.5px;
+    /* font-size: 12px; */
+    width: 12rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .wrapper.style-about {
+    background-color: #fff;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
+  }
+
+  .wrapper.style-about .button {
+    height: 2rem;
+    font-size: 7pt;
+  }
+}
+
+/* from timeline onwards*/
+
+.wrapper.style-x {
+  /* for about section */
+  background-image: url("../photos-final/background/edited-1544884.png");
+  /* background-attachment: fixed; */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  background-size: cover;
+  font-family: "Sorts Mill Goudy", "Inter", serif;
+  color: #000;
+}
+
+.wrapper.style-x input,
+.wrapper.style-x select,
+.wrapper.style-x textarea {
+  color: #000;
+}
+
+.wrapper.style-x a {
+  color: #e8e3de;
+}
+
+.wrapper.style-x a:hover {
+  color: #e8e3de;
+}
+
+.wrapper.style-x strong,
+.wrapper.style-x b {
+  color: #000;
+}
+
+.wrapper.style-x h1 {
+  font-family: "Sorts Mill Goudy", "Inter", sans-serif;
+  color: #000;
+  font-size: 35pt;
+}
+
+.wrapper.style-x h2,
+.wrapper.style-x h3,
+.wrapper.style-x h4,
+.wrapper.style-x h5,
+.wrapper.style-x h6 {
+  color: #000;
+  font-family: "Sorts Mill Goudy", "Inter", sans-serif;
+  font-size: 17pt;
+  letter-spacing: 1px;
+}
+
+.wrapper.style-x h5 {
+  font-size: 14pt;
+  letter-spacing: 10px;
+}
+
+.wrapper.style-x ul.alt li {
+  border-top-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.stylstyle-xe8 header p {
+  color: #2d2d2d;
+}
+
+.wrapper.style-x p {
+  color: #2d2d2d;
+  font-size: 14pt;
+  letter-spacing: 1.5px;
+}
+
+.wrapper.style-x .about-change {
+  display: flex;
+  justify-content: center;
+  letter-spacing: 2px;
+  align-items: center;
+  font-family: "Sorts Mill Goudy", "Inter", sans-serif;
+  font-size: 20pt;
+  margin: 0 0 0 0;
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper.style-x h1 {
+    font-size: 30pt;
+  }
+
+  .wrapper.style-x h2,
+  .wrapper.style-x h3,
+  .wrapper.style-x h4 {
+    font-size: 12pt;
+  }
+
+  .wrapper.style-x h5 {
+    font-size: 12pt;
+    letter-spacing: 3px;
+  }
+
+  .wrapper.style-x h6,
+  .wrapper.style-x a,
+  .wrapper.style-x p,
+  .wrapper.style-x li,
+  .wrapper.style-x ol {
+    font-size: 10pt;
+    letter-spacing: 2px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .wrapper.style-x p {
+    font-size: 8pt;
+    letter-spacing: 2px;
+  }
+}
+
+.wrapper.style-x blockquote {
+  border-left-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style-x code {
+  background: rgba(255, 255, 255, 0.075);
+  border-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style-x hr {
+  border-bottom-color: rgba(0, 0, 0, 0.25);
+}
+
+.wrapper.style-x .box {
+  border-color: rgba(255, 255, 255, 0.8);
+  background-color: #4d4d4d;
+}
+
+.wrapper.style-x .select-wrapper:before {
+  color: rgba(255, 255, 255, 0.25);
+}
+.wrapper.style-x ::-webkit-input-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style-x :-moz-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style-x ::-moz-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style-x :-ms-input-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style-x .formerize-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style-x table tbody tr {
+  border-color: rgba(0, 0, 0, 0.5);
+}
+
+.wrapper.style-x table tbody tr:nth-child(2n + 1) {
+  background-color: rgba(150, 150, 150, 0.15);
+}
+
+.wrapper.style-x table th {
+  color: #000;
+}
+
+.wrapper.style-x table thead {
+  border-bottom-color: rgba(0, 0, 0, 0.5);
+  font-size: 12pt;
+}
+
+.wrapper.style-x table tfoot {
+  border-top-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style-x table.alt tbody tr td {
+  border-color: rgba(150, 150, 150, 0.5);
+}
+
+.wrapper.style-x .image {
+  padding-left: 3em;
+  padding-right: 3em;
+  box-shadow: 0px 0px 0px 7px rgba(0, 0, 0, 0), 0px 0px 0px 8px rgba(0, 0, 0, 0);
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper.style-x .image {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .wrapper.style-x {
+    /* background-color: #343638; */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
+  }
+}
+
+.wrapper.style-x.inner.flex.col.countdown-box.countdown-header p {
+  font-size: 30pt;
+}
+
+/*button for style 8*/
+/*BUTTON FOR WRAPPER STYLE 5*/
+.wrapper.style-x .button {
+  font-family: "Sorts Mill Goudy", "Inter", sans-serif;
+  /* color: #e8e3de; */
+  color: #000;
+  text-transform: uppercase;
+  height: 4rem;
+  letter-spacing: 2px;
+  font-size: 15pt;
+  -webkit-border-radius: 20px;
+  width: 18rem;
+  border-radius: 50px;
+  /* box-shadow: 1px 1px 1px 1px #eee2dc; */
+  /* -webkit-box-shadow: 1px 1px 1px 1px #eee2dc; */
+  /* background: linear-gradient(90deg, grey, rgba(150, 150, 150, 0.5)); */
+  background: #e8e3de;
+  text-decoration: none;
+  font-weight: 500;
+  display: inline-block;
+  border: 1px solid #343638;
+  /* box-shadow: inset 0 0 0 0 black; */
+  transition: ease-out 0.3s;
+  outline: none;
+  padding-top: 0.2rem;
+}
+
+.wrapper.style-x .button:hover {
+  box-shadow: inset 300px 0 0 0 #a6adb4;
+  cursor: pointer;
+  color: #e8e3de;
+}
