@@ -1,0 +1,184 @@
+.workshop-banner-background-mentor {
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  -moz-align-items: center;
+  -webkit-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+
+  -moz-justify-content: center;
+  -webkit-justify-content: center;
+  -ms-justify-content: center;
+  justify-content: center;
+  background-color: #000;
+  background: url(../photos-final/background/edited-1544884.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top: 0;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  width: 100%;
+}
+
+/* .workshop-banner-background-mentor {
+  display: -ms-flexbox;
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  padding: 8em 0 8em 0;
+  -moz-align-items: center;
+  -webkit-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -moz-justify-content: center;
+  -webkit-justify-content: center;
+  -ms-justify-content: center;
+  justify-content: center;
+  background-color: #000;
+  background: url(../photos-final/background/edited-1544884.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-repeat: no-repeat;
+  border-top: 0;
+  min-height: 100vh;
+  height: 100vh !important;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+} */
+
+.mentor-box {
+  /* background-color: #e8e3de; */
+  backdrop-filter: blur(50px);
+  -webkit-backdrop-filter: blur(50px);
+  border-radius: 50px;
+  width: 90%;
+
+  margin-left: 5%;
+  /* margin-right: 5%; */
+  box-shadow: 2px 2px 2px 2px rgb(0, 0, 0, 0.1);
+}
+
+.mentor-box div {
+  padding: 10px;
+}
+
+@media screen and (max-width: 900px) {
+  .mentor-box div {
+    padding: 6px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .mentor-box div {
+    padding: 13px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .mentor-box div {
+    padding: 7px;
+  }
+}
+
+.mentor-flex-left {
+  /* padding: 10px; */
+  flex: 25%;
+}
+
+.mentor-flex-middle {
+  /* padding: 10px; */
+  flex: 25%;
+}
+
+.mentor-flex-right {
+  /* padding: 10px; */
+  flex: 25%;
+}
+
+.mentor-flex-container {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.mentor-flex-container-margin {
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+@media (max-width: 768px) {
+  .mentor-flex-container-margin {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .mentor-flex-container {
+    flex-direction: column;
+  }
+}
+
+.main-mentors-content {
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+@media (max-width: 768px) {
+  .main-mentors-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}
+
+.mentor-indi-section {
+  background: #e8e3de;
+}
+
+.indi-mentor-flex-container {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.indi-mentor-left {
+  padding: 10px;
+  flex: 30%;
+}
+.indi-mentor-right {
+  padding: 10px;
+  flex: 70%;
+}
+
+.indi-mentor-flex-container-padding {
+  margin-left: 6rem;
+  margin-right: 6rem;
+}
+
+.mentor-margin-right {
+  margin-right: 10rem;
+}
+
+@media (max-width: 768px) {
+  .indi-mentor-flex-container {
+    flex-direction: column;
+  }
+
+  .indi-mentor-flex-container-padding {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .mentor-margin-right {
+    margin-right: 0rem;
+  }
+}

@@ -3525,7 +3525,7 @@
 .wrapper.style-about {
   /* for about section */
   /* background-color: #343638; */
-  background-image: url("../photos-final/background/edited-1544884-upside\ down.png");
+  background-image: url("../photos-final/background/background-top.jpg");
   /* background-attachment: fixed; */
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -3792,7 +3792,7 @@
   /* box-shadow: 1px 1px 1px 1px #eee2dc; */
   /* -webkit-box-shadow: 1px 1px 1px 1px #eee2dc; */
   /* background: linear-gradient(90deg, grey, rgba(150, 150, 150, 0.5)); */
-  background: #e8e3de;
+  background: #ffffff;
   text-decoration: none;
   font-weight: 500;
   display: inline-block;
@@ -3806,7 +3806,7 @@
 .wrapper.style-about .button:hover {
   box-shadow: inset 300px 0 0 0 #343638;
   cursor: pointer;
-  color: #e8e3de;
+  color: #ffffff;
 }
 
 /*BUTTON FOR WRAPPER STYLE 5*/
@@ -3873,7 +3873,7 @@
 
 .wrapper.style-x {
   /* for about section */
-  background-image: url("../photos-final/background/edited-1544884.png");
+  background-image: url("../photos-final/background/background-bottom.jpg");
   /* background-attachment: fixed; */
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -4107,4 +4107,529 @@
   box-shadow: inset 300px 0 0 0 #a6adb4;
   cursor: pointer;
   color: #e8e3de;
+}
+
+/* wrapper for mentors*/
+.wrapper.style-mentor {
+  /* for about section */
+  /* background-color: #343638; */
+  background-image: url("../photos-final/background/edited-1544884-coloured\ bg.png");
+  /* background-attachment: fixed; */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  background-size: cover;
+  font-family: "Sorts Mill Goudy", "Inter", serif;
+  color: #fff;
+}
+
+.wrapper.style-mentor input,
+.wrapper.style-mentor select,
+.wrapper.style-mentor textarea {
+  color: #4b3f3f;
+}
+
+.wrapper.style-mentor a {
+  color: #fff;
+}
+
+.wrapper.style-mentor a:hover {
+  color: #e8e3de;
+}
+
+.wrapper.style-mentor strong,
+.wrapper.style-mentor b {
+  color: #fff;
+}
+
+.wrapper.style-mentor h1 {
+  font-family: "Sorts Mill Goudy", "Inter", sans-serif;
+  color: #fff;
+  font-size: 35pt;
+}
+
+.wrapper.style-mentor h2 {
+  color: #fff;
+  font-family: "Sorts Mill Goudy", "Inter", sans-serif;
+  font-size: 17pt;
+  letter-spacing: 8px;
+  font-weight: 100;
+}
+
+.wrapper.style-mentor h5 {
+  color: #fff;
+  font-family: "Sorts Mill Goudy", "Inter", sans-serif;
+  font-size: 13pt;
+  letter-spacing: 1px;
+  font-weight: 100;
+}
+
+.wrapper.style-mentor h4 {
+  color: #fff;
+  font-family: "Sorts Mill Goudy", "Inter", sans-serif;
+  font-size: 20pt;
+  letter-spacing: 5px;
+  font-weight: 200;
+}
+
+.wrapper.style-mentor h3 {
+  font-size: 20pt;
+  letter-spacing: 11px;
+  margin: 0 0 0 0;
+  font-weight: 100;
+}
+
+.wrapper.style-mentor h6 {
+  color: #fff;
+  font-family: "Inter", "Sorts Mill Goudy", sans-serif;
+  font-size: 20pt;
+  letter-spacing: 1px;
+}
+
+.wrapper.style-mentor h5 {
+  font-size: 14pt;
+  letter-spacing: 10px;
+}
+
+.wrapper.style-mentor h6 {
+  font-size: 14pt;
+  letter-spacing: 7px;
+  font-weight: 200;
+}
+
+/* .wrapper.style-about a {
+  font-size: 14pt;
+  letter-spacing: 10px;
+  font-weight: 100;
+} */
+
+.wrapper.style-mentor ul.alt li {
+  border-top-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style-mentor header p {
+  color: #4b3f3f;
+}
+
+.wrapper.style-mentor p {
+  color: #fff;
+  font-size: 10pt;
+  letter-spacing: 2px;
+  font-weight: 100;
+}
+
+.wrapper.style-mentor .about-change {
+  display: flex;
+  justify-content: center;
+  letter-spacing: 2px;
+  align-items: center;
+  font-family: "Sorts Mill Goudy", "Inter", sans-serif;
+  font-size: 20pt;
+  margin: 0 0 0 0;
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper.style-mentor h1 {
+    font-size: 30pt;
+  }
+
+  .wrapper.style-mentor h2,
+  .wrapper.style-mentor h3 {
+    font-size: 12pt;
+  }
+
+  .wrapper.style-mentor h4 {
+    font-size: 13pt;
+    letter-spacing: 3px;
+  }
+
+  .wrapper.style-mentor h5 {
+    font-size: 12pt;
+    letter-spacing: 3px;
+  }
+
+  .wrapper.style-mentor h6,
+  .wrapper.style-mentor a,
+  .wrapper.style-mentor p,
+  .wrapper.style-mentor li,
+  .wrapper.style-mentor ol {
+    font-size: 8pt;
+    letter-spacing: 3px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .wrapper.style-mentor p,
+  .wrapper.style-mentor a {
+    font-size: 8pt;
+    letter-spacing: 2px;
+  }
+
+  .wrapper.style-mentor h3 {
+    font-size: 9pt;
+    letter-spacing: 8px;
+  }
+
+  .wrapper.style-mentor h6,
+  .wrapper.style-mentor li {
+    font-size: 8pt;
+    letter-spacing: 2px;
+  }
+}
+
+.wrapper.style-mentor blockquote {
+  border-left-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style-mentor code {
+  background: rgba(255, 255, 255, 0.075);
+  border-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style-mentor hr {
+  border-bottom-color: #4b3f3f;
+}
+
+.wrapper.style-mentor .box {
+  border-color: rgba(255, 255, 255, 0.8);
+  background-color: #4d4d4d;
+}
+
+.wrapper.style-mentor .select-wrapper:before {
+  color: rgba(255, 255, 255, 0.25);
+}
+.wrapper.style-mentor ::-webkit-input-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style-mentor :-moz-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style-mentor ::-moz-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style-mentor :-ms-input-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style-mentor .formerize-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style-mentor table tbody tr {
+  border-color: rgba(0, 0, 0, 0.5);
+}
+
+.wrapper.style-mentor table tbody tr:nth-child(2n + 1) {
+  background-color: rgba(150, 150, 150, 0.15);
+}
+
+.wrapper.style-mentor table th {
+  color: #000;
+}
+
+.wrapper.style-mentor table thead {
+  border-bottom-color: rgba(0, 0, 0, 0.5);
+  font-size: 12pt;
+}
+
+.wrapper.style-mentor table tfoot {
+  border-top-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style-mentor table.alt tbody tr td {
+  border-color: rgba(150, 150, 150, 0.5);
+}
+
+.wrapper.style-mentor .image {
+  padding-left: 3em;
+  padding-right: 3em;
+  box-shadow: 0px 0px 0px 7px rgba(0, 0, 0, 0), 0px 0px 0px 8px rgba(0, 0, 0, 0);
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper.style-mentor .image {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .wrapper.style-mentor {
+    background-color: #343638;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
+  }
+}
+
+.wrapper.style-mentor.inner.flex.col.countdown-box.countdown-header p {
+  font-size: 30pt;
+}
+
+/*button for style 8*/
+/*BUTTON FOR WRAPPER STYLE 5*/
+.wrapper.style-mentor .button {
+  font-family: "Sorts Mill Goudy", "Inter", sans-serif;
+  /* color: #e8e3de; */
+  color: #343638;
+  text-transform: uppercase;
+  height: 3rem;
+  letter-spacing: 4px;
+  font-size: 11pt;
+  -webkit-border-radius: 20px;
+  width: 18rem;
+  border-radius: 50px;
+  /* box-shadow: 1px 1px 1px 1px #eee2dc; */
+  /* -webkit-box-shadow: 1px 1px 1px 1px #eee2dc; */
+  /* background: linear-gradient(90deg, grey, rgba(150, 150, 150, 0.5)); */
+  background: #e8e3de;
+  text-decoration: none;
+  font-weight: 500;
+  display: inline-block;
+  border: 1px solid #343638;
+  /* box-shadow: inset 0 0 0 0 black; */
+  transition: ease-out 0.3s;
+  outline: none;
+  padding-top: 0.2rem;
+}
+
+.wrapper.style-mentor .button:hover {
+  box-shadow: inset 300px 0 0 0 #343638;
+  cursor: pointer;
+  color: #e8e3de;
+}
+
+/*BUTTON FOR WRAPPER STYLE 5*/
+/* .wrapper.style5 .button {
+  font-family: "Sorts Mill Goudy", "Inter", sans-serif;
+  color: #343638;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 15px;
+  -webkit-border-radius: 20px;
+  width: 18rem;
+  border-radius: 20px;
+  background: #e8e3de;
+  text-decoration: none;
+  font-weight: 500;
+  display: inline-block;
+  border: 2px solid #343638;
+  transition: ease-out 0.3s;
+  outline: none;
+}
+
+.wrapper.style5 .button:hover {
+  box-shadow: inset 300px 0 0 0 #343638;
+  cursor: pointer;
+  color: #eee2dc;
+} */
+
+.wrapper.style-mentor .image {
+  /* padding-left: 3em;
+  padding-right: 3em; */
+  box-shadow: 0px 0px 0px 7px rgba(0, 0, 0, 0), 0px 0px 0px 8px rgba(0, 0, 0, 0);
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper.style-mentor .image {
+    padding: 0;
+  }
+
+  .wrapper.style-mentor .button {
+    text-align: center;
+    letter-spacing: 1.5px;
+    /* font-size: 12px; */
+    width: 12rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .wrapper.style-mentor {
+    background-color: #fff;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
+  }
+
+  .wrapper.style-mentor .button {
+    height: 2rem;
+    font-size: 7pt;
+  }
+}
+
+.wrapper.style-indi-mentor {
+  /* should be for prizes and sponsors */
+  background-color: #e8e3de;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  color: #000;
+}
+
+.wrapper.style-indi-mentor input,
+.wrapper.style-indi-mentor select,
+.wrapper.style-indi-mentor textarea {
+  color: #000;
+}
+
+.wrapper.style-indi-mentor a {
+  color: #4d4d4d;
+}
+
+.wrapper.style-indi-mentor a:hover {
+  color: #e3d5c6;
+}
+
+.wrapper.style-indi-mentor strong,
+.wrapper.style-indi-mentor b {
+  color: #000;
+}
+.wrapper.style-indi-mentor h1 {
+  color: #000;
+  font-size: 23pt;
+}
+
+.wrapper.style-indi-mentor h2,
+.wrapper.style-indi-mentor h3,
+.wrapper.style-indi-mentor h4,
+.wrapper.style-indi-mentor h6 {
+  color: #000;
+  font-family: "Sorts Mill Goudy", "Inter", sans-serif;
+  font-size: 17pt;
+  letter-spacing: 1px;
+}
+
+.wrapper.style-indi-mentor h5 {
+  color: #000;
+  font-family: "Sorts Mill Goudy", "Inter", sans-serif;
+  font-size: 20pt;
+  letter-spacing: 7px;
+}
+
+.wrapper.style-indi-mentor ul.alt li {
+  border-top-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style-indi-mentor header p {
+  color: #000;
+}
+
+.wrapper.style-indi-mentor p {
+  font-size: 15pt;
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper.style-indi-mentor h1 {
+    font-size: 20pt;
+  }
+
+  .wrapper.style-indi-mentor h2,
+  .wrapper.style-indi-mentor h3,
+  .wrapper.style-indi-mentor h4 {
+    font-size: 12pt;
+  }
+
+  .wrapper.style-indi-mentor h5 {
+    font-size: 12rem;
+    letter-spacing: 4px;
+  }
+
+  .wrapper.style-indi-mentor h6,
+  .wrapper.style-indi-mentor a,
+  .wrapper.style-indi-mentor p,
+  .wrapper.style-indi-mentor li,
+  .wrapper.style-indi-mentor ol {
+    font-size: 10pt;
+  }
+}
+
+.wrapper.style-indi-mentor blockquote {
+  border-left-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style-indi-mentor code {
+  background: rgba(255, 255, 255, 0.075);
+  border-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style-indi-mentor hr {
+  border-bottom-color: rgba(0, 0, 0, 0.25);
+}
+
+.wrapper.style-indi-mentor .box {
+  border-color: rgba(255, 255, 255, 0.8);
+  background-color: #fafafa;
+}
+
+.wrapper.style-indi-mentor .select-wrapper:before {
+  color: rgba(255, 255, 255, 0.25);
+}
+.wrapper.style-indi-mentor ::-webkit-input-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style-indi-mentor :-moz-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style-indi-mentor ::-moz-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style-indi-mentor :-ms-input-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style-indi-mentor .formerize-placeholder {
+  color: #bfbfbf !important;
+}
+
+.wrapper.style-indi-mentor table tbody tr {
+  border-color: rgba(0, 0, 0, 0.5);
+}
+
+.wrapper.style-indi-mentor table tbody tr:nth-child(2n + 1) {
+  background-color: rgba(150, 150, 150, 0.15);
+}
+
+.wrapper.style-indi-mentor table th {
+  color: #000;
+}
+
+.wrapper.style-indi-mentor table thead {
+  border-bottom-color: rgba(0, 0, 0, 0.5);
+  font-size: 12pt;
+}
+
+.wrapper.style-indi-mentor table tfoot {
+  border-top-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper.style-indi-mentor table.alt tbody tr td {
+  border-color: rgba(150, 150, 150, 0.5);
+}
+
+.wrapper.style-indi-mentor .image {
+  padding-left: 3em;
+  padding-right: 3em;
+  box-shadow: 0px 0px 0px 7px rgba(0, 0, 0, 0), 0px 0px 0px 8px rgba(0, 0, 0, 0);
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper.style-indi-mentor .image {
+    padding: 0;
+  }
+
+  .wrapper.style-indi-mentor {
+    background-size: absolute;
+    background-repeat: repeat-y;
+  }
 }

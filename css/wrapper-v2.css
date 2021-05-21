@@ -3792,7 +3792,7 @@
   /* box-shadow: 1px 1px 1px 1px #eee2dc; */
   /* -webkit-box-shadow: 1px 1px 1px 1px #eee2dc; */
   /* background: linear-gradient(90deg, grey, rgba(150, 150, 150, 0.5)); */
-  background: #e8e3de;
+  background: #ffffff;
   text-decoration: none;
   font-weight: 500;
   display: inline-block;
@@ -3806,7 +3806,7 @@
 .wrapper.style-about .button:hover {
   box-shadow: inset 300px 0 0 0 #343638;
   cursor: pointer;
-  color: #e8e3de;
+  color: #ffffff;
 }
 
 /*BUTTON FOR WRAPPER STYLE 5*/
