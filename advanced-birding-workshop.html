@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <!-- Browser Tab Title -->
+    <title>Advanced Birding Photography Workshop - Montage 2021</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="photoss/design/montage-logo-black.PNG">
+
+
+    <!-- Encoding -->
+    <meta charset="UTF-8">
+
+    <!-- Viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fonts -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Crimson+Pro:200,200i,400,400i,600,600i,700,700i|Montserrat:400,400i,600&display=swap&subset=latin-ext">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Elsie+Swash+Caps&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/banner.css">
+    <link rel="stylesheet" href="css/buttons.css">
+    <link rel="stylesheet" href="css/countdown.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/container.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/basic.css">
+    <link rel="stylesheet" href="css/type.css">
+    <link rel="stylesheet" href="css/scrollbar.css">
+    <link rel="stylesheet" href="css/slideshow.css">
+    <link rel="stylesheet" href="css/magnifier.css">
+    <link rel="stylesheet" href="css/tab.css">
+    <link rel="stylesheet" href="css/table.css">
+    <link rel="stylesheet" href="css/section.css">
+    <link rel="stylesheet" href="css/list.css">
+    <link rel="stylesheet" href="css/image.css">
+    <link rel="stylesheet" href="css/icon.css">
+    <link rel="stylesheet" href="css/flex.css">
+    <link rel="stylesheet" href="css/button.css">
+    <link rel="stylesheet" href="css/box.css">
+    <link rel="stylesheet" href="css/box-model.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/flipbox.css">
+    <link rel="stylesheet" href="css/card.css">
+    <link rel="stylesheet" href="css/timeline.css">
+    <link rel="stylesheet" href="css/carousel.css">
+    <link rel="stylesheet" href="css/section.css">
+    <link rel="stylesheet" href="css/workshop.css">
+    <link rel="stylesheet" href="css/exhibition.css">
+    <link rel="stylesheet" href="css/competition.css">
+    <link rel="stylesheet" href="css/wrapper.css">
+    <link rel="stylesheet" href="css/new-countdown.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/workshop-mobile.css">
+
+    <!-- <link rel="stylesheet" href="css/wrapper2.css"> -->
+
+    <link rel="stylesheet" href="css/section-header.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/home.css">
+    <!-- <link rel="stylesheet" href="css/wrapper2.css"> -->
+
+
+    <link rel="stylesheet" type="text/css" href="slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="slick/extras.css">
+
+    <!-- CSS that was added after the website was publicised -->
+    <style>
+        .btns {
+            text-align: center;
+            padding-bottom: 16px;
+        }
+
+        .btnindiv {
+            background-color: #e3d5c6;
+        }
+
+        .btnindiv:hover {
+            background-color: #4d4d4d;
+        }
+
+        @media screen and (max-width: 480px) {
+
+            .btnindiv {
+                font-size: 8pt;
+                width: 45%;
+            }
+
+        }
+
+        #signupws {
+            width: 46%;
+            background-color: #e3d5c6;
+            color: #2d2d2d !important;
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
+            box-shadow: inset 0 0 0 0 #2d2d2d;
+            -webkit-transition: ease-out 0.4s;
+            -moz-transition: ease-out 0.4s;
+            transition: ease-out 0.4s;
+            margin-bottom: 10pt;
+        }
+
+        #signupws:hover {
+            box-shadow: inset 600px 0 0 0 #2d2d2d;
+            color: #e3d5c6 !important;
+        }
+
+        .wsbox {
+            background-color: #fff;
+        }
+
+        .wsboxfront,
+        .wsboxback,
+        .ysboxfront,
+        .ysboxback,
+        .zsboxfront,
+        .zsboxback {
+            transition: 0.2s;
+        }
+
+        .wsboxfront {
+            height: 600px;
+        }
+
+        .ysboxfront {
+            height: 100%;
+            background-color: rgba(227, 213, 198, 0.4);
+        }
+
+        .zsboxfront {}
+
+        .wsboxback {
+            position: relative;
+            height: 600px;
+            background-color: #fff;
+            margin-top: auto;
+            margin-bottom: auto;
+            padding: 180px 40px 120px;
+            display: none;
+        }
+
+        .ysboxback {
+            position: relative;
+            background-color: #fff;
+            height: 200%;
+            margin-top: auto;
+            margin-bottom: auto;
+            display: none;
+        }
+
+        .zsboxback {
+            position: relative;
+            background-color: #fff;
+            margin-top: auto;
+            margin-bottom: auto;
+            display: none;
+        }
+
+        .wsbox:hover .wsboxfront,
+        .wsbox:hover .ysboxfront,
+        .wsbox:hover .zsboxfront {
+            display: none;
+        }
+
+        .wsbox:hover .wsboxback,
+        .wsbox:hover .ysboxback,
+        .wsbox:hover .zsboxback {
+            display: block;
+        }
+
+        @media screen and (max-width: 1280px) {
+
+            #signupws:hover {
+                box-shadow: inset 500px 0 0 0 #2d2d2d;
+            }
+
+        }
+
+        @media screen and (max-width: 960px) {
+
+            .wrapper.style5 p,
+            .wrapper.style7 p {
+                font-size: 10pt;
+            }
+
+            .wsboxfront {
+                height: 500px;
+            }
+
+            .wsboxback {
+                height: 500px;
+                padding: 150px 40px 100px;
+            }
+
+        }
+
+        @media screen and (max-width: 768px) {
+
+            #signupws {
+                width: 60% !important;
+            }
+
+            .slick-dots li {
+                width: 8px;
+            }
+
+        }
+
+        @media screen and (max-width: 480px) {
+
+            .wrapper.style5 p,
+            .wrapper.style7 p {
+                font-size: 8pt;
+            }
+
+            .wsboxfront {
+                height: 300px;
+            }
+
+            .wsboxback {
+                height: 300px;
+                padding: 60px 30px 40px;
+            }
+        }
+
+        .workshop-banner-background-advanced-birding {
+            -ms-flex-pack: center;
+            -ms-flex-align: center;
+            -moz-align-items: center;
+            -webkit-align-items: center;
+            -ms-align-items: center;
+            align-items: center;
+
+            -moz-justify-content: center;
+            -webkit-justify-content: center;
+            -ms-justify-content: center;
+            justify-content: center;
+            background: url(../photos-final/advanced-birding-background.jpg);
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-top: 0;
+            position: relative;
+            text-align: center;
+            overflow: hidden;
+            width: 100%;
+        }
+    </style>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!-- currently still linked to 2019 montage website, change later -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-158751362-1"></script>
+    <script src="js/gtag.js"></script>
+    <script src="js/countdown.js"></script>
+    <script src="js/magnifier.js"></script>
+
+    <!-- Facebook Pixel Code -->
+    <script>
+        ! function (f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+
+        fbq('init', '1612079842282561');
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1" src="https://www.facebook.com/tr?id=1612079842282561&ev=PageView
+    &noscript=1" />
+    </noscript>
+
+</head>
+
+<body>
+    <header class="nav-down">
+        <div class="logo">
+
+            <a href="#top">
+                <img class="center" src="photos-final/montage-logo-white-with-name.png" alt="" style="height:90%">
+            </a>
+        </div>
+        <!-- <img src="photos/montage-2020-banner.png" class="center"
+      style="background-size: cover; background-position: center;"> -->
+        <p class="center navbar-header" style="font-size: 10pt;">MONTAGE 2021</p>
+        <a href="#menu"></a>
+    </header>
+    <!-- Navigation -->
+    <nav id="menu">
+        <ul class="links">
+            <li><a href="index.html#top" class="scrolly">HOME</a></li>
+            <li><a href="index.html#about" class="scrolly">ABOUT</a></li>
+            <li><a href="index.html#competition" class="scrolly">COMPETITION</a></li>
+            <li><a href="index.html#workshopss" class="scrolly">WORKSHOPS</a></li>
+            <li><a href="index.html#timeline" class="scrolly">TIMELINE</a></li>
+            <li><a href="index.html#prizes" class="scrolly">PRIZES</a></li>
+            <li><a href="index.html#exhibition" class="scrolly">EXHIBITION</a></li>
+            <li><a href="mentors.html" class="scrolly">MENTORS</a></li>
+            <li><a href="faq.html" target="_blank">FAQ</a></li>
+            <li><a href="rnr.html" target="_blank">R&R</a></li>
+            <li><a href="tnc.html" target="_blank">T&C</a></li>
+        </ul>
+    </nav>
+
+    <div id="main">
+        <a href="#" id="backtotop" title="Back to top">&#10148;</a>
+        <section class="wrapper style-ws-mobile workshop-display-mobile">
+            <div class="inner workshop-mobile-main-container">
+                <div class="workshop-header-container-mobile">
+                    <h1>ADVANCED BIRDING <br>
+                        PHOTOGRAPHY</h1>
+                    <p>
+                        Want to learn more about birding photography? As part
+                        of Montage 2021, we have invited Birding Photographer
+                        James Gan to give Montage 2021 participants an advanced birding workshop!
+                    </p>
+                    <hr>
+                </div>
+                <hr>
+                <h3>WORKSHOP DETAILS</h3>
+                <p style="padding-bottom: 0; ">
+                    <span style="padding-bottom: 0;">Online Workshop:</span> <br>
+                    Date: 12 June 2021 <br>
+                    Time: 7pm - 9pm <br>
+                    Venue: Online via Zoom (Zoom link will be sent to participants closer to the date)
+                </p>
+                <p>Note:<br>
+                    1. This workshop is only open to registered Montage Participants.<br>
+                    
+                    2. Signups will close 2 days before the workshop date, at 10 June 12pm.<br>
+                </p>
+                <!-- <p style="padding-bottom: 0; ">
+                    <span style="padding-bottom: 0;;">Practical Workshop:</span> <br>
+                    Date: 31 May 2021 <br>
+                    Time: 8am - 10am <br>
+                    Venue: <br>
+                    Dairy Farm Nature Park - Bird Photography <br>
+                    Botanic Garden - Macro Photography
+                </p> -->
+                <hr>
+                <h3>INSTRUCTORS</h3>
+                <div class="workshop-speaker-profile-biggest-container-mobile">
+
+                    <div class="workshop-speaker-profile-container-mobile">
+                        <div class="workshop-speaker-profile-photo-mobile">
+                            <div class="image fit-workshop">
+                                <img src="photos-final/ws1/james-gan-cropped.png" alt="" />
+                            </div>
+                        </div>
+                        <div class="workshop-speaker-profile-summary-container-mobile">
+                            <div class="workshop-speaker-profile-summary-mobile">
+                                <h5>James Gan
+                                    <span style="padding-left: 0.5rem;">
+                                        <a href="https://www.instagram.com/jamessaintfotografie/"
+                                            class="icon fa-instagram" target="_blank">
+                                            <span class="label"></span>
+                                        </a>
+                                    </span>
+                                </h5>
+                                <p>
+                                    James hopes to bring forth more beautiful birds,
+                                    wildlife and Nature images on to the social media platform, for
+                                    the world to love and care for them. He believes that the next generation and future
+                                    ones need to ensure a fair balance to protect Mother Earth 🌍.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- <div class="workshop-button-container workshop-button-container-indi">
+                        <a href="#" class="button">Sign Up Now</a>
+                    </div> -->
+                    <div class="workshop-button-container workshop-button-container-indi">
+                        <a href="register-ws2.html" target="_blank" class="button">Sign Up Now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section
+            class="wrapper-workshop ws2 ws2-background workshop-banner-background-advanced-birding workshop-display-dekstop">
+            <div class="inner">
+                <div>
+                    <div class="flex flex-3">
+                        <div class="col-workshop col2-workshop">
+                            <h1>ADVANCED BIRDING <br>
+                                PHOTOGRAPHY</h1>
+                            <p>
+                                Want to learn more about birding photography? As part
+                                of Montage 2021, we have invited Birding Photographer
+                                James Gan to give Montage 2021 participants an advanced birding workshop!
+                            </p>
+                            <hr>
+                            <h3>WORKSHOP DETAILS</h3>
+                            <p style="padding-bottom: 0; ">
+                                <span style="padding-bottom: 0;">Online Workshop:</span> <br>
+                                Date: 12 June 2021 <br>
+                                Time: 7pm - 9pm <br>
+                                Venue: Online via Zoom (Zoom link will be sent to participants closer to the date)
+                            </p>
+                            <p>Note:<br>
+                                1. This workshop is only open to registered Montage Participants.<br>
+                                
+                                2. Signups will close 2 days before the workshop date, at 10 June 12pm.<br>
+                            </p>
+
+                            <!-- <p style="padding-bottom: 0; ">
+                                <span style="padding-bottom: 0;;">Practical Workshop:</span> <br>
+                                Date: 31 May 2021 <br>
+                                Time: 8am - 10am <br>
+                                Venue: Dairy Farm Nature Park - Bird Photography <br>
+                                &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; Botanic Garden - Macro Photography
+                            </p> -->
+                            <hr>
+                            <h5>INSTRUCTORS</h5>
+
+                            <div class="workshop-speaker-profile-biggest-container-desktop-nature">
+
+                                <div class="workshop-speaker-profile-container-desktop-nature">
+                                    <div class="workshop-speaker-profile-photo-desktop-nature">
+                                        <div class="image fit-workshop">
+                                            <img src="photos-final/ws1/james-gan-cropped.png" alt="" />
+                                        </div>
+                                    </div>
+                                    <div class="workshop-speaker-profile-summary-container-desktop-nature">
+                                        <div class="workshop-speaker-profile-summary-desktop-nature">
+                                            <h5>James Gan
+                                                <span style="padding-left: 0.5rem;">
+                                                    <a href="https://www.instagram.com/jamessaintfotografie/"
+                                                        class="icon fa-instagram" target="_blank">
+                                                        <span class="label"></span>
+                                                    </a>
+                                                </span>
+                                            </h5>
+                                            <p>
+                                                James hopes to bring forth more beautiful birds,
+                                                wildlife and Nature images on to the social media platform, for
+                                                the world to love and care for them. He believes that the next
+                                                generation and future
+                                                ones need to ensure a fair balance to protect Mother Earth 🌍.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="workshop-button-container workshop-button-container-indi">
+                                <a href="register-ws2.html" target="_blank" class="button">Sign Up Now</a>
+                            </div>
+                            <!-- <div class="workshop-button-container workshop-button-container-indi">
+                                <a href="#" target="_blank" class="button">Sign Up Now</a>
+                            </div> -->
+
+
+                        </div>
+                        <div class="col-workshop col1-workshop">
+                            <p>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </div>
+
+    <section id="beinspired" class="wrapper style5" style="background-color: #fff;">
+        <div class="workshop-works-header">
+            <div class="section-header section-header-bica" style="color: white; ">
+                WORKS FROM JAMES GAN
+            </div>
+        </div>
+        <div class="flex flex-3 beinspired slider">
+            <div class="image square fit ">
+                <p>&nbsp;</p>
+                <img src="photos-final/ws1/james-works-3.jpeg" class="zoomimage">
+                <p>&nbsp;</p>
+            </div>
+
+            <div class="image square fit ">
+                <p>&nbsp;</p>
+                <img src="photos-final/ws1/james-works-5.jpeg" class="zoomimage">
+                <p>&nbsp;</p>
+            </div>
+
+            <div class="image square fit ">
+                <p>&nbsp;</p>
+                <img src="photos-final/ws1/james-works-7.jpeg" class="zoomimage">
+                <p>&nbsp;</p>
+            </div>
+
+            <div class="image square fit ">
+                <p>&nbsp;</p>
+                <img src="photos-final/ws1/james-works-9.JPG" class="zoomimage">
+                <p>&nbsp;</p>
+            </div>
+
+            <div class="image square fit ">
+                <p>&nbsp;</p>
+                <img src="photos-final/ws1/james-works-10.JPG" class="zoomimage">
+                <p>&nbsp;</p>
+            </div>
+
+            <div class="image square fit ">
+                <p>&nbsp;</p>
+                <img src="photos-final/ws1/james-works-11.JPG" class="zoomimage">
+                <p>&nbsp;</p>
+            </div>
+
+        </div>
+    </section>
+    <!-- Footer-->
+    <footer id="footer" style="background-color: #fff;">
+        <div class="copyright">
+            <ul class="icons">
+                <li><a href="http://facebook.com/NUSPS" class="icon fa-facebook" target="_blank"><span
+                            class="label">Facebook</span></a></li>
+                <li><a href="http://instagram.com/nusps" class="icon fa-instagram" target="_blank"><span
+                            class="label">Instagram</span></a></li>
+                <li><a href="http://nusps.org.sg" class="icon fa-globe" target="_blank"><span
+                            class="label">Website</span></a></li>
+            </ul>
+            <p>NUSPS &copy; 2021. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+<!-- Scripts -->
+<script src="js/slideshow.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.scrolly.min.js"></script>
+<script src="js/jquery.scrollex.min.js"></script>
+<script src="js/skel.min.js"></script>
+<script src="js/util.js"></script>
+<script src="js/main.js"></script>
+<script src="js/backtotop.js"></script>
+<script src="js/jquery.isInViewport.js"></script>
+<script src="js/isInViewport.js"></script>
+<script src="js/jquery.header.js"></script>
+<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+<script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+    function resize() {
+        if ($(window).width() < 960) {
+            $(".beinspired").slick({
+                dots: true,
+                infinite: true,
+                centerMode: true,
+                centerPadding: '10%',
+                slidesToShow: 1,
+                slidesToScroll: 3,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                pauseOnHover: false
+            });
+            $(".workshop").slick({
+                dots: true,
+                infinite: true,
+                centerMode: true,
+                centerPadding: '10%',
+                slidesToShow: 1,
+                slidesToScroll: 3,
+                autoplay: false,
+                autoplaySpeed: 2000,
+                pauseOnHover: false
+            });
+        } else {
+            $(".beinspired").slick({
+                dots: true,
+                infinite: true,
+                centerMode: true,
+                centerPadding: '25%',
+                slidesToShow: 1,
+                slidesToScroll: 3,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                pauseOnHover: false
+            });
+            $(".workshop").slick({
+                dots: true,
+                infinite: true,
+                centerMode: true,
+                centerPadding: '25%',
+                slidesToShow: 1,
+                slidesToScroll: 3,
+                autoplay: false,
+                autoplaySpeed: 2000,
+                pauseOnHover: false
+            });
+        }
+    }
+    $(document).on('ready', resize);
+</script>
+</body>
+
+</html>
