@@ -91,6 +91,24 @@
   }
 }
 
+.image-top-mentor {
+  width: 65%;
+}
+
+@media screen and (max-width: 768px) {
+  .image-top-mentor {
+    width: 100%;
+  }
+}
+
+.mentor-flex-left-top {
+  flex: 25%;
+}
+
+.mentor-flex-right-top {
+  flex: 25%;
+}
+
 .mentor-flex-left {
   /* padding: 10px; */
   flex: 25%;

@@ -522,3 +522,30 @@
     margin-bottom: 1em;
   }
 }
+
+.image.fit-for-judge-top {
+  display: block;
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1em;
+  /* margin-top: 2rem; */
+}
+
+.image.fit-for-judge-top img {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  /* margin-bottom: 1em; */
+}
+
+@media screen and (max-width: 769px) {
+  .image.fit-for-judge-top {
+    width: 100%;
+  }
+
+  .image.fit-for-judge-top img {
+    width: 100%;
+    margin-bottom: 1em;
+  }
+}
