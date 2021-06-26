@@ -720,6 +720,31 @@
   background-color: #fff;
 }
 
+.workshop-banner-background-lighting {
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  -moz-align-items: center;
+  -webkit-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+
+  -moz-justify-content: center;
+  -webkit-justify-content: center;
+  -ms-justify-content: center;
+  justify-content: center;
+  background-color: #000;
+  background: url(../photos-final/lighting-ws-background.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top: 0;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  width: 100%;
+}
+
 .workshop-banner-background-story {
   -ms-flex-pack: center;
   -ms-flex-align: center;
