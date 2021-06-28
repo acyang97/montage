@@ -1,0 +1,796 @@
+.ws-header-container {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: 80%;
+  height: 80%;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.workshop-home-header {
+  text-transform: uppercase;
+}
+
+.workshop-home-summary {
+  /* text-align: center; */
+  padding: 0 10px 0 10px;
+}
+
+.workshop-date-time-details {
+  /* width: 50%; */
+  /* float: left; */
+  padding: 20px;
+  /* text-align: center; */
+}
+
+.workshop-date-time-details-only-online {
+  /* text-align: center; */
+}
+
+.ws-header-img {
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.row-workshop-speaker-works {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-top: 0;
+  padding-bottom: 2rem;
+}
+
+/* Create four equal columns that sits next to each other */
+.column-workshop-speaker-works {
+  -ms-flex: 33.33%; /* IE10 */
+  flex: 33.33%;
+  max-width: 33.33%;
+  padding: 0.2rem 0.2rem 0.2rem 0.2rem;
+  /*padding: 0.35rem 0.35rem 0.35rem 0.35rem;*/
+}
+
+.column-workshop-speaker-works img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  padding: 0.2rem 0.2rem 0.2rem 0.2rem;
+  /*padding: 0.35rem 0.35rem 0.35rem 0.35rem;*/
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+/*
+    @media screen and (max-width: 800px) {
+      .column-workshop-speaker-works {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+      }
+    }
+    */
+
+.workshop-box {
+  background-color: #ffffff;
+  border-radius: 50px;
+  width: 90%;
+
+  margin-left: 5%;
+  /* margin-right: 5%; */
+  box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.1);
+}
+
+.workshop-box div {
+  padding: 10px;
+}
+
+@media screen and (max-width: 900px) {
+  .workshop-box div {
+    padding: 6px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .workshop-box div {
+    padding: 13px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .workshop-box div {
+    padding: 7px;
+  }
+}
+
+/* .workshop-box div {
+        border-bottom: 1px solid #e8e8e8;
+      } */
+
+/* .workshop-box div:first-child {
+      background-color: #f7f7f7;
+    }
+    
+    .workshop-box div:last-child {
+      text-align: center;
+      border: 0;
+    } */
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 900px) {
+  .column-workshop-speaker-works {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+
+  /* .workshop-box div {
+        border-bottom: 1px solid #e8e8e8;
+      } */
+}
+
+.workshop-page-button-container {
+  text-align: center;
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+}
+
+.workshop-button-container {
+  font-family: "Sorts Mill Goudy", "Inter", sans-serif;
+  text-align: center;
+}
+
+.workshop-button-container-indi {
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+.workshop-button-container-brian {
+  padding-bottom: 2rem;
+  padding-top: 8rem;
+}
+
+@media screen and (max-width: 768px) {
+  .workshop-button-container {
+    text-align: center;
+  }
+}
+
+/* #workshopss {
+      background-color: #343638;
+    } */
+
+.section-header-workshop {
+  padding-bottom: 3rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .section-header-workshop {
+    padding-bottom: 1rem;
+  }
+}
+
+.workshop-image {
+  border-color: #343638;
+  text-align: center;
+}
+
+.ws1-background {
+  background-image: url(../photos-final/ws1/ws1-background-2.jpg);
+  /* -webkit-background-size: cover;
+      background-size: cover;
+      background-position: fixed;
+      background-repeat: no-repeat; */
+  /* display: flex; */
+  position: relative;
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+
+.ws2-background {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15));
+  position: relative;
+}
+
+.workshop-details-header {
+  padding-top: 8rem;
+  padding-bottom: 2rem;
+}
+
+.workshop-details-container {
+  /* width: 100%;
+      height: 100%;
+      box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+      border-radius: 5px;
+      position: relative;
+      z-index: 1;
+      background: inherit;
+      overflow: hidden; */
+  width: 100%;
+  height: 100%;
+  border-radius: 70px;
+  box-shadow: 0 0px 0px rgba(0, 0, 0, 0.2);
+  background: transparent;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+.workshop-details-container:before {
+  content: "";
+  position: absolute;
+  background: inherit;
+  border-radius: 100px;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* box-shadow: inset 0px 200px 200px rgba(255, 255, 255, 0.5); */
+  filter: blur(10px);
+  margin: -20px;
+}
+
+.workshop-details-summary-container-header {
+  padding-bottom: 1rem;
+}
+
+.workshop-indi-heading {
+  font-family: "Sorts Mill Goudy", "Inter", sans-serif;
+  letter-spacing: 1rem;
+}
+
+.workshop-details-summary-container {
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  color: black;
+}
+
+.workshop-presenter-details-header {
+  /* padding-top: 10rem; */
+  color: black;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.workshop-details-summary-content {
+  padding-top: 2rem;
+}
+
+.workshop-presenter-details-header-first {
+  /* padding-top: 10rem; */
+  color: black;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.workshop-presenter-details {
+  padding-top: 3rem;
+}
+
+.workshop-presenter-intro {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .workshop-details-summary-content {
+    padding-top: 0rem;
+  }
+
+  .workshop-indi-heading {
+    letter-spacing: 0.75rem;
+  }
+
+  .workshop-presenter-details-header-first {
+    color: black;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .workshop-presenter-details-header {
+    color: black;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .workshop-presenter-intro {
+    text-align: center;
+  }
+
+  .workshop-presenter-details {
+    padding-top: 1rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .workshop-details-summary-content {
+    padding-top: 0rem;
+  }
+
+  .workshop-indi-heading {
+    letter-spacing: 0.2rem;
+  }
+
+  .workshop-presenter-details-header-first {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .workshop-presenter-details-header {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .workshop-details-summary-container {
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .workshop-presenter-intro {
+    text-align: center;
+  }
+
+  .workshop-presenter-details {
+    padding-top: 1rem;
+  }
+}
+
+.workshop-works-header {
+  padding-left: 2rem;
+  padding-right: 3rem;
+}
+
+.workshop-last-presenter {
+  padding-bottom: 3rem;
+}
+
+.workshop-sticky-background {
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  -moz-align-items: center;
+  -webkit-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+
+  -moz-justify-content: center;
+  -webkit-justify-content: center;
+  -ms-justify-content: center;
+  justify-content: center;
+  background-color: #e8e3de;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top: 0;
+  min-height: 100vh;
+  /* height: 100vh !important; */
+  /* position: relative; */
+  /* text-align: center; */
+  overflow: hidden;
+  width: 100%;
+}
+
+/* .workshop-banner-background {
+      background-image: url(../photos-final/ws2/lauryn-works-5.jpg);
+      -webkit-background-size: cover;
+      background-size: cover;
+      background-repeat: no-repeat;
+      position: relative;
+      background-attachment: fixed;
+    } */
+
+.workshop-banner-background {
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  -moz-align-items: center;
+  -webkit-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+
+  -moz-justify-content: center;
+  -webkit-justify-content: center;
+  -ms-justify-content: center;
+  justify-content: center;
+  background-color: #000;
+  background: url(../photos-final/hawker-background-1.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top: 0;
+
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  width: 100%;
+}
+
+@media screen and (min-width: 769px) {
+  .workshop-display-mobile {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .workshop-display-dekstop {
+    display: none;
+  }
+}
+
+/*for the speakers*/
+.workshop-speaker-profile-biggest-container-desktop {
+  padding-top: 1rem;
+}
+
+.workshop-speaker-profile-container-desktop {
+  width: 95%;
+  height: 225px;
+  /* background: aqua; */
+  margin: auto;
+}
+.workshop-speaker-profile-photo-desktop {
+  width: 40%;
+  height: 225px;
+  /* background: red; */
+  float: left;
+}
+
+.workshop-speaker-profile-summary-container-desktop {
+  margin-left: 15%;
+  height: 225px;
+  /* background: white; */
+}
+
+.workshop-speaker-profile-summary-desktop {
+  margin: auto;
+  /* background: aqua; */
+}
+
+/* @media screen and (min-width: 768px) {
+      .workshop-banner-background {
+        min-height: 230vh;
+        height: 230vh !important;
+      }
+    
+      .workshop-speaker-profile-summary-desktop {
+        padding-top: 2rem;
+      }
+    } */
+
+/* @media screen and (min-width: 1080px) {
+      .workshop-banner-background {
+        min-height: 130vh;
+        height: 130vh !important;
+      }
+    
+      .workshop-speaker-profile-summary-desktop {
+        padding-top: 2rem;
+      }
+    } */
+
+/* .workshop-banner-background {
+      min-height: 145vh;
+      height: 145vh !important;
+    } */
+
+.workshop-speaker-profile-summary-desktop {
+  padding-top: 2.5rem;
+}
+
+/* @media screen and (min-width: 768px) {
+      .workshop-banner-background {
+        min-height: 135vh;
+        height: 135vh !important;
+      }
+    
+      .workshop-speaker-profile-summary-desktop {
+        padding-top: 2.5rem;
+      }
+    }
+    
+    @media screen and (min-width: 980px) {
+      .workshop-banner-background {
+        min-height: 135vh;
+        height: 135vh !important;
+      }
+    
+      .workshop-speaker-profile-summary-desktop {
+        padding-top: 2.5rem;
+      }
+    } */
+
+/* @media screen and (min-width: 1460px) {
+      .workshop-banner-background {
+        min-height: 125vh;
+        height: 125vh !important;
+      }
+    
+      .workshop-speaker-profile-summary-desktop {
+        padding-top: 2.5rem;
+      }
+    } */
+
+@media screen and (min-width: 1800px) {
+  .workshop-banner-background {
+    min-height: 135vh;
+    height: 135vh !important;
+  }
+
+  .workshop-speaker-profile-summary-desktop {
+    padding-top: 2.5rem;
+  }
+}
+
+@media screen and (min-width: 1600px) and (max-width: 1800px) {
+  .workshop-banner-background {
+    min-height: 140vh;
+    height: 140vh !important;
+  }
+
+  .workshop-speaker-profile-summary-desktop {
+    padding-top: 2.5rem;
+  }
+}
+
+@media screen and (min-width: 1280px) and(max-width: 1600px) {
+  .workshop-banner-background {
+    min-height: 140vh;
+    height: 140vh !important;
+  }
+
+  .workshop-speaker-profile-summary-desktop {
+    padding-top: 2.5rem;
+  }
+}
+
+@media screen and (min-width: 768px) and(max-width: 1600px) {
+  .workshop-banner-background {
+    min-height: 140vh;
+    height: 140vh !important;
+  }
+
+  .workshop-speaker-profile-summary-desktop {
+    padding-top: 2.5rem;
+  }
+}
+/* 
+    .workshop-banner-background {
+      min-height: 140vh;
+      height: 140vh !important;
+    } */
+
+.workshop-speaker-profile-summary-desktop {
+  padding-top: 2.5rem;
+}
+
+/* @media screen and (max-width: 1470px) {
+      .workshop-banner-background {
+        min-height: 130vh;
+        height: 130vh !important;
+      }
+    
+      .workshop-speaker-profile-summary-desktop {
+        padding-top: 3rem;
+      }
+    } */
+
+.workshop-banner-background-nature {
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  -moz-align-items: center;
+  -webkit-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+
+  -moz-justify-content: center;
+  -webkit-justify-content: center;
+  -ms-justify-content: center;
+  justify-content: center;
+  background: url(../photos-final/nature-background-1.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top: 0;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  width: 100%;
+}
+
+/*for the speakers*/
+.workshop-speaker-profile-biggest-container-desktop-nature {
+  padding-top: 1rem;
+}
+
+.workshop-speaker-profile-container-desktop-nature {
+  width: 95%;
+  /* height: 300px; */
+  height: 330px;
+  /* background: aqua; */
+  margin: auto;
+}
+
+.workshop-speaker-profile-photo-desktop-nature {
+  width: 40%;
+  height: 330px;
+  /* background: red; */
+  float: left;
+}
+
+.workshop-speaker-profile-summary-container-desktop-nature {
+  margin-left: 15%;
+  height: 330px;
+  /* background: white; */
+}
+
+.workshop-speaker-profile-summary-desktop-nature {
+  margin: auto;
+  /* background: aqua; */
+}
+
+.workshop-banner-background-natrue {
+  min-height: 180vh;
+  height: 180vh !important;
+}
+
+.workshop-speaker-profile-summary-desktop-nature {
+  padding-top: 2.5rem;
+}
+
+/*storytelling*/
+.workshop-speaker-profile-biggest-container-desktop-story {
+  padding-top: 1rem;
+}
+
+.workshop-speaker-profile-container-desktop-story {
+  width: 95%;
+  height: 380px;
+  /* background: aqua; */
+  margin: auto;
+}
+
+.workshop-speaker-profile-photo-desktop-story {
+  width: 40%;
+  height: 380px;
+  /* background: red; */
+  float: left;
+}
+
+.workshop-speaker-profile-summary-container-desktop-story {
+  margin-left: 15%;
+  height: 380px;
+  /* background: white; */
+}
+
+.workshop-speaker-profile-summary-desktop-story {
+  margin: auto;
+  /* background: aqua; */
+}
+
+.workshop-speaker-profile-summary-desktop-story {
+  padding-top: 2.5rem;
+}
+
+.workshop-speaker-profile-summary-desktop-nature-daryl {
+  padding-top: 1rem;
+}
+
+.workshop-speaker-profile-summary-desktop-storytelling {
+  padding-top: 0rem;
+}
+/* 
+    @media screen and (min-width: 1280px) {
+      .workshop-banner-background-natrue {
+        min-height: 160vh;
+        height: 160vh !important;
+      }
+    
+      .workshop-speaker-profile-summary-desktop {
+        padding-top: 2.5rem;
+      }
+    }
+    
+    @media screen and (min-width: 1470px) {
+      .workshop-banner-background-natrue {
+        min-height: 150vh;
+        height: 150vh !important;
+      }
+    
+      .workshop-speaker-profile-summary-desktop {
+        padding-top: 3rem;
+      }
+    } */
+
+.workshop-indi {
+  background-color: #fff;
+}
+
+.workshop-banner-background-lighting {
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  -moz-align-items: center;
+  -webkit-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+
+  -moz-justify-content: center;
+  -webkit-justify-content: center;
+  -ms-justify-content: center;
+  justify-content: center;
+  background-color: #000;
+  background: url(../photos-final/lighting-background-v2.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top: 0;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  width: 100%;
+}
+
+.workshop-banner-background-story {
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  -moz-align-items: center;
+  -webkit-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+
+  -moz-justify-content: center;
+  -webkit-justify-content: center;
+  -ms-justify-content: center;
+  justify-content: center;
+  background-color: #000;
+  background: url(../photos-final/story-background-1.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top: 0;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  width: 100%;
+}
+
+.workshop-banner-background-hakwer {
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  -moz-align-items: center;
+  -webkit-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+
+  -moz-justify-content: center;
+  -webkit-justify-content: center;
+  -ms-justify-content: center;
+  justify-content: center;
+  background-color: #000;
+  background: url(../photos-final/hawker-background-1.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top: 0;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  width: 100%;
+}
